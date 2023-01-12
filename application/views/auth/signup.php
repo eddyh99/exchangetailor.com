@@ -1,6 +1,6 @@
 <div class="login bg-signin">
     <div class="container">
-        <div class="row d-flex d-lg-inline-grid justify-content-center">
+        <div class="row d-flex d-lg-inline-grid justify-content-center justify-content-xl-start">
             <div class="col-10 col-sm-9 col-md-7 col-lg-5 box-form">
                 <a href="<?= base_url(); ?>auth/signup_referral" class="link-back">
                     <img src="<?= base_url() ?>assets/img/back.png" alt="">
@@ -25,7 +25,7 @@
                     <input type="hidden" name="referral" value="<?= @$_SESSION["referral"] ?>">
                     <div class="col-12 mb-5 text-center">
                         <a href="<?= base_url() ?>">
-                            <img src="<?= base_url(); ?>assets/img/logo-login.png" alt="">
+                            <img src="<?= base_url(); ?>assets/img/logo.png" alt="">
                         </a>
                     </div>
                     <div class="col-12 mb-4">

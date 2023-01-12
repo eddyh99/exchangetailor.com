@@ -1,6 +1,6 @@
 <div class="login bg-signin">
     <div class="container">
-        <div class="row d-flex d-lg-inline-grid justify-content-center align-items-center">
+        <div class="row d-flex d-lg-inline-grid justify-content-center justify-content-xl-start align-items-center">
             <div class="col-10 col-sm-9 col-md-7 col-lg-5 box-form">
                 <form class="form-login-freedy d-flex align-items-start flex-column" style="height: 100%;" method="POST"
                     action="<?= base_url(); ?>auth/register_refferal">
@@ -21,7 +21,7 @@
                     <input type="hidden" name="time_location" id="time_location">
                     <div class="col-12 mb-4 text-center">
                         <a href="<?= base_url() ?>">
-                            <img src="<?= base_url(); ?>assets/img/logo-login.png" alt="">
+                            <img src="<?= base_url(); ?>assets/img/logo.png" alt="">
                         </a>
                     </div>
                     <div class="col-12 mb-5">

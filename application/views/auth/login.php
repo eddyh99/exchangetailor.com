@@ -1,6 +1,6 @@
 <div class="login bg-login">
     <div class="container">
-        <div class="row d-flex d-lg-inline-grid justify-content-center">
+        <div class="row d-flex d-lg-inline-grid justify-content-center justify-content-xl-start">
             <div class="col-10 col-sm-9 col-md-7 col-lg-5 box-form">
                 <form class="form-login-freedy d-flex align-items-start flex-column" style="height: 100%;" method="POST"
                     action="<?= base_url(); ?>auth/auth_login">
@@ -21,7 +21,7 @@
                     <?php } ?>
                     <div class="col-12 text-center  my-auto">
                         <a href="<?= base_url() ?>">
-                            <img src="<?= base_url(); ?>assets/img/logo-login.png" alt="">
+                            <img src="<?= base_url(); ?>assets/img/logo.png" alt="">
                         </a>
                     </div>
                     <div class="col-12 mb-3">

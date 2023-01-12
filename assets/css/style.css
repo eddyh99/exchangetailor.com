@@ -338,7 +338,7 @@ section {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: rgba(19, 114, 18, 1);
+  color: rgba(238, 66, 72, 1);
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -367,7 +367,7 @@ section {
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(19, 114, 18, 0.9);
+  background: rgba(238, 66, 72, 0.9);
   transition: 0.3s;
 }
 
@@ -448,7 +448,7 @@ section {
 --------------------------------------------------------------*/
 .hero {
   width: 100%;
-  max-width: 1280px;
+  max-width: 1400px;
   margin-left: auto;
   margin-right: auto;
   height: auto;
@@ -506,6 +506,7 @@ section {
   .hero {
     height: auto;
     padding: 10rem 0;
+    padding-bottom: 5rem;
   }
 
   .hero .hero-img {
@@ -522,6 +523,7 @@ section {
   .hero {
     text-align: center;
     padding: 10rem 0;
+    padding-bottom: 0;
   }
 
   .hero h1 {
@@ -2225,10 +2227,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 .footer {
-  background: linear-gradient(100.66deg,
-      #CB0000 23.13%,
-      rgba(8, 63, 26, 0.92) 82.12%,
-      rgba(8, 63, 26, 0.86) 97.79%);
+  background: #E2E2E2;
   padding: 0 0 30px 0;
   font-size: 14px;
 }
@@ -2393,8 +2392,7 @@ section {
 
 .footer .copyright {
   text-align: center;
-  padding-top: 30px;
-  color: #fff;
+  color: #474747;
 }
 
 .footer .credits {
@@ -2433,8 +2431,12 @@ section {
   font-family: "Roboto", sans-serif !important;
 }
 
-.f-publicsans {
-  font-family: "Public Sans", sans-serif !important;
+.f-orb {
+  font-family: 'Orbitron', sans-serif;
+}
+
+.f-koulen {
+  font-family: 'Koulen', cursive;
 }
 
 .g-b {
@@ -2452,7 +2454,6 @@ section {
 .g-g {
   color: #0f9d58;
 }
-
 
 .box-service-list {
   background: #FFFFFF;
@@ -2580,8 +2581,36 @@ section {
   background: #CB0000 !important;
 }
 
+.lr-title img.left {
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  height: 200%;
+}
+
+.lr-title img.right {
+  position: absolute;
+  top: -50%;
+  right: -50%;
+  height: 200%;
+}
 
 @media (max-width: 575px) {
+
+  .lr-title img.left {
+    position: absolute;
+    top: -30%;
+    left: -30%;
+    height: 115%;
+  }
+
+  .lr-title img.right {
+    position: absolute;
+    top: -30%;
+    right: -30%;
+    height: 115%;
+  }
+
   .box-service-list .icon img {
     display: none;
   }
@@ -2947,7 +2976,7 @@ section {
   }
 
   .features-freedy .box-features {
-    min-height: 250px;
+    min-height: 300px;
     background: #fff;
     border: 3px solid #CB0000;
     filter: drop-shadow(0px 8px 8px rgba(0, 0, 0, 0.25));
@@ -3053,31 +3082,43 @@ section {
   }
 
   .bg-login {
-    background: url(../img/bg-login-mobile.png);
-    background-color: rgba(225, 255, 217, 1);
+    background: url(../img/bg-mobile.png);
+    background-color: rgba(255, 255, 255, 1);
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: auto 100%;
+    background-attachment: fixed;
+    background-position: top right;
+    height: 100% !important;
   }
 
   .bg-signin {
-    background: url(../img/bg-login-mobile.png);
-    background-color: rgba(225, 255, 217, 1);
+    background: url(../img/bg-mobile.png);
+    background-color: rgba(255, 255, 255, 1);
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: auto 100%;
+    background-attachment: fixed;
+    background-position: top right;
+    height: 100% !important;
   }
 
   .bg-signin-succes {
-    background: url(../img/bg-login-mobile.png);
-    background-color: rgba(225, 255, 217, 1);
+    background: url(../img/bg-mobile.png);
+    background-color: rgba(255, 255, 255, 1);
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: auto 100%;
+    background-attachment: fixed;
+    background-position: top right;
+    height: 100% !important;
   }
 
   .bg-forgot-pass {
-    background: url(../img/bg-login-mobile.png);
-    background-color: rgba(225, 255, 217, 1);
+    background: url(../img/bg-mobile.png);
+    background-color: rgba(255, 255, 255, 1);
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: auto 100%;
+    background-attachment: fixed;
+    background-position: top right;
+    height: 100% !important;
   }
 
   .box-form {
@@ -3385,7 +3426,7 @@ section {
 
     background: #fbfbfb;
     border-radius: 13px;
-    border: 3px solid rgba(35, 131, 44, 1);
+    border: 3px solid #CB0000;
     color: #000000;
   }
 
@@ -3406,8 +3447,8 @@ section {
   }
 
   .copy-refcode input {
-    background: #bdffcf;
-    color: #1c6701 !important;
+    background: #FFD3C6;
+    color: #CB0000 !important;
   }
 
   .copy-uqcode input {
@@ -3451,7 +3492,7 @@ section {
   }
 
   .menus-list-app a.menus-blue:hover {
-    background: linear-gradient(180deg, #23832c 0%, #1c6701 100%);
+    background: linear-gradient(180deg, #8B0000 0%, #CB0000 100%);
     border: 1px solid #c6c6c6;
     color: #fff;
   }
@@ -3489,7 +3530,7 @@ section {
   }
 
   .curencies-list-app .curencies-list {
-    border: 1px solid rgba(35, 131, 44, 1);
+    border: 1px solid #CB0000;
     border-radius: 5px;
     color: #000000;
 
@@ -3499,7 +3540,7 @@ section {
   }
 
   .curencies-list-app .curencies-list:hover {
-    background: linear-gradient(180deg, #23832c 0%, #1c6701 100%);
+    background: linear-gradient(180deg, #8B0000 0%, #CB0000 100%);
     border: 1px solid #c6c6c6;
     border-radius: 5px;
 
@@ -4251,7 +4292,7 @@ section {
   }
 
   .recive-bank a {
-    background: linear-gradient(180deg, #23832c 0%, #1c6701 100%);
+    background: linear-gradient(180deg, #8B0000 0%, #CB0000 100%);
     border: 1px solid #000000;
     color: #000000;
     border-radius: 8px;
@@ -4262,7 +4303,7 @@ section {
   }
 
   .recive-bank a:hover {
-    background: linear-gradient(180deg, #1c6701 0%, #23832c 100%);
+    background: linear-gradient(180deg, #CB0000 0%, #8B0000 100%);
     border: 1px solid #000000;
     color: #000000;
     border-radius: 8px;
@@ -4284,7 +4325,7 @@ section {
     line-height: 22px;
     color: #ffffff;
 
-    background: linear-gradient(180deg, #23832c 0%, #1c6701 100%);
+    background: linear-gradient(180deg, #8B0000 0%, #CB0000 100%);
     border-radius: 14px;
   }
 
@@ -4294,7 +4335,7 @@ section {
     line-height: 22px;
     color: #ffffff;
 
-    background: linear-gradient(180deg, #1c6701 0%, #23832c 100%);
+    background: linear-gradient(180deg, #CB0000 0%, #8B0000 100%);
     border-radius: 14px;
   }
 
@@ -4752,11 +4793,7 @@ section {
   }
 
   .box-contactus {
-    background: linear-gradient(100.66deg,
-        #CB0000 23.13%,
-        rgba(8, 63, 26, 0.92) 82.12%,
-        rgba(8, 63, 26, 0.86) 97.79%);
-    border-radius: 24.8718px;
+    border-bottom: 3px solid #FF0009;
   }
 
   .box-contactus img {
@@ -4764,9 +4801,6 @@ section {
   }
 
   .form-contactus {
-    background: #ececec;
-    border-radius: 107.698px;
-
     display: flex;
     flex-direction: row;
   }
@@ -4784,7 +4818,6 @@ section {
     line-height: 23px;
     color: #6c6b6b;
 
-    max-width: 125px;
   }
 
   .btn-contactus {
@@ -5238,7 +5271,7 @@ section {
   }
 
   .features-freedy .box-features {
-    min-height: 250px;
+    min-height: 300px;
     background: #fff;
     border: 3px solid #CB0000;
     filter: drop-shadow(0px 8px 8px rgba(0, 0, 0, 0.25));
@@ -5344,31 +5377,43 @@ section {
   }
 
   .bg-login {
-    background: url(../img/bg-login-mobile.png);
-    background-color: rgba(225, 255, 217, 1);
+    background: url(../img/bg-mobile.png);
+    background-color: rgba(255, 255, 255, 1);
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: auto 100%;
+    background-attachment: fixed;
+    background-position: top right;
+    height: 100% !important;
   }
 
   .bg-signin {
-    background: url(../img/bg-login-mobile.png);
-    background-color: rgba(225, 255, 217, 1);
+    background: url(../img/bg-mobile.png);
+    background-color: rgba(255, 255, 255, 1);
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: auto 100%;
+    background-attachment: fixed;
+    background-position: top right;
+    height: 100% !important;
   }
 
   .bg-signin-succes {
-    background: url(../img/bg-login-mobile.png);
-    background-color: rgba(225, 255, 217, 1);
+    background: url(../img/bg-mobile.png);
+    background-color: rgba(255, 255, 255, 1);
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: auto 100%;
+    background-attachment: fixed;
+    background-position: top right;
+    height: 100% !important;
   }
 
   .bg-forgot-pass {
-    background: url(../img/bg-login-mobile.png);
-    background-color: rgba(225, 255, 217, 1);
+    background: url(../img/bg-mobile.png);
+    background-color: rgba(255, 255, 255, 1);
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: auto 100%;
+    background-attachment: fixed;
+    background-position: top right;
+    height: 100% !important;
   }
 
   .box-form {
@@ -5661,7 +5706,7 @@ section {
 
     background: #fbfbfb;
     border-radius: 13px;
-    border: 3px solid rgba(35, 131, 44, 1);
+    border: 3px solid #CB0000;
     color: #000000;
   }
 
@@ -5682,8 +5727,8 @@ section {
   }
 
   .copy-refcode input {
-    background: #bdffcf;
-    color: #1c6701 !important;
+    background: #FFD3C6;
+    color: #CB0000 !important;
   }
 
   .copy-uqcode input {
@@ -5727,7 +5772,7 @@ section {
   }
 
   .menus-list-app a.menus-blue:hover {
-    background: linear-gradient(180deg, #23832c 0%, #1c6701 100%);
+    background: linear-gradient(180deg, #8B0000 0%, #CB0000 100%);
     border: 1px solid #c6c6c6;
     color: #fff;
   }
@@ -5765,7 +5810,7 @@ section {
   }
 
   .curencies-list-app .curencies-list {
-    border: 1px solid rgba(35, 131, 44, 1);
+    border: 1px solid #CB0000;
     border-radius: 5px;
     color: #000000;
 
@@ -5775,7 +5820,7 @@ section {
   }
 
   .curencies-list-app .curencies-list:hover {
-    background: linear-gradient(180deg, #23832c 0%, #1c6701 100%);
+    background: linear-gradient(180deg, #8B0000 0%, #CB0000 100%);
     border: 1px solid #c6c6c6;
     border-radius: 5px;
 
@@ -6527,7 +6572,7 @@ section {
   }
 
   .recive-bank a {
-    background: linear-gradient(180deg, #23832c 0%, #1c6701 100%);
+    background: linear-gradient(180deg, #8B0000 0%, #CB0000 100%);
     border: 1px solid #000000;
     color: #000000;
     border-radius: 8px;
@@ -6538,7 +6583,7 @@ section {
   }
 
   .recive-bank a:hover {
-    background: linear-gradient(180deg, #1c6701 0%, #23832c 100%);
+    background: linear-gradient(180deg, #CB0000 0%, #8B0000 100%);
     border: 1px solid #000000;
     color: #000000;
     border-radius: 8px;
@@ -6560,7 +6605,7 @@ section {
     line-height: 22px;
     color: #ffffff;
 
-    background: linear-gradient(180deg, #23832c 0%, #1c6701 100%);
+    background: linear-gradient(180deg, #8B0000 0%, #CB0000 100%);
     border-radius: 14px;
   }
 
@@ -6570,7 +6615,7 @@ section {
     line-height: 22px;
     color: #ffffff;
 
-    background: linear-gradient(180deg, #1c6701 0%, #23832c 100%);
+    background: linear-gradient(180deg, #CB0000 0%, #8B0000 100%);
     border-radius: 14px;
   }
 
@@ -7028,11 +7073,7 @@ section {
   }
 
   .box-contactus {
-    background: linear-gradient(100.66deg,
-        #CB0000 23.13%,
-        rgba(8, 63, 26, 0.92) 82.12%,
-        rgba(8, 63, 26, 0.86) 97.79%);
-    border-radius: 24.8718px;
+    border-bottom: 3px solid #FF0009;
   }
 
   .box-contactus img {
@@ -7040,9 +7081,6 @@ section {
   }
 
   .form-contactus {
-    background: #ececec;
-    border-radius: 107.698px;
-
     display: flex;
     flex-direction: row;
   }
@@ -7470,7 +7508,7 @@ section {
   }
 
   .features-freedy .box-features {
-    min-height: 250px;
+    min-height: 300px;
     background: #fff;
     border: 3px solid #CB0000;
     filter: drop-shadow(0px 8px 8px rgba(0, 0, 0, 0.25));
@@ -7576,24 +7614,33 @@ section {
   }
 
   .bg-login {
-    background: url(../img/bg-login-mobile.png);
-    background-color: rgba(225, 255, 217, 1);
+    background: url(../img/bg-mobile.png);
+    background-color: rgba(255, 255, 255, 1);
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: auto 100%;
+    background-attachment: fixed;
+    background-position: top right;
+    height: 100% !important;
   }
 
   .bg-signin {
-    background: url(../img/bg-login-mobile.png);
-    background-color: rgba(225, 255, 217, 1);
+    background: url(../img/bg-mobile.png);
+    background-color: rgba(255, 255, 255, 1);
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: auto 100%;
+    background-attachment: fixed;
+    background-position: top right;
+    height: 100% !important;
   }
 
   .bg-signin-succes {
-    background: url(../img/bg-login-mobile.png);
-    background-color: rgba(225, 255, 217, 1);
+    background: url(../img/bg-mobile.png);
+    background-color: rgba(255, 255, 255, 1);
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: auto 100%;
+    background-attachment: fixed;
+    background-position: top right;
+    height: 100% !important;
   }
 
   .box-form {
@@ -7883,7 +7930,7 @@ section {
 
     background: #fbfbfb;
     border-radius: 13px;
-    border: 3px solid rgba(35, 131, 44, 1);
+    border: 3px solid #CB0000;
     color: #000000;
   }
 
@@ -7904,8 +7951,8 @@ section {
   }
 
   .copy-refcode input {
-    background: #bdffcf;
-    color: #1c6701 !important;
+    background: #FFD3C6;
+    color: #CB0000 !important;
   }
 
   .copy-uqcode input {
@@ -7949,7 +7996,7 @@ section {
   }
 
   .menus-list-app a.menus-blue:hover {
-    background: linear-gradient(180deg, #23832c 0%, #1c6701 100%);
+    background: linear-gradient(180deg, #8B0000 0%, #CB0000 100%);
     border: 1px solid #c6c6c6;
     color: #fff;
   }
@@ -7987,7 +8034,7 @@ section {
   }
 
   .curencies-list-app .curencies-list {
-    border: 1px solid rgba(35, 131, 44, 1);
+    border: 1px solid #CB0000;
     border-radius: 5px;
     color: #000000;
 
@@ -7997,7 +8044,7 @@ section {
   }
 
   .curencies-list-app .curencies-list:hover {
-    background: linear-gradient(180deg, #23832c 0%, #1c6701 100%);
+    background: linear-gradient(180deg, #8B0000 0%, #CB0000 100%);
     border: 1px solid #c6c6c6;
     border-radius: 5px;
 
@@ -8749,7 +8796,7 @@ section {
   }
 
   .recive-bank a {
-    background: linear-gradient(180deg, #23832c 0%, #1c6701 100%);
+    background: linear-gradient(180deg, #8B0000 0%, #CB0000 100%);
     border: 1px solid #000000;
     color: #000000;
     border-radius: 8px;
@@ -8760,7 +8807,7 @@ section {
   }
 
   .recive-bank a:hover {
-    background: linear-gradient(180deg, #1c6701 0%, #23832c 100%);
+    background: linear-gradient(180deg, #CB0000 0%, #8B0000 100%);
     border: 1px solid #000000;
     color: #000000;
     border-radius: 8px;
@@ -8782,7 +8829,7 @@ section {
     line-height: 22px;
     color: #ffffff;
 
-    background: linear-gradient(180deg, #23832c 0%, #1c6701 100%);
+    background: linear-gradient(180deg, #8B0000 0%, #CB0000 100%);
     border-radius: 14px;
   }
 
@@ -8792,7 +8839,7 @@ section {
     line-height: 22px;
     color: #ffffff;
 
-    background: linear-gradient(180deg, #1c6701 0%, #23832c 100%);
+    background: linear-gradient(180deg, #CB0000 0%, #8B0000 100%);
     border-radius: 14px;
   }
 
@@ -9252,11 +9299,7 @@ section {
   }
 
   .box-contactus {
-    background: linear-gradient(100.66deg,
-        #CB0000 23.13%,
-        rgba(8, 63, 26, 0.92) 82.12%,
-        rgba(8, 63, 26, 0.86) 97.79%);
-    border-radius: 24.8718px;
+    border-bottom: 3px solid #FF0009;
   }
 
   .box-contactus img {
@@ -9264,9 +9307,6 @@ section {
   }
 
   .form-contactus {
-    background: #ececec;
-    border-radius: 107.698px;
-
     display: flex;
     flex-direction: row;
   }
@@ -9412,28 +9452,43 @@ section {
   }
 
   .bg-login {
-    background: url(../img/bg-login.png);
-    background-color: rgba(225, 255, 217, 1);
+    background: url(../img/bg-mobile.png);
+    background-color: rgba(255, 255, 255, 1);
     background-repeat: no-repeat;
-    background-size: 100% auto;
+    background-size: auto 100%;
+    background-attachment: fixed;
+    background-position: top right;
+    height: 100% !important;
   }
 
   .bg-signin {
-    background: url(../img/bg-login.png);
+    background: url(../img/bg-mobile.png);
+    background-color: rgba(255, 255, 255, 1);
     background-repeat: no-repeat;
-    background-size: 100% auto;
+    background-size: auto 100%;
+    background-attachment: fixed;
+    background-position: top right;
+    height: 100% !important;
   }
 
   .bg-signin-succes {
-    background: url(../img/bg-login.png);
+    background: url(../img/bg-mobile.png);
+    background-color: rgba(255, 255, 255, 1);
     background-repeat: no-repeat;
-    background-size: 100% auto;
+    background-size: auto 100%;
+    background-attachment: fixed;
+    background-position: top right;
+    height: 100% !important;
   }
 
   .bg-forgot-pass {
-    background: url(../img/bg-login.png);
+    background: url(../img/bg-mobile.png);
+    background-color: rgba(255, 255, 255, 1);
     background-repeat: no-repeat;
-    background-size: 100% auto;
+    background-size: auto 100%;
+    background-attachment: fixed;
+    background-position: top right;
+    height: 100% !important;
   }
 
   .box-form {
@@ -9985,7 +10040,7 @@ section {
   }
 
   .features-freedy .box-features {
-    min-height: 250px;
+    min-height: 300px;
     background: #fff;
     border: 3px solid #CB0000;
     filter: drop-shadow(0px 8px 8px rgba(0, 0, 0, 0.25));
@@ -10092,37 +10147,41 @@ section {
 
   .bg-login {
     background: url(../img/bg-login.png);
-    background-color: rgba(225, 255, 217, 1);
+    background-color: rgba(255, 255, 255, 1);
     background-repeat: no-repeat;
-    background-size: 100% auto;
+    background-size: auto 100%;
     background-attachment: fixed;
+    background-position: top right;
     height: 100% !important;
   }
 
   .bg-signin {
     background: url(../img/bg-login.png);
-    background-color: rgba(225, 255, 217, 1);
+    background-color: rgba(255, 255, 255, 1);
     background-repeat: no-repeat;
-    background-size: 100% auto;
+    background-size: auto 100%;
     background-attachment: fixed;
+    background-position: top right;
     height: 100% !important;
   }
 
   .bg-signin-succes {
     background: url(../img/bg-login.png);
-    background-color: rgba(225, 255, 217, 1);
+    background-color: rgba(255, 255, 255, 1);
     background-repeat: no-repeat;
-    background-size: 100% auto;
+    background-size: auto 100%;
     background-attachment: fixed;
+    background-position: top right;
     height: 100% !important;
   }
 
   .bg-forgot-pass {
     background: url(../img/bg-login.png);
-    background-color: rgba(225, 255, 217, 1);
+    background-color: rgba(255, 255, 255, 1);
     background-repeat: no-repeat;
-    background-size: 100% auto;
+    background-size: auto 100%;
     background-attachment: fixed;
+    background-position: top right;
     height: 100% !important;
   }
 
@@ -10416,7 +10475,7 @@ section {
 
     background: #fbfbfb;
     border-radius: 13px;
-    border: 3px solid rgba(35, 131, 44, 1);
+    border: 3px solid #CB0000;
     color: #000000;
   }
 
@@ -10437,8 +10496,8 @@ section {
   }
 
   .copy-refcode input {
-    background: #bdffcf;
-    color: #1c6701 !important;
+    background: #FFD3C6;
+    color: #CB0000 !important;
   }
 
   .copy-uqcode input {
@@ -10482,7 +10541,7 @@ section {
   }
 
   .menus-list-app a.menus-blue:hover {
-    background: linear-gradient(180deg, #23832c 0%, #1c6701 100%);
+    background: linear-gradient(180deg, #8B0000 0%, #CB0000 100%);
     border: 1px solid #c6c6c6;
     color: #fff;
   }
@@ -10520,7 +10579,7 @@ section {
   }
 
   .curencies-list-app .curencies-list {
-    border: 1px solid rgba(35, 131, 44, 1);
+    border: 1px solid #CB0000;
     border-radius: 5px;
     color: #000000;
 
@@ -10530,7 +10589,7 @@ section {
   }
 
   .curencies-list-app .curencies-list:hover {
-    background: linear-gradient(180deg, #23832c 0%, #1c6701 100%);
+    background: linear-gradient(180deg, #8B0000 0%, #CB0000 100%);
     border: 1px solid #c6c6c6;
     border-radius: 5px;
 
@@ -11282,7 +11341,7 @@ section {
   }
 
   .recive-bank a {
-    background: linear-gradient(180deg, #23832c 0%, #1c6701 100%);
+    background: linear-gradient(180deg, #8B0000 0%, #CB0000 100%);
     border: 1px solid #000000;
     color: #000000;
     border-radius: 8px;
@@ -11293,7 +11352,7 @@ section {
   }
 
   .recive-bank a:hover {
-    background: linear-gradient(180deg, #1c6701 0%, #23832c 100%);
+    background: linear-gradient(180deg, #CB0000 0%, #8B0000 100%);
     border: 1px solid #000000;
     color: #000000;
     border-radius: 8px;
@@ -11315,7 +11374,7 @@ section {
     line-height: 22px;
     color: #ffffff;
 
-    background: linear-gradient(180deg, #23832c 0%, #1c6701 100%);
+    background: linear-gradient(180deg, #8B0000 0%, #CB0000 100%);
     border-radius: 14px;
   }
 
@@ -11325,7 +11384,7 @@ section {
     line-height: 22px;
     color: #ffffff;
 
-    background: linear-gradient(180deg, #1c6701 0%, #23832c 100%);
+    background: linear-gradient(180deg, #CB0000 0%, #8B0000 100%);
     border-radius: 14px;
   }
 
@@ -11773,11 +11832,7 @@ section {
   }
 
   .box-contactus {
-    background: linear-gradient(100.66deg,
-        #CB0000 23.13%,
-        rgba(8, 63, 26, 0.92) 82.12%,
-        rgba(8, 63, 26, 0.86) 97.79%);
-    border-radius: 24.8718px;
+    border-bottom: 3px solid #FF0009;
   }
 
   .box-contactus img {
@@ -11785,9 +11840,6 @@ section {
   }
 
   .form-contactus {
-    background: #ececec;
-    border-radius: 107.698px;
-
     display: flex;
     flex-direction: row;
   }
@@ -11906,7 +11958,7 @@ section {
 
 .input-piggy-style label {
   font-weight: 700;
-  background: linear-gradient(180deg, #23832c 0%, #1c6701 100%);
+  background: linear-gradient(180deg, #8B0000 0%, #CB0000 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -11951,14 +12003,13 @@ section {
 }
 
 .footer-links .list a .icon {
-  width: 25px;
-  height: 25px;
-  background: #fff;
-  color: #CB0000;
+  width: 35px;
+  height: 35px;
+  background: rgba(0, 0, 0, .1);
+  color: #EE4248;
   border-radius: 100%;
   display: grid;
   align-items: center;
-  margin-bottom: 10px;
 }
 
 .footer-links .list a .icon i {
@@ -12033,4 +12084,28 @@ section {
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: 100% auto;
+}
+
+.bg-blf {
+  background: url(../img/bg-features.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 100% auto;
+  max-width: 1400px;
+  margin: auto;
+}
+
+.footer-links a .logo {
+  height: 75px;
+}
+
+.footer-links a .trackless {
+  height: 65px;
+}
+
+.footer-links span.powered {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 45px;
+  color: #000000;
 }

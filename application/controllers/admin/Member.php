@@ -192,7 +192,7 @@ class Member extends CI_Controller
         $mail->SMTPSecure    = false;
         $mail->Port            = 587;
 
-        $mail->setFrom('', 'PiggyBank Service');
+        $mail->setFrom('', 'ExchangeTailor Service');
         $mail->isHTML(true);
 
         $mail->ClearAllRecipients();

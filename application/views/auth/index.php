@@ -7,11 +7,14 @@
 
         <nav id="navbar" class="navbar">
             <ul class="px-5">
-                <li><a class="f-bevietnam nav-link navbar-freedy scrollto" href="#">The guide</a></li>
-                <li><a class="f-bevietnam nav-link navbar-freedy scrollto" href="#">Specifications</a></li>
-                <li><a class="f-bevietnam nav-link navbar-freedy scrollto" href="#">Technology</a></li>
+                <li><a class="f-bevietnam nav-link navbar-freedy scrollto" href="#guide">The guide</a></li>
+                <li><a class="f-bevietnam nav-link navbar-freedy scrollto" href="#specifications">Specifications</a>
+                </li>
+                <li><a class="f-bevietnam nav-link navbar-freedy scrollto" href="#technology">Technology</a></li>
+                <li><a class="f-bevietnam nav-link navbar-freedy scrollto"
+                        href="<?= base_url()?>link/translate">Translate</a></li>
                 <li><a class="f-bevietnam nav-link mx-0 my-2 mx-lg-2 my-lg-auto text-center btn-login active"
-                        href="<?= base_url(); ?>auth/signup_referral">Register</a>
+                        href="<?= base_url(); ?>auth/signup">Register</a>
                 </li>
                 <li><a class="f-bevietnam nav-link mx-0 my-2 mx-lg-2 my-lg-auto text-center btn-login"
                         href="<?= base_url(); ?>auth/login">Log
@@ -25,7 +28,7 @@
 </header><!-- End Header -->
 
 <!-- ======= Hero Section ======= -->
-<section id="top" class="hero">
+<section id="top" class="hero bg-bali">
     <div class="container">
         <div class="row">
             <div class="col-12 col-lg-8 d-flex flex-column justify-content-center slider-freedy text-start">
@@ -40,7 +43,7 @@
                     the world.
                 </p>
                 <div class="d-flex flex-wrap">
-                    <a href="<?= base_url(); ?>auth/signup_referral"
+                    <a href="<?= base_url(); ?>auth/signup"
                         class="btn-slider-signin active d-inline-flex align-items-center justify-content-center align-self-center me-3 mb-3">
                         <span class="f-roboto">Register</span>
                     </a><a href="<?= base_url(); ?>auth/login"
@@ -58,28 +61,53 @@
     <section id="reward" class="about bg-grey">
         <div class="container p-r">
             <div class="row gx-0">
-                <div class="col-4 d-none d-lg-grid m-auto">
-                    <img src="<?= base_url(); ?>assets/img/img-1.png" alt="" class="img-fluid">
+                <div class="col-12 d-flex flex-column justify-content-center mb-5 ps-lg-5 d-grid d-lg-none">
+                    <div class="content-freedy p-r">
+                        <h2 class=""><span class="text-blackgr2">Fast & </span> Easy</h2>
+                        <ul class="p-0 f-roboto">
+                            <li>Immidiate opening & free of charge</li>
+                            <li>(No KYC & No AML)</li>
+                            <li>Non-custodial wallet provided</li>
+                            <li>Withdraw your funds to any bank account even if it is not under your name</li>
+
+                        </ul>
+                    </div>
                 </div>
                 <div class="col-12 col-lg-6 d-flex flex-column justify-content-center mb-5 ps-lg-5">
                     <div class="content-freedy p-r">
                         <h2 class=""><span class="text-blackgr2">Your Money</span> Worldwide</h2>
                         <ul class="p-0 f-roboto">
-                            <li>Immidiate opening & free of charge</li>
-                            <li>(No KYC & No AML)</li>
                             <li>Receive funds in more than 10 FIAT currencies</li>
-                            <li>Convert FIAT istantly at the real exchange rate without any fee
-                                Custody and send money in more than 50 FIAT currencies.</li>
+                            <li>Convert FIAT istantly at the real exchange rate without any fee</li>
+                            <li>Custody and send money in more than 50 FIAT currencies.</li>
                             <li>Trading your crypto during your vacation thanks to the integrated Trade-off Platform
                             </li>
                             <li>Keep your currencies safe in your wallet and send money worldwide.</li>
-                            <li>Withdraw your funds to any bank account even if it is not under your name</li>
                         </ul>
                         <div class="text-start">
-                            <a href="<?= base_url(); ?>auth/signup_referral"
+                            <a href="<?= base_url(); ?>auth/signup"
                                 class="btn-content-freedy d-inline-flex align-items-center justify-content-center align-self-center">
                                 <span class="">Register</span>
                             </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 m-auto d-none d-lg-grid">
+                    <div class="row">
+                        <div class="col-12 d-flex flex-column justify-content-center mb-5 ps-lg-5">
+                            <div class="content-freedy p-r">
+                                <h2 class=""><span class="text-blackgr2">Fast & </span> Easy</h2>
+                                <ul class="p-0 f-roboto">
+                                    <li>Immidiate opening & free of charge</li>
+                                    <li>(No KYC & No AML)</li>
+                                    <li>Non-custodial wallet provided</li>
+                                    <li>Withdraw your funds to any bank account even if it is not under your name</li>
+
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-12 m-auto">
+                            <img src="<?= base_url(); ?>assets/img/img-1.png" alt="" class="img-fluid">
                         </div>
                     </div>
                 </div>
@@ -88,7 +116,7 @@
     </section><!-- Section -->
 
     <!-- ======= Section ======= -->
-    <section id="services" class="about bg-flowers">
+    <section id="guide" class="about bg-flowers">
         <div class="container p-r">
             <div class="row gx-0">
                 <div class="col-12 mb-5">
@@ -185,7 +213,7 @@
                             link.</span>
                         <span class="bp mb-3 d-block">Share it and get reward forever</span>
                         <div class="text-start">
-                            <a href="#"
+                            <a href="<?= base_url(); ?>link/lern_reward"
                                 class="btn-content-freedy d-inline-flex align-items-center justify-content-center align-self-center">
                                 <span class="f-roboto">Read More</span>
                             </a>
@@ -201,7 +229,7 @@
 
 
     <!-- ======= Section ======= -->
-    <section id="services" class="about">
+    <section id="specifications" class="about">
         <div class="container p-r">
             <div class="row gx-0">
                 <div class="col-12 mb-5">
@@ -365,7 +393,7 @@
     </section><!-- Section -->
 
     <!-- ======= Section ======= -->
-    <section id="features" class="about bg-blf">
+    <section id="technology" class="about bg-blf">
         <div class="container p-r">
             <div class="row gx-0">
                 <div class="col-12 mb-5">
@@ -453,7 +481,7 @@
                         <span class="icon"><i class="fab fa-instagram"></i></span>
                     </a>
                     <a href="#" class="m-1 d-inline-block">
-                        <span class="icon"><i class="fab fa-dribbble"></i></span>
+                        <span class="icon"><i class="fab fa-facebook-f"></i></span>
                     </a>
                     <a href="#" class="m-1 d-inline-block">
                         <span class="icon"><i class="fab fa-twitter"></i></span>

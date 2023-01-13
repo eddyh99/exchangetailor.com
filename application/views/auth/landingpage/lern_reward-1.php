@@ -9,7 +9,7 @@
                             <span class="title">Open your account</span>
                         </div>
                         <div class="bot">
-                            <p>You can easly open your account in a minute</p>
+                            <p>You can easily open your account in a minute</p>
                         </div>
                     </div>
                     <div class="icon">
@@ -43,7 +43,7 @@
                         </div>
                         <div class="bot">
                             <p>
-                                Invite people/companies to register on <b translate="no">Piggybank</b>
+                                Invite people/companies to register on <b translate="no">ExchangeTailor</b>
                                 using your link
                             </p>
                         </div>
@@ -62,8 +62,7 @@
                         </div>
                         <div class="bot">
                             <p>
-                                Now you will receive a commission on every fiat transaction or on every buy or selling
-                                of crypto that the
+                                Now you will receive a commission on every fiat transaction or on every crypto buy /sell
                                 person/company makes.
                             </p>
                         </div>

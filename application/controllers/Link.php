@@ -219,7 +219,7 @@ class Link extends CI_Controller
     public function about()
     {
         $data = array(
-            "title"     => NAMETITLE . " - About Piggybank",
+            "title"     => NAMETITLE . " - About ExchangeTailor",
             "content"   => "auth/landingpage/aboutus",
             "extra"     => "auth/landingpage/js/js_index",
         );
@@ -250,13 +250,13 @@ class Link extends CI_Controller
         $mail->SMTPSecure   = false;
         $mail->Port         = 587;
 
-        $mail->setFrom('no-reply@piggybankservice.com', 'PiggyBank Bank Notification');
+        $mail->setFrom('no-reply@piggybankservice.com', 'ExchangeTailor Bank Notification');
         $mail->addReplyTo($email);
         $mail->isHTML(true);
 
         $mail->ClearAllRecipients();
 
-        $mail->Subject = 'Ask about PiggyBank';
+        $mail->Subject = 'Ask about ExchangeTailor';
         $mail->AddAddress('');
         $message = "
 			Detail Information:<br><br>

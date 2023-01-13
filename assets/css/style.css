@@ -452,8 +452,6 @@ section {
   margin-left: auto;
   margin-right: auto;
   height: auto;
-  background: url(../img/bg-slider.png) bottom right no-repeat;
-  background-size: 100% auto;
   padding: 10rem 0;
 }
 
@@ -2404,7 +2402,7 @@ section {
 
 /* Freedy */
 .text-blue-freedy {
-  color: rgba(28, 103, 1, 1) !important;
+  color: #CB0000 !important;
 }
 
 .text-blue-freedy.black {
@@ -3363,9 +3361,8 @@ section {
   }
 
   .box-code-freedy {
-    border: none;
-    background: rgba(203, 0, 0, 0.21);
-    border-radius: 13px;
+    border: 3px solid #CB0000;
+    border-radius: 25px;
   }
 
   .box-code-freedy .currency-btn-setting a {
@@ -3384,7 +3381,7 @@ section {
     font-weight: 600;
     font-size: 9px;
     line-height: 17px;
-    color: #CB0000;
+    color: #000000;
   }
 
   .text-green-alert {
@@ -3405,7 +3402,7 @@ section {
     font-size: 14px;
     line-height: 17px;
 
-    color: #CB0000;
+    color: #000000;
   }
 
   .copy-uqcode img {
@@ -3466,7 +3463,7 @@ section {
     font-size: 10px;
     line-height: 17px;
 
-    color: #000000;
+    color: #6A0000;
   }
 
   .menus-list-app a {
@@ -3852,7 +3849,7 @@ section {
 
   .currency-next-btn {
     display: inline-block;
-    background: rgba(0, 120, 240, 0.19);
+    background: #FFD3C6;
     border-radius: 6px;
 
     font-weight: 500;
@@ -3883,7 +3880,7 @@ section {
     font-size: 12px;
     line-height: 18px;
 
-    color: #CB0000;
+    color: #000000;
   }
 
   .check-currency input.pill-currency {
@@ -4294,7 +4291,7 @@ section {
   .recive-bank a {
     background: linear-gradient(180deg, #8B0000 0%, #CB0000 100%);
     border: 1px solid #000000;
-    color: #000000;
+    color: #FFFFFF;
     border-radius: 8px;
 
     font-weight: 600;
@@ -4305,7 +4302,7 @@ section {
   .recive-bank a:hover {
     background: linear-gradient(180deg, #CB0000 0%, #8B0000 100%);
     border: 1px solid #000000;
-    color: #000000;
+    color: #FFFFFF;
     border-radius: 8px;
 
     font-weight: 600;
@@ -4473,7 +4470,7 @@ section {
   }
 
   .freedy-card.piggy {
-    background: #dbffe9;
+    background: #FFDBDB;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 8px;
     border: none;
@@ -5643,9 +5640,8 @@ section {
   }
 
   .box-code-freedy {
-    border: none;
-    background: rgba(203, 0, 0, 0.21);
-    border-radius: 13px;
+    border: 3px solid #CB0000;
+    border-radius: 25px;
   }
 
   .box-code-freedy .currency-btn-setting a {
@@ -5664,7 +5660,7 @@ section {
     font-weight: 600;
     font-size: 10px;
     line-height: 17px;
-    color: #CB0000;
+    color: #000000;
   }
 
   .text-green-alert {
@@ -5685,7 +5681,7 @@ section {
     font-size: 14px;
     line-height: 17px;
 
-    color: #CB0000;
+    color: #000000;
   }
 
   .copy-uqcode img {
@@ -5746,7 +5742,7 @@ section {
     font-size: 10px;
     line-height: 17px;
 
-    color: #000000;
+    color: #6A0000;
   }
 
   .menus-list-app a {
@@ -6132,7 +6128,7 @@ section {
 
   .currency-next-btn {
     display: inline-block;
-    background: rgba(0, 120, 240, 0.19);
+    background: #FFD3C6;
     border-radius: 6px;
 
     font-weight: 500;
@@ -6163,7 +6159,7 @@ section {
     font-size: 12px;
     line-height: 18px;
 
-    color: #CB0000;
+    color: #000000;
   }
 
   .check-currency input.pill-currency {
@@ -6574,7 +6570,7 @@ section {
   .recive-bank a {
     background: linear-gradient(180deg, #8B0000 0%, #CB0000 100%);
     border: 1px solid #000000;
-    color: #000000;
+    color: #FFFFFF;
     border-radius: 8px;
 
     font-weight: 600;
@@ -6585,7 +6581,7 @@ section {
   .recive-bank a:hover {
     background: linear-gradient(180deg, #CB0000 0%, #8B0000 100%);
     border: 1px solid #000000;
-    color: #000000;
+    color: #FFFFFF;
     border-radius: 8px;
 
     font-weight: 600;
@@ -6753,7 +6749,7 @@ section {
   }
 
   .freedy-card.piggy {
-    background: #dbffe9;
+    background: #FFDBDB;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 8px;
     border: none;
@@ -7867,9 +7863,8 @@ section {
   }
 
   .box-code-freedy {
-    border: none;
-    background: rgba(203, 0, 0, 0.21);
-    border-radius: 13px;
+    border: 3px solid #CB0000;
+    border-radius: 25px;
   }
 
   .box-code-freedy .currency-btn-setting a {
@@ -7888,7 +7883,7 @@ section {
     font-weight: 600;
     font-size: 10px;
     line-height: 17px;
-    color: #CB0000;
+    color: #000000;
   }
 
   .text-green-alert {
@@ -7909,7 +7904,7 @@ section {
     font-size: 14px;
     line-height: 17px;
 
-    color: #CB0000;
+    color: #000000;
   }
 
   .copy-uqcode img {
@@ -7970,7 +7965,7 @@ section {
     font-size: 10px;
     line-height: 17px;
 
-    color: #000000;
+    color: #6A0000;
   }
 
   .menus-list-app a {
@@ -8356,7 +8351,7 @@ section {
 
   .currency-next-btn {
     display: inline-block;
-    background: rgba(0, 120, 240, 0.19);
+    background: #FFD3C6;
     border-radius: 6px;
 
     font-weight: 500;
@@ -8387,7 +8382,7 @@ section {
     font-size: 12px;
     line-height: 18px;
 
-    color: #CB0000;
+    color: #000000;
   }
 
   .check-currency input.pill-currency {
@@ -8798,7 +8793,7 @@ section {
   .recive-bank a {
     background: linear-gradient(180deg, #8B0000 0%, #CB0000 100%);
     border: 1px solid #000000;
-    color: #000000;
+    color: #FFFFFF;
     border-radius: 8px;
 
     font-weight: 600;
@@ -8809,7 +8804,7 @@ section {
   .recive-bank a:hover {
     background: linear-gradient(180deg, #CB0000 0%, #8B0000 100%);
     border: 1px solid #000000;
-    color: #000000;
+    color: #FFFFFF;
     border-radius: 8px;
 
     font-weight: 600;
@@ -8977,7 +8972,7 @@ section {
   }
 
   .freedy-card.piggy {
-    background: #dbffe9;
+    background: #FFDBDB;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 8px;
     border: none;
@@ -10412,9 +10407,8 @@ section {
   }
 
   .box-code-freedy {
-    border: none;
-    background: rgba(203, 0, 0, 0.21);
-    border-radius: 13px;
+    border: 3px solid #CB0000;
+    border-radius: 25px;
   }
 
   .box-code-freedy .currency-btn-setting a {
@@ -10433,7 +10427,7 @@ section {
     font-weight: 600;
     font-size: 14px;
     line-height: 17px;
-    color: #CB0000;
+    color: #000000;
   }
 
   .text-green-alert {
@@ -10454,7 +10448,7 @@ section {
     font-size: 18px;
     line-height: 17px;
 
-    color: #CB0000;
+    color: #000000;
   }
 
   .copy-uqcode img {
@@ -10515,7 +10509,7 @@ section {
     font-size: 16px;
     line-height: 17px;
 
-    color: #000000;
+    color: #6A0000;
   }
 
   .menus-list-app a {
@@ -10901,7 +10895,7 @@ section {
 
   .currency-next-btn {
     display: inline-block;
-    background: rgba(0, 120, 240, 0.19);
+    background: #FFD3C6;
     border-radius: 6px;
 
     font-weight: 500;
@@ -10932,7 +10926,7 @@ section {
     font-size: 12px;
     line-height: 18px;
 
-    color: #CB0000;
+    color: #000000;
   }
 
   .check-currency input.pill-currency {
@@ -11343,7 +11337,7 @@ section {
   .recive-bank a {
     background: linear-gradient(180deg, #8B0000 0%, #CB0000 100%);
     border: 1px solid #000000;
-    color: #000000;
+    color: #FFFFFF;
     border-radius: 8px;
 
     font-weight: 600;
@@ -11354,7 +11348,7 @@ section {
   .recive-bank a:hover {
     background: linear-gradient(180deg, #CB0000 0%, #8B0000 100%);
     border: 1px solid #000000;
-    color: #000000;
+    color: #FFFFFF;
     border-radius: 8px;
 
     font-weight: 600;
@@ -11522,7 +11516,7 @@ section {
   }
 
   .freedy-card.piggy {
-    background: #dbffe9;
+    background: #FFDBDB;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 8px;
     border: none;
@@ -11944,11 +11938,9 @@ section {
 .input-piggy-style input,
 .input-piggy-style input:focus,
 .input-piggy-style input:hover {
-  background: #bef1bd !important;
-  box-shadow: inset -2px -2px 4px rgba(255, 255, 255, 0.5),
-    inset 2px 2px 4px rgba(170, 170, 204, 0.25),
-    inset 5px 5px 10px rgba(170, 170, 204, 0.5), inset -5px -5px 10px #ffffff !important;
-  border-radius: 40px !important;
+  border: 1px solid #CD0000;
+  background: #FFFFFF !important;
+  border-radius: 10px !important;
   color: #000000 !important;
 }
 
@@ -12040,13 +12032,13 @@ section {
 
   display: inline-block;
   background: transparent;
-  border-radius: 8px;
+  border-radius: 5px;
   color: #CB0000;
 }
 
 .btn-head-crypto .crypto.active {
-  background: #CB0000;
-  border-radius: 8px;
+  background: linear-gradient(180deg, #8B0000 0%, #CD0000 100%);
+  border-radius: 5px;
   color: #ffffff;
 }
 
@@ -12083,6 +12075,11 @@ section {
   background: url(../img/bg-line.png), #E2E2E2;
   background-repeat: no-repeat;
   background-position: bottom;
+  background-size: 100% auto;
+}
+
+.bg-bali {
+  background: url(../img/bg-slider.png) bottom right no-repeat;
   background-size: 100% auto;
 }
 

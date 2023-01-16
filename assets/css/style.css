@@ -2923,35 +2923,38 @@ section {
   }
 
   .content-freedy ul li {
-    background: url(../img/check_ring_round.png) no-repeat left top;
-    background-size: 100% auto;
+    background: url(../img/check_ring_round.png) no-repeat left 3px;
+    background-size: 20px !important;
     padding: 0 0 0 2rem;
+    margin: 0;
+    margin-bottom: 0.5rem;
     list-style: none;
-    margin: 0 0 10px 0;
-    background-size: auto 25px;
   }
 
   .content-freedy.minus ul li {
-    background: url(../img/check_min_round.png) no-repeat left top !important;
-    background-size: 100% auto;
-    padding: 3px 0px 0.5rem 2rem;
-    list-style: none;
+    background: url(../img/check_min_round.png) no-repeat left 5px !important;
+    background-size: 15px !important;
+    padding: 0 0 0 2rem;
     margin: 0;
+    margin-bottom: 0.5rem;
+    list-style: none;
   }
 
   .content-freedy.circle ul li {
-    background: url(../img/list-circle-blue.png) no-repeat left top !important;
-    background-size: 100% auto;
-    padding: 0 0px 0.5rem 2rem;
-    list-style: none;
+    background: url(../img/list-circle-blue.png) no-repeat left 5px !important;
+    background-size: 15px !important;
+    padding: 0 0 0 2rem;
     margin: 0;
+    margin-bottom: 0.5rem;
+    list-style: none;
   }
 
   .content-freedy.line ul li {
-    background: url(../img/line-list.png) no-repeat left center !important;
-    background-size: 1rem auto !important;
+    background: url(../img/line-list.png) no-repeat left 10px !important;
+    background-size: 15px auto !important;
     padding: 0 0 0 2rem;
-    margin: 0 0 0.75rem 0;
+    margin: 0;
+    margin-bottom: 0.5rem;
     list-style: none;
   }
 
@@ -4695,14 +4698,16 @@ section {
   }
 
   .attention-modal .modal-body ul li {
-    background: url(../img/list-circle-blue.png) no-repeat left top;
-    padding: 0px 0px 0.5rem 2rem;
+    background: url(../img/list-circle-blue.png) no-repeat left 5px;
+    background-size: 15px !important;
+    padding: 0 0 0 2rem;
+    margin: 0;
+    margin-bottom: 0.5rem;
     list-style: none;
 
     font-weight: 400;
     font-size: 11px;
     line-height: 13px;
-    margin-bottom: 0.5rem;
 
     color: #000000;
   }
@@ -5217,35 +5222,38 @@ section {
   }
 
   .content-freedy ul li {
-    background: url(../img/check_ring_round.png) no-repeat left top;
-    background-size: 100% auto;
+    background: url(../img/check_ring_round.png) no-repeat left 3px;
+    background-size: 20px !important;
     padding: 0 0 0 2rem;
+    margin: 0;
+    margin-bottom: 0.5rem;
     list-style: none;
-    margin: 0 0 10px 0;
-    background-size: auto 25px;
   }
 
   .content-freedy.minus ul li {
-    background: url(../img/check_min_round.png) no-repeat left top !important;
-    background-size: 100% auto;
-    padding: 3px 0px 0.5rem 2rem;
-    list-style: none;
+    background: url(../img/check_min_round.png) no-repeat left 5px !important;
+    background-size: 15px !important;
+    padding: 0 0 0 2rem;
     margin: 0;
+    margin-bottom: 0.5rem;
+    list-style: none;
   }
 
   .content-freedy.circle ul li {
-    background: url(../img/list-circle-blue.png) no-repeat left top !important;
-    background-size: 100% auto;
-    padding: 0 0px 0.5rem 2rem;
-    list-style: none;
+    background: url(../img/list-circle-blue.png) no-repeat left 5px !important;
+    background-size: 15px !important;
+    padding: 0 0 0 2rem;
     margin: 0;
+    margin-bottom: 0.5rem;
+    list-style: none;
   }
 
   .content-freedy.line ul li {
-    background: url(../img/line-list.png) no-repeat left center !important;
-    background-size: 1rem auto !important;
+    background: url(../img/line-list.png) no-repeat left 10px !important;
+    background-size: 15px auto !important;
     padding: 0 0 0 2rem;
-    margin: 0 0 0.75rem 0;
+    margin: 0;
+    margin-bottom: 0.5rem;
     list-style: none;
   }
 
@@ -6974,14 +6982,16 @@ section {
   }
 
   .attention-modal .modal-body ul li {
-    background: url(../img/list-circle-blue.png) no-repeat left top;
-    padding: 0px 0px 0.5rem 2rem;
+    background: url(../img/list-circle-blue.png) no-repeat left 5px;
+    background-size: 15px !important;
+    padding: 0 0 0 2rem;
+    margin: 0;
+    margin-bottom: 0.5rem;
     list-style: none;
 
     font-weight: 400;
     font-size: 11px;
     line-height: 13px;
-    margin-bottom: 0.5rem;
 
     color: #000000;
   }
@@ -7453,35 +7463,38 @@ section {
   }
 
   .content-freedy ul li {
-    background: url(../img/check_ring_round.png) no-repeat left top;
-    background-size: 100% auto;
+    background: url(../img/check_ring_round.png) no-repeat left 3px;
+    background-size: 20px !important;
     padding: 0 0 0 2rem;
+    margin: 0;
+    margin-bottom: 0.5rem;
     list-style: none;
-    margin: 0 0 10px 0;
-    background-size: auto 25px;
   }
 
   .content-freedy.minus ul li {
-    background: url(../img/check_min_round.png) no-repeat left top !important;
-    background-size: 100% auto;
-    padding: 3px 0px 0.5rem 2rem;
-    list-style: none;
+    background: url(../img/check_min_round.png) no-repeat center 5px !important;
+    background-size: 15px !important;
+    padding: 0 0 0 2rem;
     margin: 0;
+    margin-bottom: 0.5rem;
+    list-style: none;
   }
 
   .content-freedy.circle ul li {
-    background: url(../img/list-circle-blue.png) no-repeat left top !important;
-    background-size: 100% auto;
-    padding: 0 0px 0.5rem 2rem;
-    list-style: none;
+    background: url(../img/list-circle-blue.png) no-repeat left 5px !important;
+    background-size: 15px !important;
+    padding: 0 0 0 2rem;
     margin: 0;
+    margin-bottom: 0.5rem;
+    list-style: none;
   }
 
   .content-freedy.line ul li {
-    background: url(../img/line-list.png) no-repeat left center !important;
-    background-size: 1rem auto !important;
+    background: url(../img/line-list.png) no-repeat left 10px !important;
+    background-size: 15px auto !important;
     padding: 0 0 0 2rem;
-    margin: 0 0 0.75rem 0;
+    margin: 0;
+    margin-bottom: 0.5rem;
     list-style: none;
   }
 
@@ -9199,14 +9212,16 @@ section {
   }
 
   .attention-modal .modal-body ul li {
-    background: url(../img/list-circle-blue.png) no-repeat left top;
-    padding: 0px 0px 0.5rem 2rem;
+    background: url(../img/list-circle-blue.png) no-repeat left 5px;
+    background-size: 15px !important;
+    padding: 0 0 0 2rem;
+    margin: 0;
+    margin-bottom: 0.5rem;
     list-style: none;
 
     font-weight: 400;
     font-size: 14px;
     line-height: 110%;
-    margin-bottom: 0.5rem;
 
     color: #000000;
   }
@@ -9968,12 +9983,12 @@ section {
   }
 
   .content-freedy ul li {
-    background: url(../img/check_ring_round.png) no-repeat left top;
-    background-size: 100% auto;
+    background: url(../img/check_ring_round.png) no-repeat left 3px;
+    background-size: 20px !important;
     padding: 0 0 0 2rem;
+    margin: 0;
+    margin-bottom: 0.5rem;
     list-style: none;
-    margin: 0 0 10px 0;
-    background-size: auto 25px;
   }
 
   .content-freedy ul {
@@ -9982,26 +9997,29 @@ section {
   }
 
   .content-freedy.minus ul li {
-    background: url(../img/check_min_round.png) no-repeat left top !important;
-    background-size: 100% auto;
-    padding: 3px 0px 0.5rem 2rem;
-    list-style: none;
+    background: url(../img/check_min_round.png) no-repeat left 5px !important;
+    background-size: 15px !important;
+    padding: 0 0 0 2rem;
     margin: 0;
+    margin-bottom: 0.5rem;
+    list-style: none;
   }
 
   .content-freedy.circle ul li {
-    background: url(../img/list-circle-blue.png) no-repeat left top !important;
-    background-size: 100% auto;
-    padding: 0 0px 0.5rem 2rem;
-    list-style: none;
+    background: url(../img/list-circle-blue.png) no-repeat left 5px !important;
+    background-size: 15px !important;
+    padding: 0 0 0 2rem;
     margin: 0;
+    margin-bottom: 0.5rem;
+    list-style: none;
   }
 
   .content-freedy.line ul li {
-    background: url(../img/line-list.png) no-repeat left center !important;
-    background-size: 1rem auto !important;
+    background: url(../img/line-list.png) no-repeat left 10px !important;
+    background-size: 15px auto !important;
     padding: 0 0 0 2rem;
-    margin: 0 0 0.75rem 0;
+    margin: 0;
+    margin-bottom: 0.5rem;
     list-style: none;
   }
 
@@ -11512,6 +11530,13 @@ section {
     border: 2px solid #CB0000;
     border-radius: 5px;
     padding: 0.75rem;
+    min-height: 400px;
+  }
+
+  .freedy-card.small {
+    border: 2px solid #CB0000;
+    border-radius: 5px;
+    padding: 0.75rem;
     min-height: 250px;
   }
 
@@ -11731,14 +11756,16 @@ section {
   }
 
   .attention-modal .modal-body ul li {
-    background: url(../img/list-circle-blue.png) no-repeat left top;
-    padding: 0px 0px 0.5rem 2rem;
+    background: url(../img/list-circle-blue.png) no-repeat left 5px;
+    background-size: 15px !important;
+    padding: 0 0 0 2rem;
+    margin: 0;
+    margin-bottom: 0.5rem;
     list-style: none;
 
     font-weight: 400;
     font-size: 14px;
     line-height: 110%;
-    margin-bottom: 0.5rem;
 
     color: #000000;
   }
@@ -12105,4 +12132,35 @@ section {
   font-size: 25px;
   line-height: 45px;
   color: #000000;
+}
+
+.bg-flowers-pink {
+  position: relative;
+  background: #FFE8EA;
+  display: inline-block;
+  padding: 2rem 3rem;
+  margin: auto;
+}
+
+.bg-flowers-pink img.lt {
+  position: absolute;
+  top: -25px;
+  left: -25px;
+  height: 75px;
+}
+
+.bg-flowers-pink img.rb {
+  position: absolute;
+  bottom: -25px;
+  right: -25px;
+  height: 75px;
+}
+
+.list-different .items-different a.active {
+  color: #FFFFFF;
+
+  background: #CB0000;
+  border: 2px solid #CB0000;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
 }

@@ -132,7 +132,8 @@
                                 class="items-different p-4 d-flex flex-column justify-content-center align-items-center text-center">
                                 <img src="<?= base_url() ?>assets/img/icon-guide-1.png" alt="" class="bg-red">
                                 <span class="title my-auto">Wallet</span>
-                                <a href="#" class="py-2 px-3">Learn more</a>
+                                <a href="<?= base_url(); ?>link/guide?guide=<?= base64_encode('1') ?>"
+                                    class="py-2 px-3">Learn more</a>
                             </div>
                         </div>
                         <div class="col-10 col-md-5 col-lg-3 px-2 mb-3 list-different">
@@ -140,7 +141,8 @@
                                 class="items-different p-4 d-flex flex-column justify-content-center align-items-center text-center">
                                 <img src="<?= base_url() ?>assets/img/icon-guide-2.png" alt="" class="bg-red">
                                 <span class="title my-auto">For your trips</span>
-                                <a href="#" class="py-2 px-3">Learn more</a>
+                                <a href="<?= base_url(); ?>link/guide?guide=<?= base64_encode('2') ?>"
+                                    class="py-2 px-3">Learn more</a>
                             </div>
                         </div>
                         <div class="col-10 col-md-5 col-lg-3 px-2 mb-3 list-different">
@@ -148,7 +150,8 @@
                                 class="items-different p-4 d-flex flex-column justify-content-center align-items-center text-center">
                                 <img src="<?= base_url() ?>assets/img/icon-guide-3.png" alt="" class="bg-red">
                                 <span class="title my-auto">Daily use</span>
-                                <a href="#" class="py-2 px-3">Learn more</a>
+                                <a href="<?= base_url(); ?>link/guide?guide=<?= base64_encode('3') ?>"
+                                    class="py-2 px-3">Learn more</a>
                             </div>
                         </div>
                         <div class="col-10 col-md-5 col-lg-3 px-2 mb-3 list-different">
@@ -156,7 +159,8 @@
                                 class="items-different p-4 d-flex flex-column justify-content-center align-items-center text-center">
                                 <img src="<?= base_url() ?>assets/img/icon-guide-4.png" alt="" class="bg-red">
                                 <span class="title my-auto">Buy&sell crypto with FIAT</span>
-                                <a href="#" class="py-2 px-3">Learn more</a>
+                                <a href="<?= base_url(); ?>link/guide?guide=<?= base64_encode('4') ?>"
+                                    class="py-2 px-3">Learn more</a>
                             </div>
                         </div>
                         <div class="col-10 col-md-5 col-lg-3 px-2 mb-3 list-different">
@@ -164,7 +168,8 @@
                                 class="items-different p-4 d-flex flex-column justify-content-center align-items-center text-center">
                                 <img src="<?= base_url() ?>assets/img/icon-guide-5.png" alt="" class="bg-red">
                                 <span class="title my-auto">Capital exportation</span>
-                                <a href="<?= base_url(); ?>link/lern_transparency" class="py-2 px-3">Learn more</a>
+                                <a href="<?= base_url(); ?>link/guide?guide=<?= base64_encode('5') ?>"
+                                    class="py-2 px-3">Learn more</a>
                             </div>
                         </div>
                         <div class="col-10 col-md-5 col-lg-3 px-2 mb-3 list-different">
@@ -172,7 +177,8 @@
                                 class="items-different p-4 d-flex flex-column justify-content-center align-items-center text-center">
                                 <img src="<?= base_url() ?>assets/img/icon-guide-6.png" alt="" class="bg-red">
                                 <span class="title my-auto">Search activities</span>
-                                <a href="#" class="py-2 px-3">Learn more</a>
+                                <a href="<?= base_url(); ?>link/guide?guide=<?= base64_encode('6') ?>"
+                                    class="py-2 px-3">Learn more</a>
                             </div>
                         </div>
                         <div class="col-10 col-md-5 col-lg-3 px-2 mb-3 list-different">
@@ -180,7 +186,8 @@
                                 class="items-different p-4 d-flex flex-column justify-content-center align-items-center text-center">
                                 <img src="<?= base_url() ?>assets/img/icon-guide-7.png" alt="" class="bg-red">
                                 <span class="title my-auto">Find me</span>
-                                <a href="#" class="py-2 px-3">Learn more</a>
+                                <a href="<?= base_url(); ?>link/guide?guide=<?= base64_encode('7') ?>"
+                                    class="py-2 px-3">Learn more</a>
                             </div>
                         </div>
                         <div class="col-10 col-md-5 col-lg-3 px-2 mb-3 list-different">
@@ -188,7 +195,8 @@
                                 class="items-different p-4 d-flex flex-column justify-content-center align-items-center text-center">
                                 <img src="<?= base_url() ?>assets/img/icon-guide-8.png" alt="" class="bg-red">
                                 <span class="title my-auto">Collection & payment</span>
-                                <a href="#" class="py-2 px-3">Learn more</a>
+                                <a href="<?= base_url(); ?>link/guide?guide=<?= base64_encode('8') ?>"
+                                    class="py-2 px-3">Learn more</a>
                             </div>
                         </div>
                     </div>
@@ -245,7 +253,8 @@
                                 <img src="<?= base_url() ?>assets/img/icon-spec-1.png" alt="">
                                 <span class="f-roboto title red my-auto">Non custodial
                                     wallet provides</span>
-                                <a href="#" class="py-2 px-3">Read More</a>
+                                <a href="<?= base_url(); ?>link/spec?spec=<?= base64_encode('1') ?>"
+                                    class="active py-2 px-3">Read More</a>
                             </div>
                         </div>
                         <div class="col-10 col-md-5 col-lg-3 px-2 my-3 list-different">
@@ -253,7 +262,8 @@
                                 class="items-different p-2 d-flex flex-column justify-content-center align-items-center text-center">
                                 <img src="<?= base_url() ?>assets/img/icon-spec-2.png" alt="">
                                 <span class="f-roboto title red my-auto">No KYC No AML</span>
-                                <a href="#" class="py-2 px-3">Read More</a>
+                                <a href="<?= base_url(); ?>link/spec?spec=<?= base64_encode('2') ?>"
+                                    class="active py-2 px-3">Read More</a>
                             </div>
                         </div>
                         <div class="col-10 col-md-5 col-lg-3 px-2 my-3 list-different">
@@ -262,7 +272,8 @@
                                 <img src="<?= base_url() ?>assets/img/icon-spec-3.png" alt="">
                                 <span class="f-roboto title red my-auto">Receive funds in
                                     10 FIAT currencies</span>
-                                <a href="#" class="py-2 px-3">Read More</a>
+                                <a href="<?= base_url(); ?>link/spec?spec=<?= base64_encode('3') ?>"
+                                    class="active py-2 px-3">Read More</a>
                             </div>
                         </div>
                         <div class="col-10 col-md-5 col-lg-3 px-2 my-3 list-different">
@@ -272,7 +283,8 @@
                                 <span class="f-roboto title red my-auto">Convert, custody
                                     & send in over 50
                                     FIAT curencies</span>
-                                <a href="#" class="py-2 px-3">Read More</a>
+                                <a href="<?= base_url(); ?>link/spec?spec=<?= base64_encode('4') ?>"
+                                    class="active py-2 px-3">Read More</a>
                             </div>
                         </div>
                         <div class="col-10 col-md-5 col-lg-3 px-2 my-3 list-different">
@@ -282,7 +294,8 @@
                                 <span class="f-roboto title red my-auto">Zero exchange fees and competitive rates for
                                     FIAT to
                                     FIAT</span>
-                                <a href="<?= base_url(); ?>link/lern_transparency" class="py-2 px-3">Read More</a>
+                                <a href="<?= base_url(); ?>link/spec?spec=<?= base64_encode('5') ?>"
+                                    class="active py-2 px-3">Read More</a>
                             </div>
                         </div>
                         <div class="col-10 col-md-5 col-lg-3 px-2 my-3 list-different">
@@ -292,7 +305,8 @@
                                 <span class="f-roboto title red my-auto">Clear & transparent
                                     prices without
                                     hidden cost</span>
-                                <a href="#" class="py-2 px-3">Read More</a>
+                                <a href="<?= base_url(); ?>link/lern_transparency" class="active py-2 px-3">Read
+                                    More</a>
                             </div>
                         </div>
                         <div class="col-10 col-md-5 col-lg-3 px-2 my-3 list-different">
@@ -301,7 +315,8 @@
                                 <img src="<?= base_url() ?>assets/img/icon-spec-7.png" alt="">
                                 <span class="f-roboto title red my-auto">Trade off platform
                                 </span>
-                                <a href="#" class="py-2 px-3">Read More</a>
+                                <a href="<?= base_url(); ?>link/spec?spec=<?= base64_encode('7') ?>"
+                                    class="active py-2 px-3">Read More</a>
                             </div>
                         </div>
                         <div class="col-10 col-md-5 col-lg-3 px-2 my-3 list-different">
@@ -311,7 +326,8 @@
                                 <span class="f-roboto title red my-auto">Integration into
                                     your business
                                     API/plugin</span>
-                                <a href="#" class="py-2 px-3">Read More</a>
+                                <a href="<?= base_url(); ?>link/spec?spec=<?= base64_encode('8') ?>"
+                                    class="active py-2 px-3">Read More</a>
                             </div>
                         </div>
                     </div>
@@ -469,7 +485,7 @@
             <div class="col-lg-6 col-12 pe-2 footer-links text-center">
                 <div class="d-flex flex-row flex-wrap align-items-center justify-content-center w-100">
                     <span class="powered me-3 f-koulen">POWERED BY</span>
-                    <a href="#">
+                    <a href="https://tracklessproject.com/">
                         <img src="<?= base_url() ?>assets/img/tracklessproject.png" alt="" class="trackless">
                     </a>
                 </div>

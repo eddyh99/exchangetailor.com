@@ -22,7 +22,7 @@ class Link extends CI_Controller
     public function translate()
     {
         $data = array(
-            "title"     => NAMETITLE . " - Work with us",
+            "title"     => NAMETITLE . " - Translate",
             "content"   => "auth/landingpage/translate",
             // "extra"     => "auth/landingpage/js/js_index",
         );
@@ -30,28 +30,28 @@ class Link extends CI_Controller
         $this->load->view('tamplate/wrapper', $data);
     }
 
-    public function utilities()
+    public function guide()
     {
-        $utilities = base64_decode($_GET['utilities']);
-
+        $guide = base64_decode($_GET['guide']);
         $data = array(
-            "title"     => NAMETITLE . " - Work with us",
-            "content"   => "auth/landingpage/utilities",
-            "utilities"   => $utilities,
-            // "extra"     => "auth/landingpage/js/js_index",
+            "title"     => NAMETITLE,
+            "content"   => "auth/landingpage/guide",
+            "guide"   => $guide,
+            "extra"     => "auth/landingpage/js/js_index",
         );
 
         $this->load->view('tamplate/wrapper', $data);
     }
 
-    public function service()
+    public function spec()
     {
-        $service = base64_decode($_GET['service']);
+        $spec = base64_decode($_GET['spec']);
+
         $data = array(
-            "title"     => NAMETITLE . " - Work with us",
-            "content"   => "auth/landingpage/service",
-            "service"   => $service,
-            "extra"     => "auth/landingpage/js/js_index",
+            "title"     => NAMETITLE,
+            "content"   => "auth/landingpage/specifications",
+            "spec"   => $spec,
+            // "extra"     => "auth/landingpage/js/js_index",
         );
 
         $this->load->view('tamplate/wrapper', $data);

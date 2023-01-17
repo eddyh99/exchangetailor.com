@@ -26,7 +26,7 @@ class Member extends CI_Controller
     public function get_all()
     {
         $mdata = array(
-            "bank_id"  => 4,
+            "bank_id"  => 3,
             "timezone"  => $_SESSION["time_location"]
         );
 

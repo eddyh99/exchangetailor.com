@@ -13,7 +13,7 @@
                 <div class="card-body">
                     <input class="datepicker-af" type="text" name="tgl" id="tgl" readonly>
                     <table id="tbl_history" class="table table-bordered">
-                        <thead class="table-success">
+                        <thead class="table-danger">
                             <tr>
                                 <th>Description</th>
                                 <th>Cost</th>

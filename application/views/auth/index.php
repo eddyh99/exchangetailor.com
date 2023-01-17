@@ -2,7 +2,7 @@
 <header id="header" class="header fixed-top">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
         <a href="<?= base_url(); ?>auth" class="logo d-flex align-items-center">
-            <img src="<?= base_url() ?>assets/img/logo-btext.png" alt="">
+            <img src="<?= base_url() ?>assets/img/logo-rtext.png" alt="">
         </a>
 
         <nav id="navbar" class="navbar">
@@ -119,84 +119,92 @@
     <section id="guide" class="about bg-flowers">
         <div class="container p-r">
             <div class="row gx-0">
-                <div class="col-12 mb-5">
-                    <div class="content-freedy p-r text-center">
-                        <h2 class="">THE GUIDE</h2>
-                        <h3><span class="text-blackgr2">How to use</span> ExchangeTailor</h3>
+                <div class="accordion text-center" id="accordionFreedy">
+                    <div class="accordion-item freedy-accordion-item mb-5 d-inline-block">
+                        <div class="col-12">
+                            <div class="content-freedy p-r text-center">
+                                <button id="btnaccorionOne" class="accordion-button freedy-accordion-button collapsed"
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                                    aria-expanded="false" aria-controls="collapseOne">
+                                    <h2 class="me-3"><span class="text-blackgr2">How to use</span> ExchangeTailor</h2>
+                                </button>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="col-12">
-                    <div class="row d-flex flax-wrap justify-content-center align-items-center">
-                        <div class="col-10 col-md-5 col-lg-3 px-2 mb-3 list-different">
-                            <div
-                                class="items-different p-4 d-flex flex-column justify-content-center align-items-center text-center">
-                                <img src="<?= base_url() ?>assets/img/icon-guide-1.png" alt="" class="bg-red">
-                                <span class="title my-auto">Wallet</span>
-                                <a href="<?= base_url(); ?>link/guide?guide=<?= base64_encode('1') ?>"
-                                    class="py-2 px-3">Learn more</a>
+                    <div id="collapseOne" class="col-12 accordion-collapse collapse" aria-labelledby="pageOne"
+                        data-bs-parent="#accordionFreedy">
+                        <div class="row d-flex flax-wrap justify-content-center align-items-center">
+                            <div class="col-10 col-md-5 col-lg-3 px-2 mb-3 list-different">
+                                <div
+                                    class="items-different p-4 d-flex flex-column justify-content-center align-items-center text-center">
+                                    <img src="<?= base_url() ?>assets/img/icon-guide-1.png" alt="" class="bg-red">
+                                    <span class="title my-auto">Wallet</span>
+                                    <a href="<?= base_url(); ?>link/guide?guide=<?= base64_encode('1') ?>"
+                                        class="py-2 px-3">Learn more</a>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-10 col-md-5 col-lg-3 px-2 mb-3 list-different">
-                            <div
-                                class="items-different p-4 d-flex flex-column justify-content-center align-items-center text-center">
-                                <img src="<?= base_url() ?>assets/img/icon-guide-2.png" alt="" class="bg-red">
-                                <span class="title my-auto">For your trips</span>
-                                <a href="<?= base_url(); ?>link/guide?guide=<?= base64_encode('2') ?>"
-                                    class="py-2 px-3">Learn more</a>
+                            <div class="col-10 col-md-5 col-lg-3 px-2 mb-3 list-different">
+                                <div
+                                    class="items-different p-4 d-flex flex-column justify-content-center align-items-center text-center">
+                                    <img src="<?= base_url() ?>assets/img/icon-guide-2.png" alt="" class="bg-red">
+                                    <span class="title my-auto">For your trips</span>
+                                    <a href="<?= base_url(); ?>link/guide?guide=<?= base64_encode('2') ?>"
+                                        class="py-2 px-3">Learn more</a>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-10 col-md-5 col-lg-3 px-2 mb-3 list-different">
-                            <div
-                                class="items-different p-4 d-flex flex-column justify-content-center align-items-center text-center">
-                                <img src="<?= base_url() ?>assets/img/icon-guide-3.png" alt="" class="bg-red">
-                                <span class="title my-auto">Daily use</span>
-                                <a href="<?= base_url(); ?>link/guide?guide=<?= base64_encode('3') ?>"
-                                    class="py-2 px-3">Learn more</a>
+                            <div class="col-10 col-md-5 col-lg-3 px-2 mb-3 list-different">
+                                <div
+                                    class="items-different p-4 d-flex flex-column justify-content-center align-items-center text-center">
+                                    <img src="<?= base_url() ?>assets/img/icon-guide-3.png" alt="" class="bg-red">
+                                    <span class="title my-auto">Daily use</span>
+                                    <a href="<?= base_url(); ?>link/guide?guide=<?= base64_encode('3') ?>"
+                                        class="py-2 px-3">Learn more</a>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-10 col-md-5 col-lg-3 px-2 mb-3 list-different">
-                            <div
-                                class="items-different p-4 d-flex flex-column justify-content-center align-items-center text-center">
-                                <img src="<?= base_url() ?>assets/img/icon-guide-4.png" alt="" class="bg-red">
-                                <span class="title my-auto">Buy&sell crypto with FIAT</span>
-                                <a href="<?= base_url(); ?>link/guide?guide=<?= base64_encode('4') ?>"
-                                    class="py-2 px-3">Learn more</a>
+                            <div class="col-10 col-md-5 col-lg-3 px-2 mb-3 list-different">
+                                <div
+                                    class="items-different p-4 d-flex flex-column justify-content-center align-items-center text-center">
+                                    <img src="<?= base_url() ?>assets/img/icon-guide-4.png" alt="" class="bg-red">
+                                    <span class="title my-auto">Buy&sell crypto with FIAT</span>
+                                    <a href="<?= base_url(); ?>link/guide?guide=<?= base64_encode('4') ?>"
+                                        class="py-2 px-3">Learn more</a>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-10 col-md-5 col-lg-3 px-2 mb-3 list-different">
-                            <div
-                                class="items-different p-4 d-flex flex-column justify-content-center align-items-center text-center">
-                                <img src="<?= base_url() ?>assets/img/icon-guide-5.png" alt="" class="bg-red">
-                                <span class="title my-auto">Capital exportation</span>
-                                <a href="<?= base_url(); ?>link/guide?guide=<?= base64_encode('5') ?>"
-                                    class="py-2 px-3">Learn more</a>
+                            <div class="col-10 col-md-5 col-lg-3 px-2 mb-3 list-different">
+                                <div
+                                    class="items-different p-4 d-flex flex-column justify-content-center align-items-center text-center">
+                                    <img src="<?= base_url() ?>assets/img/icon-guide-5.png" alt="" class="bg-red">
+                                    <span class="title my-auto">Capital exportation</span>
+                                    <a href="<?= base_url(); ?>link/guide?guide=<?= base64_encode('5') ?>"
+                                        class="py-2 px-3">Learn more</a>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-10 col-md-5 col-lg-3 px-2 mb-3 list-different">
-                            <div
-                                class="items-different p-4 d-flex flex-column justify-content-center align-items-center text-center">
-                                <img src="<?= base_url() ?>assets/img/icon-guide-6.png" alt="" class="bg-red">
-                                <span class="title my-auto">Search activities</span>
-                                <a href="<?= base_url(); ?>link/guide?guide=<?= base64_encode('6') ?>"
-                                    class="py-2 px-3">Learn more</a>
+                            <div class="col-10 col-md-5 col-lg-3 px-2 mb-3 list-different">
+                                <div
+                                    class="items-different p-4 d-flex flex-column justify-content-center align-items-center text-center">
+                                    <img src="<?= base_url() ?>assets/img/icon-guide-6.png" alt="" class="bg-red">
+                                    <span class="title my-auto">Search activities</span>
+                                    <a href="<?= base_url(); ?>link/guide?guide=<?= base64_encode('6') ?>"
+                                        class="py-2 px-3">Learn more</a>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-10 col-md-5 col-lg-3 px-2 mb-3 list-different">
-                            <div
-                                class="items-different p-4 d-flex flex-column justify-content-center align-items-center text-center">
-                                <img src="<?= base_url() ?>assets/img/icon-guide-7.png" alt="" class="bg-red">
-                                <span class="title my-auto">Find me</span>
-                                <a href="<?= base_url(); ?>link/guide?guide=<?= base64_encode('7') ?>"
-                                    class="py-2 px-3">Learn more</a>
+                            <div class="col-10 col-md-5 col-lg-3 px-2 mb-3 list-different">
+                                <div
+                                    class="items-different p-4 d-flex flex-column justify-content-center align-items-center text-center">
+                                    <img src="<?= base_url() ?>assets/img/icon-guide-7.png" alt="" class="bg-red">
+                                    <span class="title my-auto">Find me</span>
+                                    <a href="<?= base_url(); ?>link/guide?guide=<?= base64_encode('7') ?>"
+                                        class="py-2 px-3">Learn more</a>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-10 col-md-5 col-lg-3 px-2 mb-3 list-different">
-                            <div
-                                class="items-different p-4 d-flex flex-column justify-content-center align-items-center text-center">
-                                <img src="<?= base_url() ?>assets/img/icon-guide-8.png" alt="" class="bg-red">
-                                <span class="title my-auto">Collection & payment</span>
-                                <a href="<?= base_url(); ?>link/guide?guide=<?= base64_encode('8') ?>"
-                                    class="py-2 px-3">Learn more</a>
+                            <div class="col-10 col-md-5 col-lg-3 px-2 mb-3 list-different">
+                                <div
+                                    class="items-different p-4 d-flex flex-column justify-content-center align-items-center text-center">
+                                    <img src="<?= base_url() ?>assets/img/icon-guide-8.png" alt="" class="bg-red">
+                                    <span class="title my-auto">Collection & payment</span>
+                                    <a href="<?= base_url(); ?>link/guide?guide=<?= base64_encode('8') ?>"
+                                        class="py-2 px-3">Learn more</a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -240,94 +248,105 @@
     <section id="specifications" class="about">
         <div class="container p-r">
             <div class="row gx-0">
-                <div class="col-12 mb-5">
-                    <div class="content-freedy p-r text-center">
-                        <h2 class="">ExchangeTailor <span class="text-blackgr2">Specifications</span></h2>
+                <div class="accordion text-center" id="accordionFreedy">
+                    <div class="accordion-item freedy-accordion-item mb-5 d-inline-block">
+                        <div class="col-12">
+                            <div class="content-freedy p-r text-center">
+                                <button id="btnaccorionTwo" class="accordion-button freedy-accordion-button collapsed"
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                    aria-expanded="false" aria-controls="collapseTwo">
+                                    <h2 class="me-3">ExchangeTailor <span class="text-blackgr2">Specifications</span>
+                                    </h2>
+                                </button>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="col-12">
-                    <div class="row d-flex flax-wrap justify-content-center align-items-center">
-                        <div class="col-10 col-md-5 col-lg-3 px-2 my-3 list-different">
-                            <div
-                                class="items-different p-2 d-flex flex-column justify-content-center align-items-center text-center">
-                                <img src="<?= base_url() ?>assets/img/icon-spec-1.png" alt="">
-                                <span class="f-roboto title red my-auto">Non custodial
-                                    wallet provides</span>
-                                <a href="<?= base_url(); ?>link/spec?spec=<?= base64_encode('1') ?>"
-                                    class="active py-2 px-3">Read More</a>
+                    <div id="collapseTwo" class="col-12 accordion-collapse collapse" aria-labelledby="pageTwo"
+                        data-bs-parent="#accordionFreedy">
+                        <div class="row d-flex flax-wrap justify-content-center align-items-center">
+                            <div class="col-10 col-md-5 col-lg-3 px-2 my-3 list-different">
+                                <div
+                                    class="items-different p-2 d-flex flex-column justify-content-center align-items-center text-center">
+                                    <img src="<?= base_url() ?>assets/img/icon-spec-1.png" alt="">
+                                    <span class="f-roboto title red my-auto">Non custodial
+                                        wallet provides</span>
+                                    <a href="<?= base_url(); ?>link/spec?spec=<?= base64_encode('1') ?>"
+                                        class="active py-2 px-3">Read More</a>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-10 col-md-5 col-lg-3 px-2 my-3 list-different">
-                            <div
-                                class="items-different p-2 d-flex flex-column justify-content-center align-items-center text-center">
-                                <img src="<?= base_url() ?>assets/img/icon-spec-2.png" alt="">
-                                <span class="f-roboto title red my-auto">No KYC No AML</span>
-                                <a href="<?= base_url(); ?>link/spec?spec=<?= base64_encode('2') ?>"
-                                    class="active py-2 px-3">Read More</a>
+                            <div class="col-10 col-md-5 col-lg-3 px-2 my-3 list-different">
+                                <div
+                                    class="items-different p-2 d-flex flex-column justify-content-center align-items-center text-center">
+                                    <img src="<?= base_url() ?>assets/img/icon-spec-2.png" alt="">
+                                    <span class="f-roboto title red my-auto">No KYC No AML</span>
+                                    <a href="<?= base_url(); ?>link/spec?spec=<?= base64_encode('2') ?>"
+                                        class="active py-2 px-3">Read More</a>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-10 col-md-5 col-lg-3 px-2 my-3 list-different">
-                            <div
-                                class="items-different p-2 d-flex flex-column justify-content-center align-items-center text-center">
-                                <img src="<?= base_url() ?>assets/img/icon-spec-3.png" alt="">
-                                <span class="f-roboto title red my-auto">Receive funds in
-                                    10 FIAT currencies</span>
-                                <a href="<?= base_url(); ?>link/spec?spec=<?= base64_encode('3') ?>"
-                                    class="active py-2 px-3">Read More</a>
+                            <div class="col-10 col-md-5 col-lg-3 px-2 my-3 list-different">
+                                <div
+                                    class="items-different p-2 d-flex flex-column justify-content-center align-items-center text-center">
+                                    <img src="<?= base_url() ?>assets/img/icon-spec-3.png" alt="">
+                                    <span class="f-roboto title red my-auto">Receive funds in
+                                        10 FIAT currencies</span>
+                                    <a href="<?= base_url(); ?>link/spec?spec=<?= base64_encode('3') ?>"
+                                        class="active py-2 px-3">Read More</a>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-10 col-md-5 col-lg-3 px-2 my-3 list-different">
-                            <div
-                                class="items-different p-2 d-flex flex-column justify-content-center align-items-center text-center">
-                                <img src="<?= base_url() ?>assets/img/icon-spec-4.png" alt="">
-                                <span class="f-roboto title red my-auto">Convert, custody
-                                    & send in over 50
-                                    FIAT curencies</span>
-                                <a href="<?= base_url(); ?>link/spec?spec=<?= base64_encode('4') ?>"
-                                    class="active py-2 px-3">Read More</a>
+                            <div class="col-10 col-md-5 col-lg-3 px-2 my-3 list-different">
+                                <div
+                                    class="items-different p-2 d-flex flex-column justify-content-center align-items-center text-center">
+                                    <img src="<?= base_url() ?>assets/img/icon-spec-4.png" alt="">
+                                    <span class="f-roboto title red my-auto">Convert, custody
+                                        & send in over 50
+                                        FIAT curencies</span>
+                                    <a href="<?= base_url(); ?>link/spec?spec=<?= base64_encode('4') ?>"
+                                        class="active py-2 px-3">Read More</a>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-10 col-md-5 col-lg-3 px-2 my-3 list-different">
-                            <div
-                                class="items-different p-2 d-flex flex-column justify-content-center align-items-center text-center">
-                                <img src="<?= base_url() ?>assets/img/icon-spec-5.png" alt="">
-                                <span class="f-roboto title red my-auto">Zero exchange fees and competitive rates for
-                                    FIAT to
-                                    FIAT</span>
-                                <a href="<?= base_url(); ?>link/spec?spec=<?= base64_encode('5') ?>"
-                                    class="active py-2 px-3">Read More</a>
+                            <div class="col-10 col-md-5 col-lg-3 px-2 my-3 list-different">
+                                <div
+                                    class="items-different p-2 d-flex flex-column justify-content-center align-items-center text-center">
+                                    <img src="<?= base_url() ?>assets/img/icon-spec-5.png" alt="">
+                                    <span class="f-roboto title red my-auto">Zero exchange fees and competitive
+                                        rates for
+                                        FIAT to
+                                        FIAT</span>
+                                    <a href="<?= base_url(); ?>link/spec?spec=<?= base64_encode('5') ?>"
+                                        class="active py-2 px-3">Read More</a>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-10 col-md-5 col-lg-3 px-2 my-3 list-different">
-                            <div
-                                class="items-different p-2 d-flex flex-column justify-content-center align-items-center text-center">
-                                <img src="<?= base_url() ?>assets/img/icon-spec-6.png" alt="">
-                                <span class="f-roboto title red my-auto">Clear & transparent
-                                    prices without
-                                    hidden cost</span>
-                                <a href="<?= base_url(); ?>link/lern_transparency" class="active py-2 px-3">Read
-                                    More</a>
+                            <div class="col-10 col-md-5 col-lg-3 px-2 my-3 list-different">
+                                <div
+                                    class="items-different p-2 d-flex flex-column justify-content-center align-items-center text-center">
+                                    <img src="<?= base_url() ?>assets/img/icon-spec-6.png" alt="">
+                                    <span class="f-roboto title red my-auto">Clear & transparent
+                                        prices without
+                                        hidden cost</span>
+                                    <a href="<?= base_url(); ?>link/lern_transparency" class="active py-2 px-3">Read
+                                        More</a>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-10 col-md-5 col-lg-3 px-2 my-3 list-different">
-                            <div
-                                class="items-different p-2 d-flex flex-column justify-content-center align-items-center text-center">
-                                <img src="<?= base_url() ?>assets/img/icon-spec-7.png" alt="">
-                                <span class="f-roboto title red my-auto">Trade off platform
-                                </span>
-                                <a href="<?= base_url(); ?>link/spec?spec=<?= base64_encode('7') ?>"
-                                    class="active py-2 px-3">Read More</a>
+                            <div class="col-10 col-md-5 col-lg-3 px-2 my-3 list-different">
+                                <div
+                                    class="items-different p-2 d-flex flex-column justify-content-center align-items-center text-center">
+                                    <img src="<?= base_url() ?>assets/img/icon-spec-7.png" alt="">
+                                    <span class="f-roboto title red my-auto">Trade off platform
+                                    </span>
+                                    <a href="<?= base_url(); ?>link/spec?spec=<?= base64_encode('7') ?>"
+                                        class="active py-2 px-3">Read More</a>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-10 col-md-5 col-lg-3 px-2 my-3 list-different">
-                            <div
-                                class="items-different p-2 d-flex flex-column justify-content-center align-items-center text-center">
-                                <img src="<?= base_url() ?>assets/img/icon-spec-8.png" alt="">
-                                <span class="f-roboto title red my-auto">Integration into
-                                    your business
-                                    API/plugin</span>
-                                <a href="<?= base_url(); ?>link/spec?spec=<?= base64_encode('8') ?>"
-                                    class="active py-2 px-3">Read More</a>
+                            <div class="col-10 col-md-5 col-lg-3 px-2 my-3 list-different">
+                                <div
+                                    class="items-different p-2 d-flex flex-column justify-content-center align-items-center text-center">
+                                    <img src="<?= base_url() ?>assets/img/icon-spec-8.png" alt="">
+                                    <span class="f-roboto title red my-auto">Integration into
+                                        your business
+                                        API/plugin</span>
+                                    <a href="<?= base_url(); ?>link/spec?spec=<?= base64_encode('8') ?>"
+                                        class="active py-2 px-3">Read More</a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -479,17 +498,18 @@
         <div class="row gy-4">
             <div class="col-lg-3 col-12 pe-2 footer-links d-flex align-items-center justify-content-center">
                 <a href="<?= base_url() ?>" class="text-text-decoration-none">
-                    <img src="<?= base_url() ?>assets/img/logo.png" alt="" class="logo">
+                    <img src="<?= base_url() ?>assets/img/logo-rtext.png" alt="" class="logo">
                 </a>
             </div>
             <div class="col-lg-6 col-12 pe-2 footer-links text-center">
                 <div class="d-flex flex-row flex-wrap align-items-center justify-content-center w-100">
-                    <span class="powered me-3 f-koulen">POWERED BY</span>
+                    <span class="powered me-3 f-koulen text-uppercase">EMPowered by</span>
                     <a href="https://tracklessproject.com/">
                         <img src="<?= base_url() ?>assets/img/tracklessproject.png" alt="" class="trackless">
                     </a>
                 </div>
-                <p class="copyright py-3 m-0">© Copyright ©2023 All rights reserved | Powered by TracklessProject</p>
+                <p class="copyright py-3 m-0">Exchange Tailor (ID) is a service subject to partnership with licensee PBS
+                    Online LLC.</p>
             </div>
             <div class="col-lg-3 col-12 pe-2 footer-links d-flex align-items-center">
                 <div class="list text-center w-100">

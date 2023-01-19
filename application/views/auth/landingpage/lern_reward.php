@@ -4,7 +4,7 @@
         <div class="row">
             <div class="col-12">
                 <div class="link-back p-0">
-                    <a href="<?= base_url() ?>">
+                    <a href="<?= base_url() ?>#reward">
                         <img src="<?= base_url() ?>assets/img/back.png" alt="">
                     </a>
                 </div>
@@ -12,7 +12,7 @@
             <div class="col-12 my-5 d-flex flex-row">
                 <div class="col-12 text-center">
                     <h2 class="title-top-header fw-bold">
-                        Tell everyone about <b translate="no">ExchangeTailor</b> and earn every time they use it.
+                        Tell everyone about <b translate="no"> ExchangeTailor </b> and earn every time they use it.
                     </h2>
                     <h2 class="subtitle-top-header fw-bold">Share it!</h2>
                 </div>

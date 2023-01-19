@@ -1,7 +1,7 @@
 <!-- ======= Header ======= -->
 <header id="header" class="header fixed-top">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
-        <a href="<?= base_url(); ?>auth" class="logo d-flex align-items-center">
+        <a class="logo d-flex align-items-center">
             <img src="<?= base_url() ?>assets/img/logo-rtext.png" alt="">
         </a>
 
@@ -32,14 +32,17 @@
     <div class="container">
         <div class="row">
             <div class="col-12 col-lg-8 d-flex flex-column justify-content-center slider-freedy text-start">
-                <h1 class="f-roboto fw-bold">ExchangeTailor<br>
+                <h1 class="f-roboto fw-bold"><b translate="no"> ExchangeTailor </b><br>
                     <span class="text-blackgr">The Solution for Travelers</span>
                 </h1>
                 <p class="f-roboto my-3">
-                    ExchangeTailor provides its customers a multi-currency wallet that allows them to instantly convert
+                    <b translate="no"> ExchangeTailor </b> provides its customers a multi-currency wallet that allows
+                    them
+                    to instantly convert
                     their wallet balance into the currency of the country they are in and it allows them to carry out
                     comfortably all the payments they want, quickly and easily.
-                    ExchangeTailor has a crypto trade-off platform integrated that allows you trade from everywhere in
+                    <b translate="no"> ExchangeTailor </b> has a crypto trade-off platform integrated that allows you
+                    trade from everywhere in
                     the world.
                 </p>
                 <div class="d-flex flex-wrap">
@@ -58,7 +61,7 @@
 
 <main id="main">
     <!-- ======= Section ======= -->
-    <section id="reward" class="about bg-grey">
+    <section id="" class="about bg-grey">
         <div class="container p-r">
             <div class="row gx-0">
                 <div class="col-12 d-flex flex-column justify-content-center mb-5 ps-lg-5 d-grid d-lg-none">
@@ -67,7 +70,7 @@
                         <ul class="p-0 f-roboto">
                             <li>Immidiate opening & free of charge</li>
                             <li>(No KYC & No AML)</li>
-                            <li>Non-custodial wallet provided</li>
+                            <li><b translate="no">Non-custodial wallet provided</b></li>
                             <li>Withdraw your funds to any bank account even if it is not under your name</li>
 
                         </ul>
@@ -77,12 +80,17 @@
                     <div class="content-freedy p-r">
                         <h2 class=""><span class="text-blackgr2">Your Money</span> Worldwide</h2>
                         <ul class="p-0 f-roboto">
-                            <li>Receive funds in more than 10 FIAT currencies</li>
-                            <li>Convert FIAT istantly at the real exchange rate without any fee</li>
-                            <li>Custody and send money in more than 50 FIAT currencies.</li>
-                            <li>Trading your crypto during your vacation thanks to the integrated Trade-off Platform
+                            <li><b class="text-blue-freedy">Receive</b> funds in more than 10 FIAT currencies</li>
+                            <li><b class="text-blue-freedy">Convert</b> FIAT istantly at the real exchange rate without
+                                any fee</li>
+                            <li><b class="text-blue-freedy">Custody</b> and send money in more than 50 FIAT currencies.
                             </li>
-                            <li>Keep your currencies safe in your wallet and send money worldwide.</li>
+                            <li><b class="text-blue-freedy">Trading</b> your crypto during your vacation thanks to the
+                                integrated Trade-off
+                                Platform
+                            </li>
+                            <li><b class="text-blue-freedy">Keep your currencies safe</b> in your wallet and send money
+                                worldwide.</li>
                         </ul>
                         <div class="text-start">
                             <a href="<?= base_url(); ?>auth/signup"
@@ -100,7 +108,7 @@
                                 <ul class="p-0 f-roboto">
                                     <li>Immidiate opening & free of charge</li>
                                     <li>(No KYC & No AML)</li>
-                                    <li>Non-custodial wallet provided</li>
+                                    <li><b translate="no">Non-custodial wallet provided</b></li>
                                     <li>Withdraw your funds to any bank account even if it is not under your name</li>
 
                                 </ul>
@@ -126,7 +134,8 @@
                                 <button id="btnaccorionOne" class="accordion-button freedy-accordion-button collapsed"
                                     type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
                                     aria-expanded="false" aria-controls="collapseOne">
-                                    <h2 class="me-3"><span class="text-blackgr2">How to use</span> ExchangeTailor</h2>
+                                    <h2 class="me-3"><span class="text-blackgr2">How to use</span> <b
+                                            translate="no">ExchangeTailor</b></h2>
                                 </button>
                             </div>
                         </div>
@@ -184,7 +193,7 @@
                                     class="items-different p-4 d-flex flex-column justify-content-center align-items-center text-center">
                                     <img src="<?= base_url() ?>assets/img/icon-guide-6.png" alt="" class="bg-red">
                                     <span class="title my-auto">Search activities</span>
-                                    <a href="<?= base_url(); ?>link/guide?guide=<?= base64_encode('6') ?>"
+                                    <a href="<?= base_url(); ?>link/guide?guide=<?= base64_encode('99') ?>"
                                         class="py-2 px-3">Learn more</a>
                                 </div>
                             </div>
@@ -193,7 +202,7 @@
                                     class="items-different p-4 d-flex flex-column justify-content-center align-items-center text-center">
                                     <img src="<?= base_url() ?>assets/img/icon-guide-7.png" alt="" class="bg-red">
                                     <span class="title my-auto">Find me</span>
-                                    <a href="<?= base_url(); ?>link/guide?guide=<?= base64_encode('7') ?>"
+                                    <a href="<?= base_url(); ?>link/guide?guide=<?= base64_encode('99') ?>"
                                         class="py-2 px-3">Learn more</a>
                                 </div>
                             </div>
@@ -217,11 +226,13 @@
     <section id="reward" class="about bg-section-reward">
         <div class="container p-r">
             <div class="row gx-0">
-                <div class="col-12 col-lg-6 d-flex flex-column justify-content-center mb-5 ps-lg-5">
+                <div class="col-12 col-lg-6 d-flex flex-column justify-content-center mb-5">
                     <div class="content-freedy p-r">
                         <h2 class="f-roboto"><span class="text-blackgr2">Get Reward</span><br>
                             with our Affiliate Campaign</h2>
-                        <p>ExchangeTailor assigns a personal referral link(with a referral code) to every account; you
+                        <p><b translate="no"> ExchangeTailor </b> assigns a personal referral link (with a referral
+                            code)
+                            to every account; you
                             just need to share it and let your friend register on the platform using the referral
                             link/code you shared. You will be rewarded for every single FIAT and crypto transaction
                             carry out by who signed up using your personal referral link.</p>
@@ -255,7 +266,8 @@
                                 <button id="btnaccorionTwo" class="accordion-button freedy-accordion-button collapsed"
                                     type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
                                     aria-expanded="false" aria-controls="collapseTwo">
-                                    <h2 class="me-3">ExchangeTailor <span class="text-blackgr2">Specifications</span>
+                                    <h2 class="me-3"><b translate="no"> ExchangeTailor </b> <span
+                                            class="text-blackgr2">Specifications</span>
                                     </h2>
                                 </button>
                             </div>
@@ -266,17 +278,17 @@
                         <div class="row d-flex flax-wrap justify-content-center align-items-center">
                             <div class="col-10 col-md-5 col-lg-3 px-2 my-3 list-different">
                                 <div
-                                    class="items-different p-2 d-flex flex-column justify-content-center align-items-center text-center">
+                                    class="items-different p-2 d-flex flex-column justify-content-start align-items-start text-start">
                                     <img src="<?= base_url() ?>assets/img/icon-spec-1.png" alt="">
-                                    <span class="f-roboto title red my-auto">Non custodial
-                                        wallet provides</span>
+                                    <span class="f-roboto title red my-auto"><b translate="no">Non custodial wallet
+                                            provided</b></span>
                                     <a href="<?= base_url(); ?>link/spec?spec=<?= base64_encode('1') ?>"
                                         class="active py-2 px-3">Read More</a>
                                 </div>
                             </div>
                             <div class="col-10 col-md-5 col-lg-3 px-2 my-3 list-different">
                                 <div
-                                    class="items-different p-2 d-flex flex-column justify-content-center align-items-center text-center">
+                                    class="items-different p-2 d-flex flex-column justify-content-start align-items-start text-start">
                                     <img src="<?= base_url() ?>assets/img/icon-spec-2.png" alt="">
                                     <span class="f-roboto title red my-auto">No KYC No AML</span>
                                     <a href="<?= base_url(); ?>link/spec?spec=<?= base64_encode('2') ?>"
@@ -285,7 +297,7 @@
                             </div>
                             <div class="col-10 col-md-5 col-lg-3 px-2 my-3 list-different">
                                 <div
-                                    class="items-different p-2 d-flex flex-column justify-content-center align-items-center text-center">
+                                    class="items-different p-2 d-flex flex-column justify-content-start align-items-start text-start">
                                     <img src="<?= base_url() ?>assets/img/icon-spec-3.png" alt="">
                                     <span class="f-roboto title red my-auto">Receive funds in
                                         10 FIAT currencies</span>
@@ -295,7 +307,7 @@
                             </div>
                             <div class="col-10 col-md-5 col-lg-3 px-2 my-3 list-different">
                                 <div
-                                    class="items-different p-2 d-flex flex-column justify-content-center align-items-center text-center">
+                                    class="items-different p-2 d-flex flex-column justify-content-start align-items-start text-start">
                                     <img src="<?= base_url() ?>assets/img/icon-spec-4.png" alt="">
                                     <span class="f-roboto title red my-auto">Convert, custody
                                         & send in over 50
@@ -306,7 +318,7 @@
                             </div>
                             <div class="col-10 col-md-5 col-lg-3 px-2 my-3 list-different">
                                 <div
-                                    class="items-different p-2 d-flex flex-column justify-content-center align-items-center text-center">
+                                    class="items-different p-2 d-flex flex-column justify-content-start align-items-start text-start">
                                     <img src="<?= base_url() ?>assets/img/icon-spec-5.png" alt="">
                                     <span class="f-roboto title red my-auto">Zero exchange fees and competitive
                                         rates for
@@ -318,7 +330,7 @@
                             </div>
                             <div class="col-10 col-md-5 col-lg-3 px-2 my-3 list-different">
                                 <div
-                                    class="items-different p-2 d-flex flex-column justify-content-center align-items-center text-center">
+                                    class="items-different p-2 d-flex flex-column justify-content-start align-items-start text-start">
                                     <img src="<?= base_url() ?>assets/img/icon-spec-6.png" alt="">
                                     <span class="f-roboto title red my-auto">Clear & transparent
                                         prices without
@@ -329,9 +341,9 @@
                             </div>
                             <div class="col-10 col-md-5 col-lg-3 px-2 my-3 list-different">
                                 <div
-                                    class="items-different p-2 d-flex flex-column justify-content-center align-items-center text-center">
+                                    class="items-different p-2 d-flex flex-column justify-content-start align-items-start text-start">
                                     <img src="<?= base_url() ?>assets/img/icon-spec-7.png" alt="">
-                                    <span class="f-roboto title red my-auto">Trade off platform
+                                    <span class="f-roboto title red my-auto">Trade-off platform
                                     </span>
                                     <a href="<?= base_url(); ?>link/spec?spec=<?= base64_encode('7') ?>"
                                         class="active py-2 px-3">Read More</a>
@@ -339,7 +351,7 @@
                             </div>
                             <div class="col-10 col-md-5 col-lg-3 px-2 my-3 list-different">
                                 <div
-                                    class="items-different p-2 d-flex flex-column justify-content-center align-items-center text-center">
+                                    class="items-different p-2 d-flex flex-column justify-content-start align-items-start text-start">
                                     <img src="<?= base_url() ?>assets/img/icon-spec-8.png" alt="">
                                     <span class="f-roboto title red my-auto">Integration into
                                         your business
@@ -356,7 +368,7 @@
     </section><!-- Section -->
 
     <!-- ======= Section ======= -->
-    <section id="" class="about">
+    <section id="crypto" class="about">
         <div class="container p-r">
             <div class="row gx-0">
                 <div class="col-12 mb-5">
@@ -374,9 +386,10 @@
                         <div class="col-4 d-none d-lg-grid m-auto">
                             <img src="<?= base_url(); ?>assets/img/img-3.png" alt="" class="img-fluid">
                         </div>
-                        <div class="col-lg-6 mb-5 ps-lg-5">
+                        <div class="col-lg-7 mb-5 ps-lg-5">
                             <div class="content-freedy">
-                                <h3 class="f-roboto"><span class="text-blackgr">Revolutionary system</span> with crypto
+                                <h3 class="f-roboto"><span class="text-blackgr">Revolutionary system</span> with
+                                    crypto<br>
                                     trading
                                     service integrated</h3>
                                 <div class="my-3">
@@ -390,7 +403,7 @@
                                     </ul>
                                 </div>
                                 <div class="text-start">
-                                    <a href="<?=base_url()?>link/soon"
+                                    <a href="<?=base_url()?>link/crypto"
                                         class="btn-content-freedy d-inline-flex align-items-center justify-content-center align-self-center">
                                         <span class="">Learn more</span>
                                     </a>

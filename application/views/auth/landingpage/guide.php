@@ -4,11 +4,24 @@
         <div class="row">
             <div class="col-12">
                 <div class="link-back p-0">
-                    <a href="<?= base_url() ?>">
+                    <a href="<?= base_url() ?>#guide">
                         <img src="<?= base_url() ?>assets/img/back-link.png" alt="">
                     </a>
                 </div>
             </div>
+
+            <?php if ($guide == 99) { ?>
+            <div class="col-12 my-5 text-center">
+                <h1>Coming soon!</h1>
+            </div>
+            <div class="col-12">
+                <div class="row">
+                    <div class="col-6">
+
+                    </div>
+                </div>
+            </div>
+            <?php } ?>
 
             <?php if ($guide == 1) { ?>
             <div class="col-12 my-5">
@@ -20,7 +33,8 @@
             <div class="col-12 mb-5">
                 <div class="col-12 text-center mb-5">
                     <p>
-                        ExchangeTailor offers the possibility of sending or receiving funds by bank transfer, <b>even
+                        <b translate="no"> ExchangeTailor </b> offers the possibility of sending or receiving funds by
+                        bank transfer, <b>even
                             from
                             a bank account not under your name</b>, without limitations, without any documentation
                         required and
@@ -126,7 +140,7 @@
                 </div>
             </div>
             <div class="col-12 mb-5 text-center">
-                <h3 class="fw-bold">With ExchangeTailor your money travels with you.</h3>
+                <h3 class="fw-bold">With <b translate="no"> ExchangeTailor </b> your money travels with you.</h3>
                 <p>Follow few easy steps to instant convert FIAT currencies and make easy payments from wherever
                     you want
                 </p>
@@ -194,7 +208,8 @@
                 <div class="row">
                     <div class="col-12 col-md-6">
                         <p>
-                            The wallet functions of ExchangeTailor are suitable for all daily payments, even for small
+                            The wallet functions of <b translate="no"> ExchangeTailor </b> are suitable for all daily
+                            payments, even for small
                             amounts; everywhere in the world.
                         </p>
                         <div class="col-12 d-flex flex-column justify-content-center">
@@ -242,8 +257,9 @@
                 <div class="col-12 text-center mb-5">
                     <p>
                         Given the increasingly stringent and restrictive regulations on international bank transfers,
-                        ExchangeTailor offers a simple, risk-free and 100% legal solution.
-                        The user who wants to send capital abroad will have to open a ExchangeTailor account and will
+                        <b translate="no"> ExchangeTailor </b> offers a simple, risk-free and 100% legal solution.
+                        The user who wants to send capital abroad will have to open a <b
+                            translate="no">ExchangeTailor</b> account and will
                         have to carry out the following procedure to remain in the legality and away from tax
                         assessments:
                     </p>
@@ -287,7 +303,8 @@
                         <img src="<?= base_url() ?>assets/img/img-13.png" alt="" class="img-fluid">
                     </div>
                     <p>
-                        <b>ExchangeTailor</b>, making use of the licensee company's capitals, partners and offices, in
+                        <b translate="no"> ExchangeTailor </b>, making use of the licensee company's capitals, partners
+                        and offices, in
                         order to
                         respect the laws in force on the matter, will not carry out an international transfer but will
                         send a national transfer from the current account of the country of destination to the current
@@ -311,7 +328,7 @@
                         <h3 class="text-dark">With PiggyBank your money travels with you.</h3>
                         <p>
                             With this function integrated into your wallet, you will be able to see all the activities
-                            that accept ExchangeTailor as a collection and payment system.
+                            that accept <b translate="no"> ExchangeTailor </b> as a collection and payment system.
                         </p>
                     </div>
                     <div class="col-6 d-none d-md-grid">
@@ -332,7 +349,7 @@
                 <div class="row">
                     <div class="col-12 col-md-6 my-auto">
                         <p>With this function integrated into your wallet, you will be able to see all the activities
-                            that accept <b>ExchangeTailor</b> as a collection and payment system.
+                            that accept <b translate="no"> ExchangeTailor </b> as a collection and payment system.
                         </p>
                     </div>
                     <div class="col-4 d-none d-md-grid mx-auto">
@@ -353,10 +370,11 @@
             <div class="col-12 mb-5">
                 <div class="row">
                     <div class="col-12 col-md-6">
-                        <p>ExchangeTailor allows you to increase the visibility of your business by including it in the
+                        <p><b translate="no"> ExchangeTailor </b> allows you to increase the visibility of your business
+                            by including it in the
                             search section that will be in every single wallet of all the users.
                             In this way your company will be easily accessible and traceable by all users who use
-                            ExchangeTailor for daily payments.
+                            <b translate="no"> ExchangeTailor </b> for daily payments.
                         </p>
 
                         <p>

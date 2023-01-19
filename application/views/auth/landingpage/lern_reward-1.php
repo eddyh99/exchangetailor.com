@@ -43,7 +43,7 @@
                         </div>
                         <div class="bot">
                             <p>
-                                Invite people/companies to register on <b translate="no">ExchangeTailor</b>
+                                Invite people/companies to register on <b translate="no"> ExchangeTailor</b>
                                 using your link
                             </p>
                         </div>

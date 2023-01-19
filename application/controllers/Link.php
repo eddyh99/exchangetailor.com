@@ -226,6 +226,18 @@ class Link extends CI_Controller
 
         $this->load->view('tamplate/wrapper', $data);
     }
+
+    public function crypto()
+    {
+        $data = array(
+            "title"     => NAMETITLE,
+            "content"   => "auth/landingpage/crypto",
+            "extra"     => "auth/landingpage/js/js_index",
+        );
+
+        $this->load->view('tamplate/wrapper', $data);
+    }
+
     public function soon()
     {
         $data = array(

@@ -4,7 +4,7 @@
         <div class="row">
             <div class="col-12">
                 <div class="link-back p-0">
-                    <a href="<?= base_url() ?>">
+                    <a href="<?= base_url() ?>#technology">
                         <img src="<?= base_url() ?>assets/img/back.png" alt="">
                     </a>
                 </div>
@@ -32,13 +32,13 @@
                             To give total security to our customers, only the account
                             holder will have access to the operations and even for Money Port it will be impossible to
                             bypass this security system.</p>
-                        <p>ExchangeTailor , being part of the TracklessBank circuit,
+                        <p><b translate="no"> ExchangeTailor </b> , being part of the TracklessBank circuit,
                             offers to customers a great guarantee, as any problem that may arise, the funds will always
                             be accessible at another institution of the TraklessBank circuit. </p>
                         <p>None of the tracklessbank
                             institutions have the ability to make any type of investment or money handling using
                             clients’ funds, leaving the capital available to the customers in the fiat corresponding to
-                            the balance of the ExchangeTailor wallet
+                            the balance of the <b translate="no"> ExchangeTailor </b> wallet
                         </p>
                     </div>
                 </div>
@@ -149,7 +149,9 @@
                 <div class="row">
                     <div class="col-12 col-lg-6 text-start my-auto">
                         <p>
-                            ExchangeTailor is a DApp that running on NP, considered the evolution of the blockchain and
+                            <b translate="no"> ExchangeTailor </b> is a DApp that running on NP, considered the
+                            evolution
+                            of the blockchain and
                             it uses SECC (SMART ELECTRONIC CREDIT CERTIFICATE), developed by MONEY INDUSTRIAL FACTORY on
                             NP and issued by PBS Online which converts FIAT by capitalizing the SECC 1: 1 with the
                             currency on which it is pegged to offer a cheaper and faster alternative to normal Stable
@@ -210,9 +212,9 @@
                             large-scale and decentralized distributed system.<br>
                             NP solves the scalability problem by transforming each user into a validating node every
                             time he performs an operation, thus giving double the necessary computing power.<br>
-                            all the users of ExchangeTailor will be repaid with part of the<br>
+                            all the users of <b translate="no"> ExchangeTailor </b> will be repaid with part of the<br>
                             commissions in a clear, transparent and fair manner, as described in the section earn with
-                            ExchangeTailor.
+                            <b translate="no"> ExchangeTailor </b>.
                         </p>
                     </div>
                 </div>

@@ -4,7 +4,7 @@
         <div class="row">
             <div class="col-12">
                 <div class="link-back p-0">
-                    <a href="<?= base_url() ?>">
+                    <a href="<?= base_url() ?>#specifications">
                         <img src="<?= base_url() ?>assets/img/back-link.png" alt="">
                     </a>
                 </div>
@@ -14,7 +14,8 @@
             <div class="col-12 my-5 px-md-5">
                 <div class="row">
                     <div class="col-12 col-md-8 text-start mx-auto">
-                        <h2 class="title-top-header mb-5 fw-bold">ExchangeTailor provides you<br>
+                        <h2 class="title-top-header mb-5 fw-bold"><b translate="no"> ExchangeTailor </b> provides
+                            you<br>
                             ''Non-Custodial Wallet''</h2>
                         <p>With a non-custodial wallet, you have sole control of your private keys, which in turn
                             control
@@ -35,10 +36,12 @@
                         <h2 class="fw-bold subtitle-top-header">We Care About Your Privacy</h2>
                         <div class="my-3">
                             <p>
-                                As ExchangeTailor, being part of the TracklessBank circuit, can operate by using several
+                                As <b translate="no"> ExchangeTailor </b>, being part of the TracklessBank circuit, can
+                                operate by using several
                                 bank licenses under different jurisdictions and providing offshore escrow accounts and
                                 is not obliged to perform the Know You Customer (KYC) procedure.
-                                ExchangeTailor does not carry out Anti-money laundering (AML) compliance policy, as it
+                                <b translate="no"> ExchangeTailor </b> does not carry out Anti-money laundering (AML)
+                                compliance policy, as it
                                 legally makes use of the AML which, mandatorily by law, is carried out by the banking
                                 institution that introduced fiat into the banking circuit.
                             </p>
@@ -60,7 +63,8 @@
                             in your favor</h2>
                         <div class="my-3">
                             <p>
-                                Opening an ExchangeTailor account you can activate banking data, for free, for each
+                                Opening an <b translate="no"> ExchangeTailor </b> account you can activate banking data,
+                                for free, for each
                                 of
                                 the 10 currencies allowing you to receive bank transfers.
                             </p>

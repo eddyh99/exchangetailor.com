@@ -168,12 +168,35 @@
             <?php } ?>
 
             <?php if ($spec == 7) { ?>
+            <div class="col-12 text-center">
+                <h3>Coming soon!</h3>
+            </div>
             <div class="col-12 my-5 px-md-5">
                 <div class="row">
-                    <div class="col-12 mb-5 text-center mx-auto">
-                        <h2 class="fw-bold subtitle-top-header">COMING SOON</h2>
+                    <div class="col-12 col-md-6 mb-5 text-start mx-auto">
+                        <h2 class="title-top-header fw-bold">Trade-off platform <br>
+                            with shared order book
+                        </h2>
+                        <div class="my-3 content-freedy text-start">
+                            <p>Thanks to the use of the shared order book combined with a single collection and payment
+                                gateway for all platforms, our liquidity is infinite and you will be able to trade with
+                                all users of all the platforms of TracklessProject.<br>
+                                Distributed and decentralized and completely anonymous, <b translate="no">
+                                    ExchangeTailor </b> is a safe place
+                                where cryptocurrencies buyers and sellers meet.<br>
+                                The use of the trade-off platform doesn’t require any personal document.<br>
+                                The platform has no transmission to any tax body of any country and has no transparency
+                                obligations with any government.<br>
+                                The shared order book ensures more privacy.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 d-none d-md-grid m-auto">
+                        <img src="<?= base_url() ?>assets/img/img-22.png" alt="" class="img-fluid">
                     </div>
                 </div>
+            </div>
+            <div class="col-12 my-5 text-center">
+                <h3>Coming soon!</h3>
             </div>
             <?php } ?>
 

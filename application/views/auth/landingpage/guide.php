@@ -339,6 +339,9 @@
             <?php } ?>
 
             <?php if ($guide == 6) { ?>
+            <div class="col-12 text-center">
+                <h3>Coming soon!</h3>
+            </div>
             <div class="col-12 my-5">
                 <div class="logo-text text-center">
                     <img src="<?= base_url() ?>assets/img/icon-guide-6.png" alt="">
@@ -357,10 +360,15 @@
                     </div>
                 </div>
             </div>
+            <div class="col-12 my-5 text-center">
+                <h3>Coming soon!</h3>
+            </div>
             <?php } ?>
 
             <?php if ($guide == 7) { ?>
-
+            <div class="col-12 text-center">
+                <h3>Coming soon!</h3>
+            </div>
             <div class="col-12 my-5">
                 <div class="logo-text text-center">
                     <img src="<?= base_url() ?>assets/img/icon-guide-7.png" alt="">
@@ -405,16 +413,64 @@
                     </div>
                 </div>
             </div>
+            <div class="col-12 my-5 text-center">
+                <h3>Coming soon!</h3>
+            </div>
             <?php } ?>
 
             <?php if ($guide == 8) { ?>
+            <div class="col-12 text-center">
+                <h3>Coming soon!</h3>
+            </div>
             <div class="col-12 my-5">
                 <div class="logo-text text-center">
                     <img src="<?= base_url() ?>assets/img/icon-guide-8.png" alt="">
                     <span class="f-lexend text-blue-freedy">Collections and Payments</span>
-
-                    <h1>Coming soon!</h1>
                 </div>
+            </div>
+            <div class="col-12 mb-5">
+                <div class="content-freedy">
+                    <div class="row">
+                        <div class="col-12 col-md-6">
+                            <p>
+                                <b translate="no"> ExchangeTailor </b> offers your company, a multi-currency collection
+                                and payment system that
+                                can
+                                be easily integrated into your e-commerce :
+                            </p>
+                            <div class="col-12 d-flex flex-column justify-content-center">
+                                <div class="content-freedy circle text-start d-flex flex-row">
+                                    <ul class="ps-0">
+                                        <li class="ali">Integration is free of charge</li>
+                                        <li class="ali">No monthly and no annual fees</li>
+                                        <li class="ali">Collections in real time from users of the TracklessBank circuit
+                                        </li>
+                                        <li class="ali">Cheaper than credit cards</li>
+                                        <li class="ali">Reception and sending of national and international bank
+                                            transfers
+                                            at
+                                            the lowest rates on the market</li>
+                                        <li class="ali">100% secure and free funds custody
+                                            Possibility of converting instantly to and from other currencies.</li>
+                                        <li class="ali">Eliminates the problem of tedious changes compared to the use of
+                                            cash</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-4 d-none d-md-grid mx-auto">
+                            <img src="<?= base_url() ?>assets/img/img-21.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-12">
+                            <h4 class="text-dark">Request the service by contacting : ........@trackless.com</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 my-5 text-center">
+                <h3>Coming soon!</h3>
             </div>
             <?php } ?>
         </div>

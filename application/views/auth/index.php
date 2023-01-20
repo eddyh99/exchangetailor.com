@@ -193,7 +193,7 @@
                                     class="items-different p-4 d-flex flex-column justify-content-center align-items-center text-center">
                                     <img src="<?= base_url() ?>assets/img/icon-guide-6.png" alt="" class="bg-red">
                                     <span class="title my-auto">Search activities</span>
-                                    <a href="<?= base_url(); ?>link/guide?guide=<?= base64_encode('99') ?>"
+                                    <a href="<?= base_url(); ?>link/guide?guide=<?= base64_encode('6') ?>"
                                         class="py-2 px-3">Learn more</a>
                                 </div>
                             </div>
@@ -202,7 +202,7 @@
                                     class="items-different p-4 d-flex flex-column justify-content-center align-items-center text-center">
                                     <img src="<?= base_url() ?>assets/img/icon-guide-7.png" alt="" class="bg-red">
                                     <span class="title my-auto">Find me</span>
-                                    <a href="<?= base_url(); ?>link/guide?guide=<?= base64_encode('99') ?>"
+                                    <a href="<?= base_url(); ?>link/guide?guide=<?= base64_encode('7') ?>"
                                         class="py-2 px-3">Learn more</a>
                                 </div>
                             </div>
@@ -482,7 +482,7 @@
                     <div class="col-10 box-contactus px-3 py-3 mx-auto">
                         <div class="d-flex flex-row justify-content-center align-items-center">
                             <div class="form-contactus py-2 w-100">
-                                <form id="form_submit" method="POST" action="<?= base_url(); ?>link/mailproses"
+                                <form id="form_submit" method="POST" action="<?= base_url(); ?>link/send_message"
                                     class="w-100 d-flex flex-row justify-content-center align-items-center"
                                     onsubmit="return validate()">
                                     <input type="hidden" id="token"
@@ -506,7 +506,7 @@
 </main><!-- End #main -->
 
 <!-- ======= Footer ======= -->
-<footer id="contact" class="footer p-0 p-r">
+<footer id="contactus" class="footer p-0 p-r">
     <div class="container py-5">
         <div class="row gy-4">
             <div class="col-lg-3 col-12 pe-2 footer-links d-flex align-items-center justify-content-center">

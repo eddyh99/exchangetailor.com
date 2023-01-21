@@ -92,19 +92,23 @@
                                 <?php } ?>
                                 <div class="col-12 list-send-wallet d-flex flex-column mb-3">
                                     <span>Amount</span>
-                                    <span><?= number_format($data["amount"], 2, ".", ",") ?></span>
+                                    <span><?= $_SESSION['symbol'] ?>
+                                        <?= number_format($data["amount"], 2, ".", ",") ?></span>
                                 </div>
                                 <div class="col-12 list-send-wallet d-flex flex-column mb-3">
                                     <span>Transaction fee</span>
-                                    <span><?= number_format($data["fee"], 2, ".", ",") ?></span>
+                                    <span><?= $_SESSION['symbol'] ?>
+                                        <?= number_format($data["fee"], 2, ".", ",") ?></span>
                                 </div>
                                 <div class="col-12 list-send-wallet d-flex flex-column mb-3">
                                     <span>Total Deducted</span>
-                                    <span><?= number_format($data["deduct"], 2, ".", ",") ?></span>
+                                    <span><?= $_SESSION['symbol'] ?>
+                                        <?= number_format($data["deduct"], 2, ".", ",") ?></span>
                                 </div>
                                 <div class="col-12 list-send-wallet d-flex flex-column mb-3">
                                     <span>New Balance</span>
-                                    <span><?= number_format(balance($_SESSION['user_id'], $_SESSION["currency"]) - $data["deduct"], 2, ".", ",")  ?></span>
+                                    <span><?= $_SESSION['symbol'] ?>
+                                        <?= number_format(balance($_SESSION['user_id'], $_SESSION["currency"]) - $data["deduct"], 2, ".", ",")  ?></span>
                                 </div>
                                 <div class="attention-box p-3 text-center">
                                     <span class="title mb-3 d-inline-block">Attention</span>

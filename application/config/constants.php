@@ -102,8 +102,15 @@ live server:
     "/wallet/send"
 
 local server
-    "/piggybank.com/wallet/send"
+    "/exchangetailor.com/wallet/send"
 */
-define('LINKQRCODE', "/exchangetailor.com/wallet/send");
 
+define('LINKQRCODE', "/exchangetailor.com/wallet/send");
 define('NAMETITLE', "Exchange Tailor");
+
+define('BANK_ID', "4");
+
+/*email config*/
+define('HOST_EMAIL', "mail.tracklessbank.com");
+define('USERNAME_EMAIL', "no-reply@tracklessbank.com");
+define('PASS_EMAIL', 'DLgV4o?L1B]m');

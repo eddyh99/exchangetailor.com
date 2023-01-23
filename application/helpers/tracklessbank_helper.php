@@ -70,15 +70,15 @@ function send_email($email, $message, $phpmailer)
     $mail = $phpmailer;
 
     $mail->isSMTP();
-    $mail->Host         = 'mail.piggybankservice.com';
+    $mail->Host         = HOST_EMAIL;
     $mail->SMTPAuth     = true;
-    $mail->Username     = 'no-reply@piggybankservice.com';
-    $mail->Password     = '_v2!~h;x4o$G';
+    $mail->Username     = USERNAME_EMAIL;
+    $mail->Password     = PASS_EMAIL;
     $mail->SMTPAutoTLS  = false;
     $mail->SMTPSecure   = false;
     $mail->Port         = 587;
 
-    $mail->setFrom('no-reply@piggybankservice.com', 'ExchangeTailor Bank Notification');
+    $mail->setFrom(USERNAME_EMAIL, 'ExchangeTailor Bank Notification');
     $mail->addReplyTo($email);
     $mail->isHTML(true);
 
@@ -97,15 +97,15 @@ function sendmail($email, $subject, $message, $phpmailer)
     $mail = $phpmailer;
 
     $mail->isSMTP();
-    $mail->Host         = 'mail.piggybankservice.com';
+    $mail->Host         = HOST_EMAIL;
     $mail->SMTPAuth     = true;
-    $mail->Username     = 'no-reply@piggybankservice.com';
-    $mail->Password     = 'c4?v9JAM+6rG';
+    $mail->Username     = USERNAME_EMAIL;
+    $mail->Password     = PASS_EMAIL;
     $mail->SMTPAutoTLS	= false;
     $mail->SMTPSecure	= false;
     $mail->Port			= 587;
 
-    $mail->setFrom('no-reply@piggybankservice.com', 'ExchangeTailor');
+    $mail->setFrom(USERNAME_EMAIL, 'ExchangeTailor');
     $mail->isHTML(true);
 
     $mail->ClearAllRecipients();
@@ -123,15 +123,15 @@ function send_email_admin($email, $subject, $message, $phpmailer)
     $mail = $phpmailer;
 
     $mail->isSMTP();
-    $mail->Host         = 'mail.piggybankservice.com';
+    $mail->Host         = HOST_EMAIL;
     $mail->SMTPAuth     = true;
-    $mail->Username     = '';
-    $mail->Password     = '';
-    $mail->SMTPAutoTLS    = false;
-    $mail->SMTPSecure    = false;
-    $mail->Port            = 587;
+    $mail->Username     = USERNAME_EMAIL;
+    $mail->Password     = PASS_EMAIL;
+    $mail->SMTPAutoTLS  = false;
+    $mail->SMTPSecure   = false;
+    $mail->Port         = 587;
 
-    $mail->setFrom('', 'ExchangeTailor Service');
+    $mail->setFrom(USERNAME_EMAIL, 'ExchangeTailor Service');
     $mail->isHTML(true);
 
     $mail->ClearAllRecipients();

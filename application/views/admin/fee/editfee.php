@@ -62,6 +62,7 @@
                             ($currency == "CAD") ||
                             ($currency == "HUF") ||
                             ($currency == "SGD") ||
+                            ($currency == "RON") ||
                             ($currency == "TRY")
                         ) {
                         ?>

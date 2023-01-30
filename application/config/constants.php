@@ -91,9 +91,15 @@ live server:
     "https://api.tracklessbank.com"
 
 sandbox server
-    "https://sandbox.tracklessbank.com"
+    "https://api.sandbox.tracklessbank.com"
 */
-define('URLAPI', "https://sandbox.tracklessbank.com");
+if (stripos($_SERVER['HTTP_HOST'],'sandbox') === 0){
+    define('URLAPI', "https://api.sandbox.tracklessbank.com");
+}elseif(stripos($_SERVER['HTTP_HOST'],'localhost') === 0){
+    define('URLAPI', "https://api.sandbox.tracklessbank.com");
+}else{
+    define('URLAPI', "https://api.tracklessbank.com");
+}
 
 /*
 custom link qrcode

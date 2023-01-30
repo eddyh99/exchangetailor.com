@@ -23,7 +23,14 @@ defined('BASEPATH') or exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'http://localhost/exchangetailor.com/';
+if ($_SERVER['HTTP_HOST'] == 'localhost') {
+    $addurl = '/'.'exchangetailor.com/'; 
+}else{
+    $addurl = '/'; 
+}
+$config['base_url'] = stripos($_SERVER['SERVER_PROTOCOL'],'https') === 0 ? 'https://'.$_SERVER['HTTP_HOST'].'/' : 'http://'.$_SERVER['HTTP_HOST'].$addurl;
+date_default_timezone_set('Asia/Singapore');
+
 
 /*
 |--------------------------------------------------------------------------

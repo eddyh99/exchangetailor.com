@@ -19,8 +19,8 @@
                                 <th>Trackless Cost</th>
                                 <th>Referral Sender</th>
                                 <th>Referral Receiver</th>
-                                <th>Piggy Sender Cost</th>
-                                <th>Piggy Receive Cost</th>
+                                <th><?= NAMETITLE ?> Sender Cost</th>
+                                <th><?= NAMETITLE ?> Receive Cost</th>
                                 <th>Income</th>
                                 <th>Date</th>
                             </tr>

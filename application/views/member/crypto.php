@@ -3,15 +3,15 @@
         style="background-color: #000;">
         <a href="<?= base_url() ?>homepage" class="d-flex align-items-center border-0 ms-0 me-auto">
             <div class="icon-menus d-flex align-items-center home-svg py-0">
-                <img src="<?= base_url() ?>assets/img/piggy-trade-off.png" alt="">
+                <img src="<?= base_url() ?>assets/img/logo.png" alt="">
             </div>
         </a>
 
-        <a href="<?= base_url() ?>soon" class="d-flex align-items-center border-0 mx-2">
+        <!-- <a href="<?= base_url() ?>soon" class="d-flex align-items-center border-0 mx-2">
             <div class="icon-menus d-flex align-items-center home-svg py-0">
                 <img src="<?= base_url() ?>assets/img/icon-search.png" alt="">
             </div>
-        </a>
+        </a> -->
     </div>
 </div>
 
@@ -33,18 +33,18 @@
                     <defs>
                         <linearGradient id="paint0_linear_319_7" x1="10.7999" y1="2.08743" x2="14.9766" y2="23.6873"
                             gradientUnits="userSpaceOnUse">
-                            <stop stop-color="#23832C" />
-                            <stop offset="1" stop-color="#1C6701" />
+                            <stop stop-color="#8B0000" />
+                            <stop offset="1" stop-color="#CB0000" />
                         </linearGradient>
                         <linearGradient id="paint1_linear_319_7" x1="26" y1="13.4414" x2="26" y2="12.4414"
                             gradientUnits="userSpaceOnUse">
-                            <stop stop-color="#23832C" />
-                            <stop offset="1" stop-color="#1C6701" />
+                            <stop stop-color="#8B0000" />
+                            <stop offset="1" stop-color="#CB0000" />
                         </linearGradient>
                         <linearGradient id="paint2_linear_319_7" x1="30" y1="19.8789" x2="30" y2="7.00036"
                             gradientUnits="userSpaceOnUse">
-                            <stop stop-color="#23832C" />
-                            <stop offset="1" stop-color="#1C6701" />
+                            <stop stop-color="#8B0000" />
+                            <stop offset="1" stop-color="#CB0000" />
                         </linearGradient>
                     </defs>
                 </svg>
@@ -60,7 +60,7 @@
                     <div class="col-12 d-flex justify-content-center">
                         <div class="col-12 box-code-freedy px-4 py-3">
                             <div class="copy-uqcode mt-3 mb-2 d-flex flex-row align-items-center">
-                                <span class="me-2">UNIQUE CODE : </span>
+                                <span class="me-2 text-white">UNIQUE CODE : </span>
                                 <input class="me-2" type="text" name="" id="uqcode" value="<?= $_SESSION["ucode"] ?>"
                                     readonly style="color: #fff;">
                                 <a class="btn btn-copy me-2" id="btnuq">
@@ -73,7 +73,7 @@
                                     </svg>
                                 </a>
                             </div>
-                            <span class="">Copy & share your referral link to earn money</span>
+                            <span class="text-white">Copy & share your referral link to earn money</span>
                             <div class="copy-refcode d-flex flex-row justify-content-start mb-4">
                                 <input class="me-2" type="text" name="" id="refcode"
                                     value="<?= base_url() ?>auth/signup?ref=<?= $_SESSION["referral"] ?>" readonly>

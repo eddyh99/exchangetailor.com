@@ -20,7 +20,9 @@
             <div class="col-12 text-center">
                 <div class="content-freedy">
                     <p>
-                        ExchangeTailor, being a trade-off platform, the ‘’Buy’’ and ‘’Sell’’ orders are just LIMIT
+                        <b translate="no">ExchangeTailor </b>, being a <b translate="no">trade-off</b> platform, the
+                        ‘’Buy’’ and ‘’Sell’’
+                        orders are just LIMIT
                         orders.
                         A buy limit order will be executed only at the limit price or a lower price; and a sell limit
                         order
@@ -57,7 +59,8 @@
                                     <h5 class="card-title box-number fw-bold"><span class="m-auto">2</span></h5>
                                     <h5 class="card-title mb-3 text-blue-freedy fw-bold">Top up your wallet</h5>
                                     <p class="card-text">
-                                        Top up, through a bank transfer, your ExchangeTailor wallet with your favorite
+                                        Top up, through a bank transfer, your <b translate="no"> ExchangeTailor </b>
+                                        wallet with your favorite
                                         FIAT
                                         currency and than convert any amount into USDX to start to trading
                                     </p>

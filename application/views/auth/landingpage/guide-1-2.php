@@ -6,7 +6,7 @@
             </div>
             <div class="col-12 col-md-6 fw-bold">
                 <ol>
-                    <li>Access to your wallet</li>
+                    <li>Login into your wallet</li>
                     <li>Click the button ‘’WALLET TO WALLET’’</li>
                     <li>Choose if u want to ‘’send’’ or ‘’receive’’ or ‘’request’’ funds </li>
                     <ul>
@@ -15,8 +15,8 @@
                         <li>Receive funds : share you Unique Code or let scan your QR code to receive funds into your
                             wallet </li>
                         <li>Request funds : enter the amount that you want to receive and confirm, a QR code and a link
-                            will be genertated, and let scan the QR code or copy/share the link to the payer, in order
-                            to receive the exactly amount. </li>
+                            will be generated, let the payer scan the QR code or copy/share the link to him, in order to
+                            receive the exact amount.</li>
                     </ul>
                     </li>
                 </ol>

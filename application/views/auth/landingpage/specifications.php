@@ -16,8 +16,10 @@
                     <div class="col-12 col-md-8 text-start mx-auto">
                         <h2 class="title-top-header mb-5 fw-bold"><b translate="no"> ExchangeTailor </b> provides
                             you<br>
-                            ''Non-Custodial Wallet''</h2>
-                        <p>With a non-custodial wallet, you have sole control of your private keys, which in turn
+                            <b translate="no">''Non-Custodial Wallet''</b>
+                        </h2>
+                        <p>With a <b translate="no">non-custodial wallet</b>, you have sole control of your private
+                            keys, which in turn
                             control
                             your currencies and prove the funds are yours.</p>
                     </div>
@@ -174,20 +176,22 @@
             <div class="col-12 my-5 px-md-5">
                 <div class="row">
                     <div class="col-12 col-md-6 mb-5 text-start mx-auto">
-                        <h2 class="title-top-header fw-bold">Trade-off platform <br>
-                            with shared order book
+                        <h2 class="title-top-header fw-bold"><b translate="no">Trade-off</b> platform <br>
+                            with shared <b translate="no">order book</b>
                         </h2>
                         <div class="my-3 content-freedy text-start">
-                            <p>Thanks to the use of the shared order book combined with a single collection and payment
+                            <p>Thanks to the use of the shared <b translate="no">order book</b> combined with a single
+                                collection and payment
                                 gateway for all platforms, our liquidity is infinite and you will be able to trade with
                                 all users of all the platforms of TracklessProject.<br>
                                 Distributed and decentralized and completely anonymous, <b translate="no">
                                     ExchangeTailor </b> is a safe place
                                 where cryptocurrencies buyers and sellers meet.<br>
-                                The use of the trade-off platform doesn’t require any personal document.<br>
+                                The use of the <b translate="no">trade-off</b> platform doesn’t require any personal
+                                document.<br>
                                 The platform has no transmission to any tax body of any country and has no transparency
                                 obligations with any government.<br>
-                                The shared order book ensures more privacy.</p>
+                                The shared <b translate="no">order book</b> ensures more privacy.</p>
                         </div>
                     </div>
                     <div class="col-12 col-md-6 d-none d-md-grid m-auto">

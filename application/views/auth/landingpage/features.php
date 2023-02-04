@@ -23,8 +23,8 @@
                         <img src="<?= base_url() ?>assets/img/img-6.png" alt="" class="img-fluid">
                     </div>
                     <div class="col-12 col-md-6 col-md-8 text-start">
-                        <h2 class="title-top-header fw-bold mb-3 f-lexend">Why you can trust <b
-                                translate="no">ExchangeTailor </b> ?</h2>
+                        <h2 class="title-top-header fw-bold mb-3 f-lexend">Why can you trust <b translate="no">
+                                ExchangeTailor </b> ?</h2>
                         <p>
                             Your funds are protected by global banks, our clients' funds are entirely deposited in
                             encrypted escrow accounts at the main credit institutions with which our payment gateway

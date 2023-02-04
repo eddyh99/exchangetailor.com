@@ -33,7 +33,10 @@
                         <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="pageOne"
                             data-bs-parent="#accordionFreedy">
                             <div class="accordion-body freedy-accordion-body p-3 p-lg-5">
-                                <?php $this->load->view('auth/landingpage/lern_reward-1'); ?>
+                                <?php 
+                                $data['currency'] = $currency;
+                                $this->load->view('auth/landingpage/lern_reward-1', $data); 
+                                ?>
                             </div>
                         </div>
                     </div>

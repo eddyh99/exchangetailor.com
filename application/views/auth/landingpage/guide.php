@@ -98,7 +98,7 @@
                                 type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree"
                                 aria-expanded="false" aria-controls="collapseThree">
                                 <div class="box-title-accordion ms-auto text-center">
-                                    <span class="head">How to convert currencies</span>
+                                    <span class="head">How to convert currencies </span>
                                     <span class="small" id="seemoreThree">See more</span>
                                 </div>
                             </button>
@@ -154,8 +154,7 @@
                             <div class="card-body">
                                 <p class="card-text">
                                     Top up your wallet by bank transfers
-                                    in one of the 10 currencies that allows you to receive bank transfers (see the
-                                    list).
+                                    in one of the 10 currencies that allows you to receive bank transfers.<br>
                                     You just need to follow the easy procedure that you can find in the
                                     ‘’Deposit/Receive’’ section of your wallet
                                 </p>
@@ -166,7 +165,7 @@
                         <h5 class="card-title my-3 text-blue-freedy fw-bold">Step 2</h5>
                         <div class="card freedy-card text-center">
                             <div class="card-body">
-                                <p class="card-text">Select one of the currency
+                                <p class="card-text">Select one of the currencies
                                     in where you have the funds and
                                     Click the button ‘’Swap’’</p>
                             </div>
@@ -177,7 +176,7 @@
                         <div class="card freedy-card text-center">
                             <div class="card-body">
                                 <p class="card-text">Enter the amount and choose
-                                    one of the 50 currencies that allows you to convert and send (see the list) and
+                                    one of the 50 currencies that allows you to convert and send and
                                     click ‘’Confirm’’
                                 </p>
                             </div>
@@ -187,8 +186,8 @@
                         <h5 class="card-title my-3 text-blue-freedy fw-bold">Step 4</h5>
                         <div class="card freedy-card text-center">
                             <div class="card-body">
-                                <p class="card-text">Congratulations!
-                                    Now you can make easy and fast payments in the currencies of the country you are in
+                                <p class="card-text"><b>Congratulations!</b><br>
+                                    Now you can make easy and fast payments in the currency of the country you are in
                                 </p>
                             </div>
                         </div>

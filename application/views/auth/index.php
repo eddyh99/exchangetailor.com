@@ -41,7 +41,8 @@
                     to instantly convert
                     their wallet balance into the currency of the country they are in and it allows them to carry out
                     comfortably all the payments they want, quickly and easily.
-                    <b translate="no"> ExchangeTailor </b> has a crypto trade-off platform integrated that allows you
+                    <b translate="no"> ExchangeTailor </b> has a crypto <b translate="no"> trade-off </b> platform
+                    integrated that allows you
                     trade from everywhere in
                     the world.
                 </p>
@@ -70,9 +71,8 @@
                         <ul class="p-0 f-roboto">
                             <li>Immidiate opening & free of charge</li>
                             <li>(No KYC & No AML)</li>
-                            <li><b translate="no">Non-custodial wallet provided</b></li>
+                            <li><b translate="no">Non-custodial wallet </b> provided</li>
                             <li>Withdraw your funds to any bank account even if it is not under your name</li>
-
                         </ul>
                     </div>
                 </div>
@@ -83,14 +83,17 @@
                             <li><b class="text-blue-freedy">Receive</b> funds in more than 10 FIAT currencies</li>
                             <li><b class="text-blue-freedy">Convert</b> FIAT istantly at the real exchange rate without
                                 any fee</li>
-                            <li><b class="text-blue-freedy">Custody</b> and send money in more than 50 FIAT currencies.
+                            <li><b class="text-blue-freedy">Custody</b> and sending of money in more than 50 FIAT
+                                currencies.
                             </li>
                             <li><b class="text-blue-freedy">Trading</b> your crypto during your vacation thanks to the
-                                integrated Trade-off
+                                integrated <b translate="no"> Trade-off </b>
                                 Platform
                             </li>
-                            <li><b class="text-blue-freedy">Keep your currencies safe</b> in your wallet and send money
-                                worldwide.</li>
+                            <li><b class="text-blue-freedy">Keep your currencies safe</b> in your wallet and make
+                                <b class="text-blue-freedy">instant payments</b> worldwide between all TracklessProject
+                                users.
+                            </li>
                         </ul>
                         <div class="text-start">
                             <a href="<?= base_url(); ?>auth/signup"
@@ -108,9 +111,8 @@
                                 <ul class="p-0 f-roboto">
                                     <li>Immidiate opening & free of charge</li>
                                     <li>(No KYC & No AML)</li>
-                                    <li><b translate="no">Non-custodial wallet provided</b></li>
+                                    <li><b translate="no">Non-custodial wallet </b> provided</li>
                                     <li>Withdraw your funds to any bank account even if it is not under your name</li>
-
                                 </ul>
                             </div>
                         </div>
@@ -233,9 +235,9 @@
                         <p><b translate="no"> ExchangeTailor </b> assigns a personal referral link (with a referral
                             code)
                             to every account; you
-                            just need to share it and let your friend register on the platform using the referral
-                            link/code you shared. You will be rewarded for every single FIAT and crypto transaction
-                            carry out by who signed up using your personal referral link.</p>
+                            just need to share it and let your friend register on the platform using your the referral
+                            link/code. You will be rewarded for every single FIAT transaction and crypto buy&sell
+                            carried out by who signed up using your personal referral link.</p>
                         <span class="bp mb-3 d-block">Earn from wherever you are, by simply sharing your referral
                             link.</span>
                         <span class="bp mb-3 d-block">Share it and get reward forever</span>
@@ -280,8 +282,8 @@
                                 <div
                                     class="items-different p-2 d-flex flex-column justify-content-start align-items-start text-start">
                                     <img src="<?= base_url() ?>assets/img/icon-spec-1.png" alt="">
-                                    <span class="f-roboto title red my-auto"><b translate="no">Non custodial wallet
-                                            provided</b></span>
+                                    <span class="f-roboto title red my-auto"><b translate="no">Non custodial wallet </b>
+                                        provided</span>
                                     <a href="<?= base_url(); ?>link/spec?spec=<?= base64_encode('1') ?>"
                                         class="active py-2 px-3">Read More</a>
                                 </div>
@@ -343,7 +345,7 @@
                                 <div
                                     class="items-different p-2 d-flex flex-column justify-content-start align-items-start text-start">
                                     <img src="<?= base_url() ?>assets/img/icon-spec-7.png" alt="">
-                                    <span class="f-roboto title red my-auto">Trade-off platform
+                                    <span class="f-roboto title red my-auto"><b translate="no">Trade-off </b> platform
                                     </span>
                                     <a href="<?= base_url(); ?>link/spec?spec=<?= base64_encode('7') ?>"
                                         class="active py-2 px-3">Read More</a>
@@ -376,9 +378,34 @@
                         <h2 class="d-inline-block p-r lr-title">
                             <img src="<?= base_url() ?>assets/img/left-title.png" alt="" class="left">
                             <img src="<?= base_url() ?>assets/img/right-title.png" alt="" class="right">
-                            <span class="f-orb">Exchange Tailor</span><br>
-                            <span class="text-dark">Giving you a better service</span>
+                            <span class="f-orb" translate="no">Exchange Tailor</span><br>
+                            <span class="text-dark" translate="no">Giving you a better service</span>
                         </h2>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-lg-6 my-auto ps-lg-5">
+                            <div class="content-freedy">
+                                <h3 class="f-roboto"><span class="text-blackgr">Instant payments between</span> all
+                                    TracklessProject users of all over the world</h3>
+                                <div class="my-3">
+                                    <p><b translate="no">ExchangeTailor </b>, being part of TracklessProject ecosystem,
+                                        will be able to
+                                        instantly send and receive FIAT currencies to all the wallets of the platforms
+                                        of the ecosystem formed by TracklessBank, TracklessCrypto, TracklessMoney,
+                                        TracklessChat, sharing with them the single collection and payment gateway.</p>
+                                    <p class="fw-semibold fst-italic text-center">Receive/send/request instant
+                                        payments
+                                        using ‘’wallet
+                                        to wallet’’
+                                        method</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 d-none d-lg-grid m-auto">
+                            <img src="<?= base_url(); ?>assets/img/img-21.png" alt="" class="img-fluid">
+                        </div>
                     </div>
                 </div>
                 <div class="col-12">
@@ -394,10 +421,11 @@
                                     service integrated</h3>
                                 <div class="my-3">
                                     <ul class="p-0 ">
-                                        <li>Trade off platform</li>
-                                        <li>Shared order book</li>
+                                        <li><b translate="no">Trade off </b> platform</li>
+                                        <li>Shared <b translate="no"> order book</b></li>
                                         <li>Distributed and decentralized</li>
-                                        <li>Buy crypto from your FIAT balance of your ExcahngeTailor wallet </li>
+                                        <li>Buy crypto from your FIAT balance of your <b translate="no"> ExcahngeTailor
+                                            </b> wallet </li>
                                         <li>Withdraw your earning by bank transfer in more than
                                             50 currencies to any bank account even not under your name</li>
                                     </ul>
@@ -521,7 +549,8 @@
                         <img src="<?= base_url() ?>assets/img/tracklessproject.png" alt="" class="trackless">
                     </a>
                 </div>
-                <p class="copyright py-3 m-0">Exchange Tailor (ID) is a service subject to partnership with licensee PBS
+                <p class="copyright py-3 m-0"><b translate="no">Exchange Tailor</b> (ID) is a service subject to
+                    partnership with licensee PBS
                     Online LLC.</p>
             </div>
             <div class="col-lg-3 col-12 pe-2 footer-links d-flex align-items-center">

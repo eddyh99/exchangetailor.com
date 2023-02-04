@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-12 col-md-6 fw-bold">
                 <ol>
-                    <li>Log in into your account</li>
+                    <li>Login into your account</li>
                     <li>Choose the FIAT currency that you want to receive</li>
                     <li>Go on ‘’DEPOSIT/RECEIVE FUNDS’ section of your wallet and :
                         <ul>
@@ -14,9 +14,8 @@
                             <li>Send the bank transfer from your bank</li>
                         </ul>
                     </li>
-                    <li> Wait that your bank transfer arrive into your wallet</li>
-                    <li> Congratulation! Now you can start to make payments in more than
-                        50 currencies</li>
+                    <li> Wait for your bank transfer to arrive in your wallet</li>
+                    <li> Congratulations! Now you can start to make payments in more than 50 currencies</li>
                 </ol>
             </div>
             <div class="col-4 m-auto text-center d-none d-md-grid">

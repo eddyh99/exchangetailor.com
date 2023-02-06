@@ -17,6 +17,16 @@ class Auth extends CI_Controller
 		$this->load->view('auth/index');
 		$this->load->view('tamplate/footer', $data);
 	}
+	
+	public function page404()
+	{
+		$data['title'] = NAMETITLE . " - 404 Page Not Found";
+		$data['extra'] = "auth/landingpage/js/js_index";
+
+		$this->load->view('tamplate/header', $data);
+		$this->load->view('auth/404');
+		$this->load->view('tamplate/footer', $data);
+	}
 
 	public function login()
 	{

@@ -546,7 +546,7 @@
                 <div class="d-flex flex-row flex-wrap align-items-center justify-content-center w-100">
                     <span class="powered me-3 f-koulen text-uppercase">EMPowered by</span>
                     <a href="https://tracklessproject.com/">
-                        <img src="<?= base_url() ?>assets/img/tracklessproject.png" alt="" class="trackless">
+                        <img src="<?= base_url() ?>assets/img/tracklessprojects.png" alt="" class="trackless">
                     </a>
                 </div>
                 <p class="copyright py-3 m-0"><b translate="no">Exchange Tailor</b> (ID) is a service subject to

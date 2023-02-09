@@ -16,9 +16,9 @@
                     <div class="col-12 col-md-8 text-start mx-auto">
                         <h2 class="title-top-header mb-5 fw-bold"><b translate="no"> ExchangeTailor </b> provides
                             you<br>
-                            <b translate="no">''Non-Custodial Wallet''</b>
+                            <b translate="no"> ''Non-Custodial Wallet'' </b>
                         </h2>
-                        <p>With a <b translate="no">non-custodial wallet</b>, you have sole control of your private
+                        <p>With a <b translate="no"> non-custodial wallet </b>, you have sole control of your private
                             keys, which in turn
                             control
                             your currencies and prove the funds are yours.</p>

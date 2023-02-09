@@ -390,15 +390,20 @@
                                 <h3 class="f-roboto"><span class="text-blackgr">Instant payments between</span> all
                                     TracklessProject users of all over the world</h3>
                                 <div class="my-3">
-                                    <p><b translate="no">ExchangeTailor </b>, being part of TracklessProject ecosystem,
+                                    <p><b translate="no">ExchangeTailor </b>, being part of <b class="fw-semibold">
+                                            TracklessProject </b> ecosystem,
                                         will be able to
                                         instantly send and receive FIAT currencies to all the wallets of the platforms
-                                        of the ecosystem formed by TracklessBank, TracklessCrypto, TracklessMoney,
-                                        TracklessChat, sharing with them the single collection and payment gateway.</p>
+                                        of the ecosystem formed by <b class="fw-semibold">TracklessBank </b>, <b
+                                            class="fw-semibold">TracklessCrypto </b>, <b
+                                            class="fw-semibold">TracklessMoney </b>,
+                                        <b class="fw-semibold">TracklessChat </b>, sharing with them the single
+                                        collection and payment gateway.
+                                    </p>
                                     <p class="fw-semibold fst-italic text-center">Receive/send/request instant
                                         payments
-                                        using ‘’wallet
-                                        to wallet’’
+                                        using <b translate="no"> ‘’wallet
+                                            to wallet’’ </b>
                                         method</p>
                                 </div>
                             </div>

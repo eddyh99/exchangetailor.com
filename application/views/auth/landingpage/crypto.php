@@ -20,8 +20,8 @@
             <div class="col-12 text-center">
                 <div class="content-freedy">
                     <p>
-                        <b translate="no">ExchangeTailor </b>, being a <b translate="no">trade-off</b> platform, the
-                        ‘’Buy’’ and ‘’Sell’’
+                        <b translate="no">ExchangeTailor </b>, being a <b translate="no"> trade-off </b> platform, the
+                        <b translate="no"> ‘’Buy’’ </b> and <b translate="no"> ‘’Sell’’ </b>
                         orders are just LIMIT
                         orders.
                         A buy limit order will be executed only at the limit price or a lower price; and a sell limit

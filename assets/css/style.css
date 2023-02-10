@@ -14,7 +14,7 @@
 
 body {
   font-family: "Open Sans", sans-serif;
-  color: #444444;
+  color: #000000;
 }
 
 a {
@@ -3063,7 +3063,7 @@ section {
     font-weight: 400;
     font-size: 10px;
     line-height: 110%;
-    color: #ffffff;
+    color: #000000;
   }
 
   .book-footer {
@@ -5362,7 +5362,7 @@ section {
     font-weight: 400;
     font-size: 12px;
     line-height: 110%;
-    color: #ffffff;
+    color: #000000;
   }
 
   .book-footer {
@@ -7603,7 +7603,7 @@ section {
     font-weight: 400;
     font-size: 18px;
     line-height: 110%;
-    color: #ffffff;
+    color: #000000;
   }
 
   .book-footer {
@@ -10139,7 +10139,7 @@ section {
     font-weight: 400;
     font-size: 18px;
     line-height: 110%;
-    color: #ffffff;
+    color: #000000;
   }
 
   .book-footer {

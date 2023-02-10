@@ -548,6 +548,16 @@
                 </a>
             </div>
             <div class="col-lg-6 col-12 pe-2 footer-links text-center">
+                <div class="list text-center w-100 mb-5">
+                    <a href="<?= base_url() ?>link/privacy_policy"
+                        class="mx-5 d-inline-block text-decoration-underline">
+                        Privacy policy
+                    </a>
+                    <a href="<?= base_url() ?>link/lern_transparency"
+                        class="mx-5 d-inline-block text-decoration-underline">
+                        Price lists
+                    </a>
+                </div>
                 <div class="d-flex flex-row flex-wrap align-items-center justify-content-center w-100">
                     <span class="powered me-3 f-koulen text-uppercase">EMPowered by</span>
                     <a href="https://tracklessproject.com/">

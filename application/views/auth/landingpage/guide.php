@@ -46,7 +46,7 @@
                         <img src="<?=base_url()?>assets/img/flower.png" alt="" class="lt">
                         <img src="<?=base_url()?>assets/img/flower.png" alt="" class="rb">
                         <p class="d-inline-block">
-                            <b>Your wallet is identified through the ‘’Unique Code’’</b><br>
+                            <b>Your wallet is identified through the </b><b translate="no"> ‘’Unique Code’’ </b><br>
                             (you can find it on the home page of your account)<br>
                             <b>You have to use your Unique Code in order to topup your wallet and receive incoming
                                 transfers</b>
@@ -156,7 +156,7 @@
                                     Top up your wallet by bank transfers
                                     in one of the 10 currencies that allows you to receive bank transfers.<br>
                                     You just need to follow the easy procedure that you can find in the
-                                    ‘’Deposit/Receive’’ section of your wallet
+                                    <b translate="no"> ‘’Deposit/Receive’’ </b> section of your wallet
                                 </p>
                             </div>
                         </div>
@@ -167,7 +167,7 @@
                             <div class="card-body">
                                 <p class="card-text">Select one of the currencies
                                     in where you have the funds and
-                                    Click the button ‘’Swap’’</p>
+                                    Click the button <b translate="no"> ‘’Swap’’ </b></p>
                             </div>
                         </div>
                     </div>
@@ -177,7 +177,7 @@
                             <div class="card-body">
                                 <p class="card-text">Enter the amount and choose
                                     one of the 50 currencies that allows you to convert and send and
-                                    click ‘’Confirm’’
+                                    click <b translate="no"> ‘’Confirm’’ </b>
                                 </p>
                             </div>
                         </div>

@@ -43,7 +43,7 @@
                         </div>
                         <div class="bot">
                             <p>
-                                Invite people/companies to register on <b translate="no"> ExchangeTailor</b>
+                                Invite people/companies to register on <b translate="no"> ExchangeTailor </b>
                                 using your link
                             </p>
                         </div>
@@ -97,7 +97,7 @@
                     <th>Top up</th>
                     <th>Wallet to wallet receive</th>
                     <th>Wallet to wallet send</th>
-                    <th>Wallet to bank</th>
+                    <th>Withdraw</th>
                     <th>Buy crypto</th>
                     <th>Sell crypto</th>
                 </tr>

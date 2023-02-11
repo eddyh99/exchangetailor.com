@@ -50,7 +50,7 @@
                                         d="M10.75 25.625C10.75 24.7448 11.4915 24.0312 12.4062 24.0312H22.3438C23.2585 24.0312 24 24.7448 24 25.625C24 26.5052 23.2585 27.2188 22.3438 27.2188H12.4062C11.4915 27.2188 10.75 26.5052 10.75 25.625Z"
                                         fill="" />
                                 </svg>
-                                <span>Deposit</span>
+                                <span>Deposit/receive funds</span>
                             </a>
                             <a href="<?= base_url() ?>wallet"
                                 class="d-flex flex-column justify-content-center align-items-center py-2 my-3 menus-blue special"><svg
@@ -71,7 +71,7 @@
                                         stroke="" stroke-width="2.7" stroke-linecap="round" stroke-linejoin="round" />
                                 </svg>
 
-                                <span>Wallet to bank</span>
+                                <span>Withdraw</span>
                             </a>
                             <a href="<?= base_url() ?>soon"
                                 class="d-flex flex-column justify-content-center align-items-center py-2 my-3 menus-blue">

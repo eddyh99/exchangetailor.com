@@ -379,7 +379,7 @@
                             <img src="<?= base_url() ?>assets/img/left-title.png" alt="" class="left">
                             <img src="<?= base_url() ?>assets/img/right-title.png" alt="" class="right">
                             <span class="f-orb" translate="no">Exchange Tailor</span><br>
-                            <span class="text-dark" translate="no">Giving you a better service</span>
+                            <span class="text-dark">Giving you a better service</span>
                         </h2>
                     </div>
                 </div>
@@ -559,7 +559,7 @@
                     </a>
                 </div>
                 <div class="d-flex flex-row flex-wrap align-items-center justify-content-center w-100">
-                    <span class="powered me-3 f-koulen text-uppercase">EMPowered by</span>
+                    <span class="powered me-3 f-koulen text-uppercase">Empowered by</span>
                     <a href="https://tracklessproject.com/">
                         <img src="<?= base_url() ?>assets/img/tracklessprojects.png" alt="" class="trackless">
                     </a>

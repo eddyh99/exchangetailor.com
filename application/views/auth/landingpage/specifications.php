@@ -176,22 +176,22 @@
             <div class="col-12 my-5 px-md-5">
                 <div class="row">
                     <div class="col-12 col-md-6 mb-5 text-start mx-auto">
-                        <h2 class="title-top-header fw-bold"><b translate="no">Trade-off</b> platform <br>
-                            with shared <b translate="no">order book</b>
+                        <h2 class="title-top-header fw-bold"><b translate="no"> Trade-off </b> platform <br>
+                            with shared <b translate="no"> order book </b>
                         </h2>
                         <div class="my-3 content-freedy text-start">
-                            <p>Thanks to the use of the shared <b translate="no">order book</b> combined with a single
+                            <p>Thanks to the use of the shared <b translate="no"> order book </b> combined with a single
                                 collection and payment
                                 gateway for all platforms, our liquidity is infinite and you will be able to trade with
                                 all users of all the platforms of TracklessProject.<br>
                                 Distributed and decentralized and completely anonymous, <b translate="no">
                                     ExchangeTailor </b> is a safe place
                                 where cryptocurrencies buyers and sellers meet.<br>
-                                The use of the <b translate="no">trade-off</b> platform doesn’t require any personal
+                                The use of the <b translate="no"> trade-off </b> platform doesn’t require any personal
                                 document.<br>
                                 The platform has no transmission to any tax body of any country and has no transparency
                                 obligations with any government.<br>
-                                The shared <b translate="no">order book</b> ensures more privacy.</p>
+                                The shared <b translate="no"> order book </b> ensures more privacy.</p>
                         </div>
                     </div>
                     <div class="col-12 col-md-6 d-none d-md-grid m-auto">

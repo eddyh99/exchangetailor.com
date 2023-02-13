@@ -30,7 +30,8 @@
                             encrypted escrow accounts at the main credit institutions with which our payment gateway
                             works in the various countries. <br>
                             To give total security to our customers, only the account
-                            holder will have access to the operations and even for Money Port it will be impossible to
+                            holder will have access to the operations and even for <b translate="no"> ExchangeTailor
+                            </b> it will be impossible to
                             bypass this security system.</p>
                         <p><b translate="no"> ExchangeTailor </b> , being part of the TracklessBank circuit,
                             offers to customers a great guarantee, as any problem that may arise, the funds will always
@@ -70,11 +71,11 @@
                             than 5 years of research and development.
                         </p>
                     </div>
-                    <div class="col-6 d-none d-lg-grid">
+                    <div class="col-4 mx-auto d-none d-lg-grid">
                         <img src="<?= base_url() ?>assets/img/img-7.png" alt="" class="img-fluid">
                     </div>
-                    <div class="col-12 mt-5 text-start">
-                        <h2 class="f-lexend fw-bold">
+                    <div class="col-12 text-start">
+                        <h2 class="f-lexend fw-bold mb-3">
                             This new technology was born as an evolution of the blockchain and is the solution for:</h2>
                         <ol>
                             <li>The problem of scalability, the first major problem that afflicts the old blockchain

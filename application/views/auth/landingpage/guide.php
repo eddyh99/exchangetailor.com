@@ -235,12 +235,34 @@
             <?php } ?>
 
             <?php if ($guide == 4) { ?>
-            <div class="col-12 my-5">
-                <div class="logo-text text-center">
-                    <img src="<?= base_url() ?>assets/img/icon-guide-4.png" alt="">
-                    <span class="f-lexend text-blue-freedy">Buy&sell crypto with FIAT</span>
+            <div class="col-12 text-center">
+                <h3>Coming soon!</h3>
+            </div>
 
-                    <h1>Coming soon!</h1>
+            <div class="col-12">
+                <div class="logo-text text-center">
+                    <h2 class="title-top-header fw-bold">
+                        Buy and sell crypto using FIAT currencies <br>
+                        ‘’<b translate="no">Trade-Off </b> Platform’’
+                    </h2>
+                </div>
+            </div>
+            <div class="col-12 mb-5 mt-3">
+                <div class="col-12 text-center mb-5">
+                    <p class="mb-5">
+                        ExchangeTailor offers the possibility to buy and sell cryptocurrencies using FIAT, directly from
+                        any FIAT balance of your ExchangeTailor wallet.<br>
+                        ExchangeTailor also give the possibility to withdraw<br>
+                        your funds by converting them INTO ANY FIAT CURRENCY; after conversion you can send your funds
+                        to any bank account, even if it is not under your name,<br>
+                        thanks to the integrated <b translate="no"> trade-off </b> platform.<br>
+                        <br>
+                        ExchangeTailor, being a <b translate="no"> trade-off </b> platform, the ‘’Buy’’ and ‘’Sell’’
+                        orders are just ‘’LIMIT’’
+                        orders.
+                    </p>
+
+                    <h3 class="fw-bold text-blue-freedy">How to topup crypto wallet</h3>
                 </div>
             </div>
             <?php } ?>

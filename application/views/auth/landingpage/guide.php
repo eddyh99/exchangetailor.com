@@ -250,20 +250,129 @@
             <div class="col-12 mb-5 mt-3">
                 <div class="col-12 text-center mb-5">
                     <p class="mb-5">
-                        ExchangeTailor offers the possibility to buy and sell cryptocurrencies using FIAT, directly from
-                        any FIAT balance of your ExchangeTailor wallet.<br>
-                        ExchangeTailor also give the possibility to withdraw<br>
+                        <b translate="no"> ExchangeTailor </b> offers the possibility to buy and sell cryptocurrencies
+                        using FIAT, directly from
+                        any FIAT balance of your <b translate="no"> ExchangeTailor </b> wallet.<br>
+                        <b translate="no"> ExchangeTailor </b> also give the possibility to withdraw<br>
                         your funds by converting them INTO ANY FIAT CURRENCY; after conversion you can send your funds
                         to any bank account, even if it is not under your name,<br>
                         thanks to the integrated <b translate="no"> trade-off </b> platform.<br>
                         <br>
-                        ExchangeTailor, being a <b translate="no"> trade-off </b> platform, the ‘’Buy’’ and ‘’Sell’’
+                        <b translate="no"> ExchangeTailor </b>, being a <b translate="no"> trade-off </b> platform, the
+                        ‘’Buy’’ and ‘’Sell’’
                         orders are just ‘’LIMIT’’
                         orders.
                     </p>
 
                     <h3 class="fw-bold text-blue-freedy">How to topup crypto wallet</h3>
+
+                    <p class="mt-3">In order to topup your ExcahngeTailor crypto wallet follow the procedure below :</p>
+
                 </div>
+                <div class="d-flex flex-row justify-content-center flex-wrap">
+                    <div class="in-crypto">
+                        <span>Step 1</span>
+                        <div class="box-crypto">
+                            <p class="mb-3">Log in to your <b translate="no"> ExchangeTailor </b> wallet and select
+                                crypto</p>
+                            <img class="my-auto img-fluid" src="<?= base_url() ?>assets/img/crypto-1.png" alt="">
+                        </div>
+                    </div>
+                    <div class="in-crypto">
+                        <span>Step 2</span>
+                        <div class="box-crypto">
+                            <p class="mb-3">Click top up button</p>
+                            <img class="my-auto img-fluid" src="<?= base_url() ?>assets/img/crypto-2.png" alt="">
+                        </div>
+                    </div>
+                    <div class="in-crypto">
+                        <span>Step 3</span>
+                        <div class="box-crypto">
+                            <p class="mb-3">Select the FIAT currency that you want to convert in USDX, enter the
+                                amount and click convert</p>
+                        </div>
+                    </div>
+                    <div class="in-crypto">
+                        <span>Step 4</span>
+                        <div class="box-crypto">
+                            <p class="mb-3">After clicking convert make sure that all data are correct and then click
+                                on the button confirm</p>
+                        </div>
+                    </div>
+                    <div class="in-crypto">
+                        <span>Step 5</span>
+                        <div class="box-crypto">
+                            <p class="mb-3">Congratulations! Now you can start to buy and sell crypto</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 text-center mt-5">
+                    <h3 class="fw-bold text-blue-freedy">How to buy and sell crypto by placing limit order</h3>
+
+                    <p class="mt-3">
+                        A buy limit order will be executed only at the limit price or a lower price; and a sell limit
+                        order will be executed only at the limit price or a higher one.
+                        <br>
+                        The price is guaranteed, but the filling of the order is not. Limit orders will be executed only
+                        if the price meets the order qualifications.
+                    </p>
+
+                    <div class="box-p-crypto">
+                        <p>To start trading, enter the price you want to trade at, once you've entered the amount, you
+                            can choose to enter the amount of cryptocurrency you want to buy/sell  or the USDX amount
+                            you want to spend or receive.</p>
+                    </div>
+
+                    <h3 class="fw-bold text-blue-freedy">How to buy and sell crypto by placing limit order</h3>
+
+                    <p class="mt-3">
+                        In order to withdraw your your funds follow the procedure below :
+                    </p>
+
+                </div>
+
+                <div class="d-flex flex-row justify-content-center flex-wrap">
+                    <div class="in-crypto">
+                        <span>Step 1</span>
+                        <div class="box-crypto">
+                            <p class="mb-3">From your wallet, in crypto section, click the button withdraw</p>
+                            <img class="my-auto img-fluid" src="<?= base_url() ?>assets/img/crypto-3.png" alt="">
+                        </div>
+                    </div>
+                    <div class="in-crypto">
+                        <span>Step 2</span>
+                        <div class="box-crypto">
+                            <p class="mb-3">Enter the USDX amount that you want to convert, choose your favorite FIAT
+                                currency and click withdraw</p>
+                        </div>
+                    </div>
+                    <div class="in-crypto">
+                        <span>Step 3</span>
+                        <div class="box-crypto">
+                            <p class="mb-3">After clicking withdraw make sure that all data are correct and then click
+                                on confirm</p>
+                        </div>
+                    </div>
+                    <div class="in-crypto">
+                        <span>Step 4</span>
+                        <div class="box-crypto">
+                            <p class="mb-3">Congratulations! Now your balance is available on your FIAT wallet, in the
+                                chosen currency</p>
+                        </div>
+                    </div>
+                    <div class="in-crypto">
+                        <span>Step 5</span>
+                        <div class="box-crypto">
+                            <p class="mb-3">Now you can transfer your funds to any bank account, even if is not under
+                                your name, in more than 50 currencies</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 text-center">
+                <h3>Coming soon!</h3>
             </div>
             <?php } ?>
 
@@ -279,8 +388,8 @@
                     <p>
                         Given the increasingly stringent and restrictive regulations on international bank transfers,
                         <b translate="no"> ExchangeTailor </b> offers a simple, risk-free and 100% legal solution.
-                        The user who wants to send capital abroad will have to open a <b
-                            translate="no">ExchangeTailor</b> account and will
+                        The user who wants to send capital abroad will have to open a <b translate="no"> ExchangeTailor
+                        </b> account and will
                         have to carry out the following procedure to remain in the legality and away from tax
                         assessments:
                     </p>
@@ -482,7 +591,7 @@
                         </div>
 
                         <div class="col-4 d-none d-md-grid mx-auto">
-                            <img src="<?= base_url() ?>assets/img/img-21.png" alt="" class="img-fluid">
+                            <img src="<?= base_url() ?>assets/img/img-23.png" alt="" class="img-fluid">
                         </div>
                         <div class="col-12">
                             <h4 class="text-dark">Request the service by contacting : ........@trackless.com</h4>

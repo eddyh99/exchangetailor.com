@@ -41,7 +41,7 @@
                                 As <b translate="no"> ExchangeTailor </b>, being part of the TracklessBank circuit, can
                                 operate by using several
                                 bank licenses under different jurisdictions and providing offshore escrow accounts and
-                                is not obliged to perform the Know You Customer (KYC) procedure.
+                                is not obliged to perform the Know Your Customer (KYC) procedure.
                                 <b translate="no"> ExchangeTailor </b> does not carry out Anti-money laundering (AML)
                                 compliance policy, as it
                                 legally makes use of the AML which, mandatorily by law, is carried out by the banking

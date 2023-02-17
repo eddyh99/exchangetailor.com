@@ -4,8 +4,8 @@
             <div class="col-12 col-md-6 fw-bold">
                 <ol>
                     <li>Login into your wallet</li>
-                    <li>Access to the currency that you want to covert</li>
-                    <li>Press the button <b translate="no"> ‘’SWAP’’ </b></li>
+                    <li>Access to the currency that you want to convert</li>
+                    <li>Press the button ‘’SWAP’’</li>
                     <li>Enter the amount </li>
                     <li>Choose the currency that you want to convert to and you will see immediately the quotation</li>
                     <li>Click confirm and you will have immediate availability of the chosen currency</li>

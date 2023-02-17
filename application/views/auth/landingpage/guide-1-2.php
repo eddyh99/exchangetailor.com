@@ -7,14 +7,15 @@
             <div class="col-12 col-md-6 fw-bold">
                 <ol>
                     <li>Login into your wallet</li>
-                    <li>Click the button <b translate="no"> ‘’WALLET TO WALLET’’ </b></li>
-                    <li>Choose if u want to <b translate="no"> ‘’send’’ </b> or <b translate="no"> ‘’receive’’ </b> or
-                        <b translate="no"> ‘’request’’ </b> funds </li>
+                    <li>Click the button ‘’WALLET TO WALLET’’</li>
+                    <li>Choose if u want to ‘’send’’ or ‘’receive’’ or
+                        ‘’request’’ funds
+                    </li>
                     <ul>
-                        <li>Send funds : write the <b translate="no"> ‘’unique code’’ </b> of the receiver wallet than
+                        <li>Send funds : write the ‘’unique code’’ of the receiver wallet than
                             enter the amount and
                             confirm </li>
-                        <li>Receive funds : share you Unique Code or let scan your QR code to receive funds into your
+                        <li>Receive funds : share your Unique Code or let scan your QR code to receive funds into your
                             wallet </li>
                         <li>Request funds : enter the amount that you want to receive and confirm, a QR code and a link
                             will be generated, let the payer scan the QR code or copy/share the link to him, in order to
@@ -23,7 +24,7 @@
                     </li>
                 </ol>
                 <p>
-                    (All the <b translate="no"> ‘’wallet to wallet’’ </b> transfers are instantaneous)
+                    (All the ‘’wallet to wallet’’ transfers are instantaneous)
                 </p>
             </div>
         </div>

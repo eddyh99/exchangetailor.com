@@ -11,13 +11,10 @@
                 <li><a class="f-bevietnam nav-link navbar-freedy scrollto" href="#specifications">Specifications</a>
                 </li>
                 <li><a class="f-bevietnam nav-link navbar-freedy scrollto" href="#technology">Technology</a></li>
-                <li><a class="f-bevietnam nav-link navbar-freedy scrollto"
-                        href="<?= base_url()?>link/translate">Translate</a></li>
-                <li><a class="f-bevietnam nav-link mx-0 my-2 mx-lg-2 my-lg-auto text-center btn-login active"
-                        href="<?= base_url(); ?>auth/signup">Register</a>
+                <li><a class="f-bevietnam nav-link navbar-freedy scrollto" href="<?= base_url() ?>link/translate">Translate</a></li>
+                <li><a class="f-bevietnam nav-link mx-0 my-2 mx-lg-2 my-lg-auto text-center btn-login active" href="<?= base_url(); ?>auth/signup">Register</a>
                 </li>
-                <li><a class="f-bevietnam nav-link mx-0 my-2 mx-lg-2 my-lg-auto text-center btn-login"
-                        href="<?= base_url(); ?>auth/login">Log
+                <li><a class="f-bevietnam nav-link mx-0 my-2 mx-lg-2 my-lg-auto text-center btn-login" href="<?= base_url(); ?>auth/login">Log
                         in</a>
                 </li>
             </ul>
@@ -47,13 +44,19 @@
                     the world.
                 </p>
                 <div class="d-flex flex-wrap">
-                    <a href="<?= base_url(); ?>auth/signup"
-                        class="btn-slider-signin active d-inline-flex align-items-center justify-content-center align-self-center me-3 mb-3">
+                    <a href="<?= base_url(); ?>auth/signup" class="btn-slider-signin active d-inline-flex align-items-center justify-content-center align-self-center me-3 mb-3">
                         <span class="f-roboto">Register</span>
-                    </a><a href="<?= base_url(); ?>auth/login"
-                        class="btn-slider-signin d-inline-flex align-items-center justify-content-center align-self-center me-3 mb-3">
+                    </a><a href="<?= base_url(); ?>auth/login" class="btn-slider-signin d-inline-flex align-items-center justify-content-center align-self-center me-3 mb-3">
                         <span class="f-roboto">Log in</span>
                     </a>
+                </div>
+                <div class="d-flex flex-wrap mt-3">
+                    <div class="powered-top mb-3 me-5">
+                        <span>Empowered By</span>
+                        <a href="https://tracklessproject.com/">
+                            <img src="<?= base_url() ?>assets/img/tracklessprojects.png" alt="">
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -96,8 +99,7 @@
                             </li>
                         </ul>
                         <div class="text-start">
-                            <a href="<?= base_url(); ?>auth/signup"
-                                class="btn-content-freedy d-inline-flex align-items-center justify-content-center align-self-center">
+                            <a href="<?= base_url(); ?>auth/signup" class="btn-content-freedy d-inline-flex align-items-center justify-content-center align-self-center">
                                 <span class="">Register</span>
                             </a>
                         </div>
@@ -133,88 +135,68 @@
                     <div class="accordion-item freedy-accordion-item mb-5 d-inline-block">
                         <div class="col-12">
                             <div class="content-freedy p-r text-center">
-                                <button id="btnaccorionOne" class="accordion-button freedy-accordion-button collapsed"
-                                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
-                                    aria-expanded="false" aria-controls="collapseOne">
-                                    <h2 class="me-3"><span class="text-blackgr2">How to use</span> <b
-                                            translate="no">ExchangeTailor</b></h2>
+                                <button id="btnaccorionOne" class="accordion-button freedy-accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                    <h2 class="me-3"><span class="text-blackgr2">How to use</span> <b translate="no">ExchangeTailor</b></h2>
                                 </button>
                             </div>
                         </div>
                     </div>
-                    <div id="collapseOne" class="col-12 accordion-collapse collapse" aria-labelledby="pageOne"
-                        data-bs-parent="#accordionFreedy">
+                    <div id="collapseOne" class="col-12 accordion-collapse collapse" aria-labelledby="pageOne" data-bs-parent="#accordionFreedy">
                         <div class="row d-flex flax-wrap justify-content-center align-items-center">
                             <div class="col-10 col-md-5 col-lg-3 px-2 mb-3 list-different">
-                                <div
-                                    class="items-different p-4 d-flex flex-column justify-content-center align-items-center text-center">
+                                <div class="items-different p-4 d-flex flex-column justify-content-center align-items-center text-center">
                                     <img src="<?= base_url() ?>assets/img/icon-guide-1.png" alt="" class="bg-red">
                                     <span class="title my-auto">Wallet</span>
-                                    <a href="<?= base_url(); ?>link/guide?guide=<?= base64_encode('1') ?>"
-                                        class="py-2 px-3">Learn more</a>
+                                    <a href="<?= base_url(); ?>link/guide?guide=<?= base64_encode('1') ?>" class="py-2 px-3">Learn more</a>
                                 </div>
                             </div>
                             <div class="col-10 col-md-5 col-lg-3 px-2 mb-3 list-different">
-                                <div
-                                    class="items-different p-4 d-flex flex-column justify-content-center align-items-center text-center">
+                                <div class="items-different p-4 d-flex flex-column justify-content-center align-items-center text-center">
                                     <img src="<?= base_url() ?>assets/img/icon-guide-2.png" alt="" class="bg-red">
                                     <span class="title my-auto">For your trips</span>
-                                    <a href="<?= base_url(); ?>link/guide?guide=<?= base64_encode('2') ?>"
-                                        class="py-2 px-3">Learn more</a>
+                                    <a href="<?= base_url(); ?>link/guide?guide=<?= base64_encode('2') ?>" class="py-2 px-3">Learn more</a>
                                 </div>
                             </div>
                             <div class="col-10 col-md-5 col-lg-3 px-2 mb-3 list-different">
-                                <div
-                                    class="items-different p-4 d-flex flex-column justify-content-center align-items-center text-center">
+                                <div class="items-different p-4 d-flex flex-column justify-content-center align-items-center text-center">
                                     <img src="<?= base_url() ?>assets/img/icon-guide-3.png" alt="" class="bg-red">
                                     <span class="title my-auto">Daily use</span>
-                                    <a href="<?= base_url(); ?>link/guide?guide=<?= base64_encode('3') ?>"
-                                        class="py-2 px-3">Learn more</a>
+                                    <a href="<?= base_url(); ?>link/guide?guide=<?= base64_encode('3') ?>" class="py-2 px-3">Learn more</a>
                                 </div>
                             </div>
                             <div class="col-10 col-md-5 col-lg-3 px-2 mb-3 list-different">
-                                <div
-                                    class="items-different p-4 d-flex flex-column justify-content-center align-items-center text-center">
+                                <div class="items-different p-4 d-flex flex-column justify-content-center align-items-center text-center">
                                     <img src="<?= base_url() ?>assets/img/icon-guide-4.png" alt="" class="bg-red">
                                     <span class="title my-auto">Buy&sell crypto with FIAT</span>
-                                    <a href="<?= base_url(); ?>link/guide?guide=<?= base64_encode('4') ?>"
-                                        class="py-2 px-3">Learn more</a>
+                                    <a href="<?= base_url(); ?>link/guide?guide=<?= base64_encode('4') ?>" class="py-2 px-3">Learn more</a>
                                 </div>
                             </div>
                             <div class="col-10 col-md-5 col-lg-3 px-2 mb-3 list-different">
-                                <div
-                                    class="items-different p-4 d-flex flex-column justify-content-center align-items-center text-center">
+                                <div class="items-different p-4 d-flex flex-column justify-content-center align-items-center text-center">
                                     <img src="<?= base_url() ?>assets/img/icon-guide-5.png" alt="" class="bg-red">
                                     <span class="title my-auto">Capital exportation</span>
-                                    <a href="<?= base_url(); ?>link/guide?guide=<?= base64_encode('5') ?>"
-                                        class="py-2 px-3">Learn more</a>
+                                    <a href="<?= base_url(); ?>link/guide?guide=<?= base64_encode('5') ?>" class="py-2 px-3">Learn more</a>
                                 </div>
                             </div>
                             <div class="col-10 col-md-5 col-lg-3 px-2 mb-3 list-different">
-                                <div
-                                    class="items-different p-4 d-flex flex-column justify-content-center align-items-center text-center">
+                                <div class="items-different p-4 d-flex flex-column justify-content-center align-items-center text-center">
                                     <img src="<?= base_url() ?>assets/img/icon-guide-6.png" alt="" class="bg-red">
                                     <span class="title my-auto">Search activities</span>
-                                    <a href="<?= base_url(); ?>link/guide?guide=<?= base64_encode('6') ?>"
-                                        class="py-2 px-3">Learn more</a>
+                                    <a href="<?= base_url(); ?>link/guide?guide=<?= base64_encode('6') ?>" class="py-2 px-3">Learn more</a>
                                 </div>
                             </div>
                             <div class="col-10 col-md-5 col-lg-3 px-2 mb-3 list-different">
-                                <div
-                                    class="items-different p-4 d-flex flex-column justify-content-center align-items-center text-center">
+                                <div class="items-different p-4 d-flex flex-column justify-content-center align-items-center text-center">
                                     <img src="<?= base_url() ?>assets/img/icon-guide-7.png" alt="" class="bg-red">
                                     <span class="title my-auto">Find me</span>
-                                    <a href="<?= base_url(); ?>link/guide?guide=<?= base64_encode('7') ?>"
-                                        class="py-2 px-3">Learn more</a>
+                                    <a href="<?= base_url(); ?>link/guide?guide=<?= base64_encode('7') ?>" class="py-2 px-3">Learn more</a>
                                 </div>
                             </div>
                             <div class="col-10 col-md-5 col-lg-3 px-2 mb-3 list-different">
-                                <div
-                                    class="items-different p-4 d-flex flex-column justify-content-center align-items-center text-center">
+                                <div class="items-different p-4 d-flex flex-column justify-content-center align-items-center text-center">
                                     <img src="<?= base_url() ?>assets/img/icon-guide-8.png" alt="" class="bg-red">
                                     <span class="title my-auto">Collection & payment</span>
-                                    <a href="<?= base_url(); ?>link/guide?guide=<?= base64_encode('8') ?>"
-                                        class="py-2 px-3">Learn more</a>
+                                    <a href="<?= base_url(); ?>link/guide?guide=<?= base64_encode('8') ?>" class="py-2 px-3">Learn more</a>
                                 </div>
                             </div>
                         </div>
@@ -242,8 +224,7 @@
                             link.</span>
                         <span class="bp mb-3 d-block">Share it and get reward forever</span>
                         <div class="text-start">
-                            <a href="<?= base_url(); ?>link/lern_reward"
-                                class="btn-content-freedy d-inline-flex align-items-center justify-content-center align-self-center">
+                            <a href="<?= base_url(); ?>link/lern_reward" class="btn-content-freedy d-inline-flex align-items-center justify-content-center align-self-center">
                                 <span class="f-roboto">Read More</span>
                             </a>
                         </div>
@@ -265,74 +246,59 @@
                     <div class="accordion-item freedy-accordion-item mb-5 d-inline-block">
                         <div class="col-12">
                             <div class="content-freedy p-r text-center">
-                                <button id="btnaccorionTwo" class="accordion-button freedy-accordion-button collapsed"
-                                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
-                                    aria-expanded="false" aria-controls="collapseTwo">
-                                    <h2 class="me-3"><b translate="no"> ExchangeTailor </b> <span
-                                            class="text-blackgr2">Specifications</span>
+                                <button id="btnaccorionTwo" class="accordion-button freedy-accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    <h2 class="me-3"><b translate="no"> ExchangeTailor </b> <span class="text-blackgr2">Specifications</span>
                                     </h2>
                                 </button>
                             </div>
                         </div>
                     </div>
-                    <div id="collapseTwo" class="col-12 accordion-collapse collapse" aria-labelledby="pageTwo"
-                        data-bs-parent="#accordionFreedy">
+                    <div id="collapseTwo" class="col-12 accordion-collapse collapse" aria-labelledby="pageTwo" data-bs-parent="#accordionFreedy">
                         <div class="row d-flex flax-wrap justify-content-center align-items-center">
                             <div class="col-10 col-md-5 col-lg-3 px-2 my-3 list-different">
-                                <div
-                                    class="items-different p-2 d-flex flex-column justify-content-start align-items-start text-start">
+                                <div class="items-different p-2 d-flex flex-column justify-content-start align-items-start text-start">
                                     <img src="<?= base_url() ?>assets/img/icon-spec-1.png" alt="">
                                     <span class="f-roboto title red my-auto"><b translate="no">Non custodial wallet </b>
                                         provided</span>
-                                    <a href="<?= base_url(); ?>link/spec?spec=<?= base64_encode('1') ?>"
-                                        class="active py-2 px-3">Read More</a>
+                                    <a href="<?= base_url(); ?>link/spec?spec=<?= base64_encode('1') ?>" class="active py-2 px-3">Read More</a>
                                 </div>
                             </div>
                             <div class="col-10 col-md-5 col-lg-3 px-2 my-3 list-different">
-                                <div
-                                    class="items-different p-2 d-flex flex-column justify-content-start align-items-start text-start">
+                                <div class="items-different p-2 d-flex flex-column justify-content-start align-items-start text-start">
                                     <img src="<?= base_url() ?>assets/img/icon-spec-2.png" alt="">
                                     <span class="f-roboto title red my-auto">No KYC No AML</span>
-                                    <a href="<?= base_url(); ?>link/spec?spec=<?= base64_encode('2') ?>"
-                                        class="active py-2 px-3">Read More</a>
+                                    <a href="<?= base_url(); ?>link/spec?spec=<?= base64_encode('2') ?>" class="active py-2 px-3">Read More</a>
                                 </div>
                             </div>
                             <div class="col-10 col-md-5 col-lg-3 px-2 my-3 list-different">
-                                <div
-                                    class="items-different p-2 d-flex flex-column justify-content-start align-items-start text-start">
+                                <div class="items-different p-2 d-flex flex-column justify-content-start align-items-start text-start">
                                     <img src="<?= base_url() ?>assets/img/icon-spec-3.png" alt="">
                                     <span class="f-roboto title red my-auto">Receive funds in
                                         10 FIAT currencies</span>
-                                    <a href="<?= base_url(); ?>link/spec?spec=<?= base64_encode('3') ?>"
-                                        class="active py-2 px-3">Read More</a>
+                                    <a href="<?= base_url(); ?>link/spec?spec=<?= base64_encode('3') ?>" class="active py-2 px-3">Read More</a>
                                 </div>
                             </div>
                             <div class="col-10 col-md-5 col-lg-3 px-2 my-3 list-different">
-                                <div
-                                    class="items-different p-2 d-flex flex-column justify-content-start align-items-start text-start">
+                                <div class="items-different p-2 d-flex flex-column justify-content-start align-items-start text-start">
                                     <img src="<?= base_url() ?>assets/img/icon-spec-4.png" alt="">
                                     <span class="f-roboto title red my-auto">Convert, custody
                                         & send in over 50
                                         FIAT curencies</span>
-                                    <a href="<?= base_url(); ?>link/spec?spec=<?= base64_encode('4') ?>"
-                                        class="active py-2 px-3">Read More</a>
+                                    <a href="<?= base_url(); ?>link/spec?spec=<?= base64_encode('4') ?>" class="active py-2 px-3">Read More</a>
                                 </div>
                             </div>
                             <div class="col-10 col-md-5 col-lg-3 px-2 my-3 list-different">
-                                <div
-                                    class="items-different p-2 d-flex flex-column justify-content-start align-items-start text-start">
+                                <div class="items-different p-2 d-flex flex-column justify-content-start align-items-start text-start">
                                     <img src="<?= base_url() ?>assets/img/icon-spec-5.png" alt="">
                                     <span class="f-roboto title red my-auto">Zero exchange fees and competitive
                                         rates for
                                         FIAT to
                                         FIAT</span>
-                                    <a href="<?= base_url(); ?>link/spec?spec=<?= base64_encode('5') ?>"
-                                        class="active py-2 px-3">Read More</a>
+                                    <a href="<?= base_url(); ?>link/spec?spec=<?= base64_encode('5') ?>" class="active py-2 px-3">Read More</a>
                                 </div>
                             </div>
                             <div class="col-10 col-md-5 col-lg-3 px-2 my-3 list-different">
-                                <div
-                                    class="items-different p-2 d-flex flex-column justify-content-start align-items-start text-start">
+                                <div class="items-different p-2 d-flex flex-column justify-content-start align-items-start text-start">
                                     <img src="<?= base_url() ?>assets/img/icon-spec-6.png" alt="">
                                     <span class="f-roboto title red my-auto">Clear & transparent
                                         prices without
@@ -342,24 +308,20 @@
                                 </div>
                             </div>
                             <div class="col-10 col-md-5 col-lg-3 px-2 my-3 list-different">
-                                <div
-                                    class="items-different p-2 d-flex flex-column justify-content-start align-items-start text-start">
+                                <div class="items-different p-2 d-flex flex-column justify-content-start align-items-start text-start">
                                     <img src="<?= base_url() ?>assets/img/icon-spec-7.png" alt="">
                                     <span class="f-roboto title red my-auto"><b translate="no">Trade-off </b> platform
                                     </span>
-                                    <a href="<?= base_url(); ?>link/spec?spec=<?= base64_encode('7') ?>"
-                                        class="active py-2 px-3">Read More</a>
+                                    <a href="<?= base_url(); ?>link/spec?spec=<?= base64_encode('7') ?>" class="active py-2 px-3">Read More</a>
                                 </div>
                             </div>
                             <div class="col-10 col-md-5 col-lg-3 px-2 my-3 list-different">
-                                <div
-                                    class="items-different p-2 d-flex flex-column justify-content-start align-items-start text-start">
+                                <div class="items-different p-2 d-flex flex-column justify-content-start align-items-start text-start">
                                     <img src="<?= base_url() ?>assets/img/icon-spec-8.png" alt="">
                                     <span class="f-roboto title red my-auto">Integration into
                                         your business
                                         API/plugin</span>
-                                    <a href="<?= base_url(); ?>link/spec?spec=<?= base64_encode('8') ?>"
-                                        class="active py-2 px-3">Read More</a>
+                                    <a href="<?= base_url(); ?>link/spec?spec=<?= base64_encode('8') ?>" class="active py-2 px-3">Read More</a>
                                 </div>
                             </div>
                         </div>
@@ -394,9 +356,7 @@
                                             TracklessProject </b> ecosystem,
                                         will be able to
                                         instantly send and receive FIAT currencies to all the wallets of the platforms
-                                        of the ecosystem formed by <b class="fw-semibold">TracklessBank </b>, <b
-                                            class="fw-semibold">TracklessCrypto </b>, <b
-                                            class="fw-semibold">TracklessMoney </b>,
+                                        of the ecosystem formed by <b class="fw-semibold">TracklessBank </b>, <b class="fw-semibold">TracklessCrypto </b>, <b class="fw-semibold">TracklessMoney </b>,
                                         <b class="fw-semibold">TracklessChat </b>, sharing with them the single
                                         collection and payment gateway.
                                     </p>
@@ -429,15 +389,14 @@
                                         <li><b translate="no">Trade off </b> platform</li>
                                         <li>Shared <b translate="no"> order book</b></li>
                                         <li>Distributed and decentralized</li>
-                                        <li>Buy crypto from your FIAT balance of your <b translate="no"> ExcahngeTailor
+                                        <li>Buy crypto from your FIAT balance of your <b translate="no"> ExchangeTailor
                                             </b> wallet </li>
                                         <li>Withdraw your earning by bank transfer in more than
                                             50 currencies to any bank account even not under your name</li>
                                     </ul>
                                 </div>
                                 <div class="text-start">
-                                    <a href="<?=base_url()?>link/crypto"
-                                        class="btn-content-freedy d-inline-flex align-items-center justify-content-center align-self-center">
+                                    <a href="<?= base_url() ?>link/crypto" class="btn-content-freedy d-inline-flex align-items-center justify-content-center align-self-center">
                                         <span class="">Learn more</span>
                                     </a>
                                 </div>
@@ -485,25 +444,20 @@
                 <div class="col-12">
                     <div class="row d-flex justify-content-center">
                         <div class="col-12 features-freedy">
-                            <div
-                                class="features-freedy text-center d-flex align-items-center justify-content-center flex-wrap">
+                            <div class="features-freedy text-center d-flex align-items-center justify-content-center flex-wrap">
                                 <div class="col-10 col-sm-6 col-lg-3">
-                                    <div
-                                        class=" d-flex flex-column align-items-center my-4 box-features px-2 pt-5 pb-4 m-auto">
+                                    <div class=" d-flex flex-column align-items-center my-4 box-features px-2 pt-5 pb-4 m-auto">
                                         <img src="<?= base_url(); ?>assets/img/features-1.png" alt="">
                                         <h4 class=" my-auto">100% Secure</h4>
-                                        <a class=""
-                                            href="<?= base_url(); ?>link/features?features=<?= base64_encode('1') ?>">Learn
+                                        <a class="" href="<?= base_url(); ?>link/features?features=<?= base64_encode('1') ?>">Learn
                                             more</a>
                                     </div>
                                 </div>
                                 <div class="col-10 col-sm-6 col-lg-3">
-                                    <div
-                                        class=" d-flex flex-column align-items-center my-4 box-features px-2 pt-5 pb-4 m-auto">
+                                    <div class=" d-flex flex-column align-items-center my-4 box-features px-2 pt-5 pb-4 m-auto">
                                         <img src="<?= base_url(); ?>assets/img/features-2.png" alt="">
                                         <h4 class=" my-auto">Technology</h4>
-                                        <a class=""
-                                            href="<?= base_url(); ?>link/features?features=<?= base64_encode('3') ?>">Learn
+                                        <a class="" href="<?= base_url(); ?>link/features?features=<?= base64_encode('3') ?>">Learn
                                             more</a>
                                     </div>
                                 </div>
@@ -515,14 +469,9 @@
                     <div class="col-10 box-contactus px-3 py-3 mx-auto">
                         <div class="d-flex flex-row justify-content-center align-items-center">
                             <div class="form-contactus py-2 w-100">
-                                <form id="form_submit" method="POST" action="<?= base_url(); ?>link/send_message"
-                                    class="w-100 d-flex flex-row justify-content-center align-items-center"
-                                    onsubmit="return validate()">
-                                    <input type="hidden" id="token"
-                                        name="<?php echo $this->security->get_csrf_token_name(); ?>"
-                                        value="<?php echo $this->security->get_csrf_hash(); ?>">
-                                    <input name="email" type="text" placeholder="Enter your email address"
-                                        class="col f-roboto">
+                                <form id="form_submit" method="POST" action="<?= base_url(); ?>link/send_message" class="w-100 d-flex flex-row justify-content-center align-items-center" onsubmit="return validate()">
+                                    <input type="hidden" id="token" name="<?php echo $this->security->get_csrf_token_name(); ?>" value="<?php echo $this->security->get_csrf_hash(); ?>">
+                                    <input name="email" type="text" placeholder="Enter your email address" class="col f-roboto">
                                     <button class="mx-3 py-2 btn-contactus border-0" type="submit" id="btnconfirm">
                                         <span class="mx-3 d-none d-sm-grid">Contact us</span>
                                         <img src="<?= base_url() ?>assets/img/email-contactus.png" alt="" class="mx-1">
@@ -549,12 +498,10 @@
             </div>
             <div class="col-lg-6 col-12 pe-2 footer-links text-center">
                 <div class="list text-center w-100 mb-5">
-                    <a href="<?= base_url() ?>link/privacy_policy"
-                        class="mx-5 d-inline-block text-decoration-underline">
+                    <a href="<?= base_url() ?>link/privacy_policy" class="mx-5 d-inline-block text-decoration-underline">
                         Privacy policy
                     </a>
-                    <a href="<?= base_url() ?>link/lern_transparency"
-                        class="mx-5 d-inline-block text-decoration-underline">
+                    <a href="<?= base_url() ?>link/lern_transparency" class="mx-5 d-inline-block text-decoration-underline">
                         Price lists
                     </a>
                 </div>
@@ -593,25 +540,24 @@
         </div> -->
 </footer><!-- End Footer -->
 
-<a href="#top" class="back-to-top d-flex align-items-center justify-content-center"><i
-        class="bi bi-arrow-up-short"></i></a>
+<a href="#top" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
 <?php if (@isset($_SESSION["success"])) { ?>
-<div class="alert alert-success alert-dismissible" id="success-alert" style="display: grid; position: fixed; top: 10px; z-index: 99999; padding: 1rem;
+    <div class="alert alert-success alert-dismissible" id="success-alert" style="display: grid; position: fixed; top: 10px; z-index: 99999; padding: 1rem;
 left: 0;
 right: 0;
 max-width: 300px;
 margin: 0 auto;">
-    <?= $_SESSION["success"]; ?>
-</div>
+        <?= $_SESSION["success"]; ?>
+    </div>
 <?php } ?>
 
 <?php if (@isset($_SESSION["failed"])) { ?>
-<div class="alert alert-danger alert-dismissible" id="danger-alert" style="display: grid; position: fixed; top: 10px; z-index: 99999; padding: 1rem;
+    <div class="alert alert-danger alert-dismissible" id="danger-alert" style="display: grid; position: fixed; top: 10px; z-index: 99999; padding: 1rem;
 left: 0;
 right: 0;
 max-width: 300px;
 margin: 0 auto;">
-    <?= $_SESSION["failed"]; ?>
-</div>
+        <?= $_SESSION["failed"]; ?>
+    </div>
 <?php } ?>

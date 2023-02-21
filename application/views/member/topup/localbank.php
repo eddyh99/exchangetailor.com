@@ -52,7 +52,7 @@
                                 </div>
                             </div>
                             <div class="row">
-                                <label>IBAN</label>
+                                <label>IBAN <small>(country belgium)</small></label>
                                 <div class="d-flex flex-row align-items-center mb-3">
                                     <input class="form-control me-2" type="text" name="" id="inter2"
                                         value="<?= @$bank->number_circuit ?>" readonly>

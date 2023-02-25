@@ -257,7 +257,11 @@ class Auth extends CI_Controller
 			$refurl = base_url() . "auth/signup?ref=" . $result->message->refcode;
 			if (@getimagesize($srcref) == FALSE) {
 				$this->qrcoderef($refurl, $result->message->ucode);
-				$this->ciqrcode->addLogo($result->message->ucode, '/qr/ref/', base_url('assets/img/logo.png'));
+			}
+
+			$srcrefwlogo = base_url() . 'qr/ref/' . $result->message->ucode . 'wlogo.png';
+			if (@getimagesize($srcrefwlogo) == FALSE) {
+				$this->ciqrcode->addLogo($result->message->ucode, '/qr/ref/', '/assets/img/logoQR.png');
 			}
 
 			// if (@getimagesize($srcr) == FALSE) {

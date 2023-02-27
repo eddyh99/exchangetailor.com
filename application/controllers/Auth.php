@@ -259,6 +259,11 @@ class Auth extends CI_Controller
 				$this->qrcoderef($refurl, $result->message->ucode);
 			}
 
+			$srcrefwlogo = base_url() . 'qr/ref/' . $result->message->ucode . 'wlogo.png';
+			if (@getimagesize($srcrefwlogo) == FALSE) {
+				$this->ciqrcode->addLogo($result->message->ucode, '/qr/ref/', '/assets/img/logoQR.png');
+			}
+
 			// if (@getimagesize($srcr) == FALSE) {
 			// 	$urlqr = base_url() . 'wallet/send?' . base64_encode('ucode=' . $_SESSION["ucode"]);
 			// 	$this->qrcodereceive($urlqr, $result->message->ucode);
@@ -487,7 +492,7 @@ class Auth extends CI_Controller
 			$params['level'] = 'H'; //H=High
 			$params['size'] = 10;
 			$params['savename'] = FCPATH . $config['imagedir'] . $image_name; //simpan image QR CODE ke folder assets/images/
-			return  $this->ciqrcode->generate($params); // fungsi untuk generate QR CODE
+			return $this->ciqrcode->generate($params); // fungsi untuk generate QR CODE
 		}
 	}
 

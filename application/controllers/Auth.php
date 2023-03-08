@@ -238,16 +238,12 @@ class Auth extends CI_Controller
 			'role'      => $result->message->role,
 			'time_location' => $result->message->time_location,
 			'currency'  => "USD",
-			'symbol'    => "&dollar;"
+			'symbol'    => "&dollar;",
+			'ucode'     => @$result->message->ucode,
+			'referral'  => @$result->message->refcode
 		);
 		$this->session->set_userdata($session_data);
 		if ($result->message->role == 'member') {
-			$member_session = array(
-				'ucode'     => $result->message->ucode,
-				'referral'  => $result->message->refcode
-			);
-			$this->session->set_userdata($member_session);
-
 			$src = base_url() . 'qr/user/' . $result->message->ucode . '.png';
 			// $srcr = base_url() . 'qr/receive/' . $result->message->ucode . '.png';
 			if (@getimagesize($src) == FALSE) {

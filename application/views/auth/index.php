@@ -421,12 +421,28 @@
                                         <li>Use it on ApplePay, GooglePay & others</li>
                                     </ul>
                                 </div>
+                                <div class="text-start">
+                                    <a href="<?= base_url() ?>link/signup" class="btn-content-freedy d-inline-flex align-items-center justify-content-center align-self-center"> 
+                                        <span class="">Register now</span>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                         <div class="col-4 d-none d-lg-grid m-auto">
                             <img src="<?= base_url(); ?>assets/img/img-4.png" alt="" class="img-fluid">
                         </div>
                     </div>
+                </div>
+            </div>
+            <div class="col-12 d-none d-lg-grid m-auto">
+                <img src="<?= base_url(); ?>assets/img/bg-line.png" alt="" class="img-fluid">
+                <div class="content-freedy p-r text-center">
+                        <h3 class="f-roboto"><span class="text-blackgr">Become our</span> partner</h3>
+                </div>
+                <p>
+                    <b class="col-lg-12 text-center text-blue-freedy">Become an affiliate partner of ours</b>and <b class="text-blue-freedy">create your point or open a corner</b> in your shop to make top-ups and withdrawals to all TracklessBank TracklessCrypto and TracklessMoney users, from all over the world.</p>
+                </p>
+                <p class="bp mb-3 content-freedy">It doesn't matter the country where you are, the users of the system are all over the world!</p>
                 </div>
             </div>
         </div>

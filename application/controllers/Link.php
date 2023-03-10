@@ -341,6 +341,17 @@ class Link extends CI_Controller
         $this->load->view('tamplate/wrapper', $data);
     }
 
+    public function signup()
+    {
+        $data = array(
+            "title"     => NAMETITLE,
+            "content"   => "auth/signup",
+            "extra"     => "auth/landingpage/js/js_index",
+        );
+
+        $this->load->view('tamplate/wrapper', $data);
+    }
+
     public function soon()
     {
         $data = array(

@@ -70,21 +70,7 @@
                                         d="M4.875 31.5H34.125M9.75 27V15M16.25 27V15M22.75 27V15M29.25 27V15M32.5 10.5L20.189 3.39749C19.939 3.25329 19.8141 3.18119 19.68 3.15307C19.5615 3.12822 19.4385 3.12822 19.32 3.15307C19.1859 3.18119 19.061 3.25329 18.811 3.39749L6.5 10.5H32.5Z"
                                         stroke="" stroke-width="2.7" stroke-linecap="round" stroke-linejoin="round" />
                                 </svg>
-
                                 <span>Wallet to Bank</span>
-                            </a>
-                            <a href="<?= base_url() ?>soon"
-                                class="d-flex flex-column justify-content-center align-items-center py-2 my-3 menus-blue">
-                                <svg width="62" height="63" viewBox="0 0 62 63" fill=""
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M7.75 20C7.75 18.1144 7.75 17.1716 8.33579 16.5858C8.92157 16 9.86438 16 11.75 16H50.25C52.1356 16 53.0784 16 53.6642 16.5858C54.25 17.1716 54.25 18.1144 54.25 20V43C54.25 44.8856 54.25 45.8284 53.6642 46.4142C53.0784 47 52.1356 47 50.25 47H11.75C9.86438 47 8.92157 47 8.33579 46.4142C7.75 45.8284 7.75 44.8856 7.75 43V20Z"
-                                        fill="" fill-opacity="0.24" />
-                                    <ellipse cx="15.4998" cy="39.25" rx="2.58333" ry="2.58333" fill="" />
-                                    <rect x="7.75" y="23.75" width="46.5" height="5.16667" fill="" />
-                                </svg>
-
-                                <span>Wallet to card</span>
                             </a>
                             <a href="<?= base_url() ?>search"
                                 class="d-flex flex-column justify-content-center align-items-center py-2 my-3 menus-blue">

@@ -504,6 +504,10 @@
                             </p>
 
                             <p>
+                                <b class="text-blue-freedy d-block">START TO APPLY NOW FOR FIND ME SERVICE</b>
+                            </p>
+
+                            <p>
                                 <b class="text-blue-freedy">How to access to FIND ME service :</b> <br>
                                 Send an email to <u class="text-dark">contact@ExchangeTailor.org</u> with the<br>
                                 subject FIND ME<br>

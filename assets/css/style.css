@@ -4663,18 +4663,25 @@ section {
   }
 
   .receive-attention span.middle {
-    font-weight: 400;
+    font-weight: 600;
     font-size: 14px;
     line-height: 22px;
     color: #000000;
   }
 
+  .receive-attention span.middle1 {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    color: #CB0000;
+  }
+  
   .receive-attention span.bottom {
     font-weight: 600;
     font-size: 14px;
     line-height: 22px;
-    text-decoration-line: underline;
-    color: #CB0000;
+    text-decoration: none;
+    color: #000000;
   }
 
   .attention-modal {
@@ -6554,8 +6561,7 @@ section {
     font-size: 12px;
     line-height: 15px;
     text-align: center;
-
-    color: #000000;
+    color: #CB0000;
   }
 
   .receive-note ul li {
@@ -6957,8 +6963,8 @@ section {
     font-weight: 600;
     font-size: 14px;
     line-height: 22px;
-    text-decoration-line: underline;
-    color: #CB0000;
+    text-decoration-line: none;
+    color: #000000;
   }
 
   .attention-modal {

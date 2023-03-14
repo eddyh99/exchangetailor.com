@@ -484,9 +484,7 @@
             <?php } ?>
 
             <?php if ($guide == 7) { ?>
-                <div class="col-12 text-center">
-                    <h3>Coming soon!</h3>
-                </div>
+                
                 <div class="col-12 my-5">
                     <div class="logo-text text-center">
                         <img src="<?= base_url() ?>assets/img/icon-guide-7.png" alt="">
@@ -506,38 +504,41 @@
                             <p>
                                 <b class="text-blue-freedy d-block">START TO APPLY NOW FOR FIND ME SERVICE</b>
                             </p>
+                            <div class="col-12 form-contactus w-75">
+                                <form id="form_submit" method="POST" action="http://localhost/exchangetailor.com/link/send_unique" class="w-100 d-flex flex-row justify-content-center align-items-center" onsubmit="return validate()">
+                                    <input type="hidden" id="token" name="csrf_freedy" value="cc35aaaddbc9b79f2144086c6d7e2992">
+                                    <input name="code" type="text" placeholder="Enter your Unique Code" class="col-12 text-center f-roboto">
+                                        <button class="mx-3 py-2 btn-contactus border-0" type="submit" id="btnconfirm">
+                                            <span class="mx-3 d-none d-sm-grid">next</span>
+                                            <img src="<?= base_url(); ?>assets/img/Subtract.png" alt="" class="mx-1">
+                            </div>
 
                             <p>
-                                <b class="text-blue-freedy">How to access to FIND ME service :</b> <br>
-                                Send an email to <u class="text-dark">contact@ExchangeTailor.org</u> with the<br>
-                                subject FIND ME<br>
-                                The email must contain the following data:
+                                <b class="text-blue-freedy">How to register to FIND ME service :</b> 
+                                <p>
+                                Enter your unique code in order to validate your account, then click next and fill out all the fields that you find on the next pages, make sure to have ready an image of your business logo of and prepare the google maps link your business locations.  
+                                </p>
+                                <p>
+                                If you encounter problems while applying, contact our support service :
+                                </p>
+                                <p>
+                                <u class="text-dark fw-bold">contact@exchangetailor.com</u>
+                                </p>
                             </p>
 
                             <div class="col-12 d-flex flex-column justify-content-center">
                                 <div class="content-freedy line text-start d-flex flex-row">
-                                    <ul class="ps-0 w-50">
-                                        <li class="ali">Name of the business</li>
-                                        <li class="ali">Product category</li>
-                                        <li class="ali">Google map link</li>
-                                    </ul>
-                                    <ul class="ps-0 w-50">
-                                        <li class="ali">Website link</li>
-                                        <li class="ali">Own unique code </li>
-                                        <li class="ali">Attachment of the company logo in .PNG format</li>
-                                    </ul>
+                                
                                 </div>
                             </div>
                         </div>
-
+                            
                         <div class="col-4 d-none d-md-grid mx-auto">
                             <img src="<?= base_url() ?>assets/img/img-15.png" alt="" class="img-fluid">
                         </div>
                     </div>
                 </div>
-                <div class="col-12 my-5 text-center">
-                    <h3>Coming soon!</h3>
-                </div>
+                
             <?php } ?>
 
             <?php if ($guide == 8) { ?>

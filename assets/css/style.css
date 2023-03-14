@@ -4270,8 +4270,7 @@ section {
     font-size: 12px;
     line-height: 15px;
     text-align: center;
-
-    color: #000000;
+    color: #CB0000;
   }
 
   .receive-note ul li {
@@ -8788,8 +8787,7 @@ section {
     font-size: 12px;
     line-height: 15px;
     text-align: center;
-
-    color: #000000;
+    color: #CB0000;
   }
 
   .receive-note ul li {
@@ -11337,8 +11335,7 @@ section {
     font-size: 14px;
     line-height: 15px;
     text-align: center;
-
-    color: #000000;
+    color: #CB0000;
   }
 
   .receive-note ul li {
@@ -12108,6 +12105,13 @@ section {
   background: url(../img/bg-line.png), #E2E2E2;
   background-repeat: no-repeat;
   background-position: bottom;
+  background-size: 100% auto;
+}
+
+.bg-section-partner {
+  background: url(../img/bg-line.png), #E2E2E2;
+  background-repeat: no-repeat;
+  transform: rotate(-180deg);
   background-size: 100% auto;
 }
 

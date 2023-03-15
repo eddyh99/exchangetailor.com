@@ -22,12 +22,11 @@
                             <div class="receive-attention d-flex flex-column text-center col-12 p-3"
                                 data-bs-toggle="modal" data-bs-target="#attention">
                                 <span class="w-100 mb-2 fw-bold title">IMPORTANT</span>
-                                <p>To maximize the privacy level, all incoming and outgoing transfers</p>
-                                    <span>will be managed by a payment and collection gateway.</span>
-                                <p></p>
-                                <p>The bank details, of each currency, will be the same for all users;</p>
-                                <p>excluding the ‘’causal’’ which identify the receiving wallet.</p>
-                            </d>
+                                <p class="fw-bold">To maximize the privacy level, all incoming and outgoing transfers</p>
+                                    <span class="fw-bold">will be managed by a payment and collection gateway.</span>
+                                <p class="fw-bold">The bank details, of each currency, will be the same for all users;</p>
+                                    <b>excluding the ‘’causal’’ which identify the receiving wallet.</b>
+                            </div>
                             <?php } ?>
                         </div>
                         <div class="col-12 recive-bank  d-flex align-items-center flex-column text-center">

@@ -294,6 +294,38 @@ class Link extends CI_Controller
         $this->load->view('tamplate/wrapper', $data);
     }
 
+    public function send_unique()
+    {
+        $this->form_validation->set_rules('code', 'Code', 'trim|required');
+
+        if ($this->form_validation->run() == FALSE) {
+            $this->session->set_flashdata('failed', validation_errors());
+            redirect(base_url('#next'));
+            return;
+        }
+        
+        $input        = $this->input;
+        $code   = $this->security->xss_clean($input->post("code"));
+        
+        $url = URLAPI . "/v1/auth/getmember_bycode?code=" . $code;
+        $result   = apitrackless($url);
+
+        if (@$result->code != 200) {
+            $this->session->set_flashdata('failed', $result->code);
+            redirect(base_url('#next'));
+            return;
+        }
+
+        $data = array(
+            "title"     => NAMETITLE . " - Send Code",
+            "content"   => "auth/landingpage/send_unique",
+            "extra"     => "auth/landingpage/js/js_index",
+            "email"     => $code,
+        );
+
+        $this->load->view('tamplate/wrapper', $data);
+    }
+
     public function mailproses()
     {
         $this->form_validation->set_rules('email', 'Email', 'trim|required');

@@ -318,7 +318,7 @@ class Link extends CI_Controller
 
         $data = array(
             "title"     => NAMETITLE . " - Send Code",
-            "content"   => "auth/landingpage/code",
+            "content"   => "auth/landingpage/send_unique",
             "extra"     => "auth/landingpage/js/js_index",
             "email"     => $code,
         );

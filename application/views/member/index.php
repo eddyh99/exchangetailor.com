@@ -58,6 +58,28 @@
                                 </svg>
                                 <span class="ms-2">Select Currencies</span>
                             </a>
+                            <a href="<?= base_url() ?>homepage/requestcard" class="d-inline-block p-2 mt-5">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="62" height="62" viewBox="0 0 62 62" fill="none">
+                                    <path d="M7.75 19.5C7.75 17.6144 7.75 16.6716 8.33579 16.0858C8.92157 15.5 9.86438 15.5 11.75 15.5H50.25C52.1356 15.5 53.0784 15.5 53.6642 16.0858C54.25 16.6716 54.25 17.6144 54.25 19.5V42.5C54.25 44.3856 54.25 45.3284 53.6642 45.9142C53.0784 46.5 52.1356 46.5 50.25 46.5H11.75C9.86438 46.5 8.92157 46.5 8.33579 45.9142C7.75 45.3284 7.75 44.3856 7.75 42.5V19.5Z" fill="url(#paint0_linear_797_5083)"/>
+                                    <ellipse cx="15.5003" cy="38.7503" rx="2.58333" ry="2.58333" fill="url(#paint1_linear_797_5083)"/>
+                                    <rect x="7.75" y="23.25" width="46.5" height="5.16667" fill="url(#paint2_linear_797_5083)"/>
+                                    <defs>
+                                        <linearGradient id="paint0_linear_797_5083" x1="31" y1="15.5" x2="39.6097" y2="48.7647" gradientUnits="userSpaceOnUse">
+                                            <stop stop-color="#FD2A2A"/>
+                                            <stop offset="1" stop-color="#FF9F9F" stop-opacity="0.76"/>
+                                        </linearGradient>
+                                        <linearGradient id="paint1_linear_797_5083" x1="15.5003" y1="36.167" x2="15.5003" y2="41.2334" gradientUnits="userSpaceOnUse">
+                                            <stop stop-color="#500000"/>
+                                            <stop offset="1" stop-color="#7E0000"/>
+                                        </linearGradient>
+                                        <linearGradient id="paint2_linear_797_5083" x1="31" y1="23.25" x2="31" y2="28.3165" gradientUnits="userSpaceOnUse">
+                                            <stop stop-color="#500000"/>
+                                            <stop offset="1" stop-color="#7E0000"/>
+                                        </linearGradient>
+                                    </defs>
+                                </svg>
+                                <span class="ms-2">Card</span>
+                            </a>
                         </div>
                     </div>
 

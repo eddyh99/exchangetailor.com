@@ -93,10 +93,10 @@ live server:
 sandbox server
     "https://api.sandbox.tracklessbank.com"
 */
-if (stripos($_SERVER['HTTP_HOST'],'sandbox') === 0){
+if (stripos($_SERVER['HTTP_HOST'],'sandbox') == 0){
     define('URLAPI', "https://api.sandbox.tracklessbank.com");
     define('LINKQRCODE', "/wallet/send");
-}elseif(stripos($_SERVER['HTTP_HOST'],'local') > 0){
+}elseif(stripos($_SERVER['HTTP_HOST'],'localhost') > 0){
     define('URLAPI', "https://api.sandbox.tracklessbank.com");
     define('LINKQRCODE', "/exchangetailor.com/wallet/send");
 }else{

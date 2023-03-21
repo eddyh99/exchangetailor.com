@@ -341,11 +341,36 @@ class Link extends CI_Controller
         $this->load->view('tamplate/wrapper', $data);
     }
 
+    public function signup()
+    {
+        $data = array(
+            "title"     => NAMETITLE,
+            "content"   => "auth/signup",
+            "extra"     => "auth/landingpage/js/js_index",
+        );
+
+        $this->load->view('tamplate/wrapper', $data);
+    }
+
     public function soon()
     {
         $data = array(
             "title"     => NAMETITLE . " - Coming Soon",
             "content"   => "auth/landingpage/soon",
+            "extra"     => "auth/landingpage/js/js_index",
+        );
+
+        $this->load->view('tamplate/wrapper', $data);
+    }
+
+    public function findme()
+    {
+        $findme = base64_decode($_GET['findme']);
+
+        $data = array(
+            "title"     => NAMETITLE ,
+            "content"   => "auth/landingpage/findme" ,
+            "findme"   => $findme,
             "extra"     => "auth/landingpage/js/js_index",
         );
 

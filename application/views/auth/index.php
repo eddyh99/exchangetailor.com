@@ -421,12 +421,44 @@
                                         <li>Use it on ApplePay, GooglePay & others</li>
                                     </ul>
                                 </div>
+                                <div class="text-start">
+                                    <a href="<?= base_url() ?>link/signup" class="btn-content-freedy d-inline-flex align-items-center justify-content-center align-self-center"> 
+                                        <span class="">Register now</span>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                         <div class="col-4 d-none d-lg-grid m-auto">
                             <img src="<?= base_url(); ?>assets/img/img-4.png" alt="" class="img-fluid">
                         </div>
+                </div>
+            </div>
+        </div>
+    </section><!-- Section -->
+
+    <!-- ======= Section ======= -->
+    <section id="partner" class="about bg-section partner">
+        <div class="container p-r">
+            <div class="row gx-0">
+                <div class="col-12 mb-5">
+                    <div class="content-freedy">
+                        <img src="<?= base_url(); ?>assets/img/bg-line1.png" alt="" class="card-img-top">
+                        <img src="<?= base_url(); ?>assets/img/20230104_151138.png" alt="" class="left">
+                        <img src="<?= base_url(); ?>assets/img/20230104_151138-1.png" alt="" class="right">
                     </div>
+                </div>
+            </div>
+            <div class="col-12 d-none d-lg-grid m-auto">
+                <div class="content-freedy p-r text-center">
+                        <h3 class="f-roboto"><span class="text-blackgr">Become our</span> partner</h3>
+                </div>
+                <p class="col-lg-12 fw-bold text-center"><span class="text-blue-freedy">Become an affiliate partner of ours</span> and <b class="text-blue-freedy fw-bold text-center">create your point or open a corner</b> in your shop to make top-ups and withdrawals to all TracklessBank TracklessCrypto and TracklessMoney users, from all over the world.</p>
+                <p class="content-freedy fw-bold text-center">It doesn't matter the country where you are, the users of the system are all over the world!</p>
+                <div class="form-contactus py-2 w-100 justify-content-center">
+                    <button class="mx-3 py-2 btn-contactus border-0" type="submit" id="btnconfirm">
+                        <span class="mx-3 d-none d-sm-grid">Contact us</span>
+                        <img src="<?= base_url() ?>assets/img/email-contactus.png" alt="" class="mx-1">
+                    </button>
                 </div>
             </div>
         </div>

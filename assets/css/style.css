@@ -310,6 +310,11 @@ section {
 
 --------------------------------------------------------------*/
 
+.qrcode-download {
+  display: none !important;
+}
+
+
 /*--------------------------------------------------------------
 # Breadcrumbs
 --------------------------------------------------------------*/
@@ -3209,7 +3214,7 @@ section {
 
   .content-freedy p {
     font-weight: 400;
-    font-size: 12px;
+    font-size: 16px;
     line-height: 180%;
 
     color: #000000;
@@ -5269,6 +5274,10 @@ section {
 }
 
 @media (min-width: 375px) {
+  .qrcode-download {
+    display: flex !important;
+  }
+  
   .navbar-app>.box-navbar-freedy {
     background: #ffffff;
 
@@ -12496,12 +12505,13 @@ section {
   background-size: 100% auto;
 }
 
-.bg-section-partner {
-  background: url(../img/bg-line.png), #E2E2E2;
+.bg-section-become {
+  background: url(../img/bg-line2.png);
   background-repeat: no-repeat;
-  transform: rotate(-180deg);
-  background-size: 100% auto;
+  background-size: cover;
+  background-position: bottom top;
 }
+
 
 .bg-bali {
   background: url(../img/bg-slider.png) bottom right no-repeat;

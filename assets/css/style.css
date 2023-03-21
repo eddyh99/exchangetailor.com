@@ -466,7 +466,7 @@ section {
   width: 130px;
   height: 50px;
   font-size: 14px;
-  background: linear-gradient(90deg, #9E00FF 0%, #FF00D6 121.48%);
+  background: #CB0000;
   box-shadow: 0px 15px 50px rgba(222, 95, 143, 0.12);
   border-radius: 99999px;
   margin: auto;
@@ -474,7 +474,7 @@ section {
 }
 
 .btn-unique-code:hover {
-  background-color: #FF00D6;
+  background-color: #CB0000;
   color: whitesmoke;
 }
 
@@ -3399,8 +3399,8 @@ section {
     transition: 0.5s;
     color: #fff;
 
-    background: linear-gradient(180deg, #3430fa 0%, #1893ed 100%);
-    box-shadow: 0px 4px 25px #3430fa;
+    background: #CB0000;
+    box-shadow: #CB0000;
     border-radius: 44px;
   }
 
@@ -5704,8 +5704,8 @@ section {
     transition: 0.5s;
     color: #fff;
 
-    background: linear-gradient(180deg, #3430fa 0%, #1893ed 100%);
-    box-shadow: 0px 4px 25px #3430fa;
+    background: #CB0000;
+    box-shadow: #CB0000;
     border-radius: 44px;
   }
 
@@ -7944,8 +7944,8 @@ section {
     transition: 0.5s;
     color: #fff;
 
-    background: linear-gradient(180deg, #3430fa 0%, #1893ed 100%);
-    box-shadow: 0px 4px 25px #3430fa;
+    background: #CB0000;
+    box-shadow: #CB0000;
     border-radius: 44px;
   }
 
@@ -10479,8 +10479,8 @@ section {
     transition: 0.5s;
     color: #fff;
 
-    background: linear-gradient(180deg, #3430fa 0%, #1893ed 100%);
-    box-shadow: 0px 4px 25px #3430fa;
+    background: #CB0000;
+    box-shadow: #CB0000;
     border-radius: 44px;
   }
 

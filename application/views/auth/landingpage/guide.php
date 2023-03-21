@@ -505,12 +505,12 @@
                                 <b class="text-blue-freedy d-block">START TO APPLY NOW FOR FIND ME SERVICE</b>
                             </p>
                             <div class="col-12 form-contactus w-75">
-                                <form id="form_submit" method="POST" action="http://localhost/exchangetailor.com/link/send_unique" class="w-100 d-flex flex-row justify-content-center align-items-center" onsubmit="return validate()">
-                                    <input type="hidden" id="token" name="csrf_freedy" value="cc35aaaddbc9b79f2144086c6d7e2992">
-                                    <input name="code" type="text" placeholder="Enter your Unique Code" class="col-12 text-center f-roboto">
-                                        <button class="mx-3 py-2 btn-contactus border-0" type="submit" id="btnconfirm">
+                                <input name="code" type="text" placeholder="Enter your Unique Code" class="col-12 text-center f-roboto">
+                                    <a href="<?=base_url()?>link/findme?findme=<?=base64_encode(1)?>">
+                                        <button class="mx-3 py-2 btn-contactus border-0" type="button" id="btnconfirm">
                                             <span class="mx-3 d-none d-sm-grid">next</span>
                                             <img src="<?= base_url(); ?>assets/img/Subtract.png" alt="" class="mx-1">
+                                    </a>
                             </div>
 
                             <p>

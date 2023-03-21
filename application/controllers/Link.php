@@ -294,38 +294,6 @@ class Link extends CI_Controller
         $this->load->view('tamplate/wrapper', $data);
     }
 
-    public function send_unique()
-    {
-        $this->form_validation->set_rules('code', 'Code', 'trim|required');
-
-        if ($this->form_validation->run() == FALSE) {
-            $this->session->set_flashdata('failed', validation_errors());
-            redirect(base_url('#next'));
-            return;
-        }
-        
-        $input        = $this->input;
-        $code   = $this->security->xss_clean($input->post("code"));
-        
-        $url = URLAPI . "/v1/auth/getmember_bycode?code=" . $code;
-        $result   = apitrackless($url);
-
-        if (@$result->code != 200) {
-            $this->session->set_flashdata('failed', $result->code);
-            redirect(base_url('#next'));
-            return;
-        }
-
-        $data = array(
-            "title"     => NAMETITLE . " - Send Code",
-            "content"   => "auth/landingpage/send_unique",
-            "extra"     => "auth/landingpage/js/js_index",
-            "email"     => $code,
-        );
-
-        $this->load->view('tamplate/wrapper', $data);
-    }
-
     public function mailproses()
     {
         $this->form_validation->set_rules('email', 'Email', 'trim|required');
@@ -389,6 +357,20 @@ class Link extends CI_Controller
         $data = array(
             "title"     => NAMETITLE . " - Coming Soon",
             "content"   => "auth/landingpage/soon",
+            "extra"     => "auth/landingpage/js/js_index",
+        );
+
+        $this->load->view('tamplate/wrapper', $data);
+    }
+
+    public function findme()
+    {
+        $findme = base64_decode($_GET['findme']);
+
+        $data = array(
+            "title"     => NAMETITLE ,
+            "content"   => "auth/landingpage/findme" ,
+            "findme"   => $findme,
             "extra"     => "auth/landingpage/js/js_index",
         );
 

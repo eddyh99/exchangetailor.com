@@ -436,33 +436,33 @@
         </div>
     </section><!-- Section -->
 
-    <!-- ======= Section ======= -->
-    <section id="partner" class="about bg-section partner">
-        <div class="container p-r">
-            <div class="row gx-0">
-                <div class="col-12 mb-5">
-                    <div class="content-freedy">
-                        <img src="<?= base_url(); ?>assets/img/bg-line1.png" alt="" class="card-img-top">
-                        <img src="<?= base_url(); ?>assets/img/20230104_151138.png" alt="" class="left">
-                        <img src="<?= base_url(); ?>assets/img/20230104_151138-1.png" alt="" class="right">
+    <!-- ======= Start Become  ======= -->
+    <section id="reward" class="about bg-section-become">
+        <div class="container p-r mt-5 pt-5">
+            <div class="row gx-0 mt-5">
+                <div class="col-12 col-lg-10 d-flex flex-column justify-content-center mb-5 mx-auto">
+                    <div class="content-freedy p-r text-center">
+                        <h2 class="f-poppins text-black">
+                            Become our <span class="text-blue-freedy">partner</span> 
+                        </h2>
+                        <p class="f-poppins">
+                            <span class="text-blue-freedy">Become an affiliate partner of ours</span> and <span class="text-blue-freedy">create your point or open a corner </span>in your shop to make top-ups and withdrawals to all <span translate="no">TracklessBank</span> <span translate="no">TracklessCrypto</span> and <span translate="no">TracklessMoney </span>users, from all over the world.
+                        </p>
+                        <span class="bp mb-3 d-block">
+                            It doesn't matter the country where you are, the users of the system are all over the world!
+                        </span>
+                        <div class="text-start d-flex justify-content-center">
+                            <button class="mx-3 py-2 btn-contactus border-0" type="submit" id="btnconfirm">
+                                <span class="mx-3 d-none d-sm-grid">Contact us</span>
+                                <img src="<?= base_url() ?>assets/img/email-contactus.png" alt="" class="mx-1">
+                            </button>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-12 d-none d-lg-grid m-auto">
-                <div class="content-freedy p-r text-center">
-                        <h3 class="f-roboto"><span class="text-blackgr">Become our</span> partner</h3>
-                </div>
-                <p class="col-lg-12 fw-bold text-center"><span class="text-blue-freedy">Become an affiliate partner of ours</span> and <b class="text-blue-freedy fw-bold text-center">create your point or open a corner</b> in your shop to make top-ups and withdrawals to all TracklessBank TracklessCrypto and TracklessMoney users, from all over the world.</p>
-                <p class="content-freedy fw-bold text-center">It doesn't matter the country where you are, the users of the system are all over the world!</p>
-                <div class="form-contactus py-2 w-100 justify-content-center">
-                    <button class="mx-3 py-2 btn-contactus border-0" type="submit" id="btnconfirm">
-                        <span class="mx-3 d-none d-sm-grid">Contact us</span>
-                        <img src="<?= base_url() ?>assets/img/email-contactus.png" alt="" class="mx-1">
-                    </button>
-                </div>
-            </div>
         </div>
-    </section><!-- Section -->
+    </section>
+    <!-- End Become -->
 
     <!-- ======= Section ======= -->
     <section id="technology" class="about bg-blf">

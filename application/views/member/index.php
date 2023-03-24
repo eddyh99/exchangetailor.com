@@ -19,7 +19,7 @@
                                         </a>
                                     </div>
                                     <div class="d-flex flex-column">
-                                        <span class="copy-share-referral">Copy & share your referral link to earn money</span>
+                                        <span class="fs-6 my-2">Copy & share your referral link to earn money</span>
                                         <div class="copy-refcode d-flex flex-row justify-content-start mb-4">
                                             <input class="me-2" type="text" name="" id="refcode" value="<?= base_url() ?>auth/signup?ref=<?= $_SESSION["referral"] ?>" readonly style="min-width: 28ch;">
                                             <a class="btn btn-copy me-2" id="btnref">
@@ -31,13 +31,16 @@
                                     </div>
                                 </div>
                                 <a href="<?= base_url() ?>qr/ref/<?= $_SESSION["ucode"] ?>Thumbnail.png" download class="qrcode-download ms-auto mt-3 d-flex flex-column align-items-center">
-                                    <img class="img-fluid" src="<?= base_url() ?>qr/ref/<?= $_SESSION["ucode"] ?>.png" alt="QR" width="50" height="50">
-                                    <div class="">
-                                        <i class="ri-download-line"></i>
+                                    <img class="img-fluid" src="<?= base_url() ?>qr/ref/<?= $_SESSION["ucode"] ?>.png" alt="QR" width="90" height="90">
+                                    <div>
+                                        <img class="img-fluid d-block d-sm-none" src="<?=base_url()?>assets/img/btn-qrdw-mobile.png" alt="dw-qr" width="15" height="auto">
+                                    </div>
+                                    <div>
+                                        <img class="img-fluid d-none d-sm-block" src="<?=base_url()?>assets/img/btn-qrdw.png" alt="dw-qr" width="90" height="auto">
                                     </div>
                                 </a>
                             </div>
-                            <div class="w-100 text-center">
+                            <div class="w-100 text-center mt-4">
                                 <div class="d-inline-block btn-head-crypto">
                                     <a class="crypto px-4 py-2 active" href="<?= base_url() ?>homepage/">FIAT</a>
                                     <a class="crypto px-4 py-2" href="<?= base_url() ?>homepage/crypto">CRYPTO</a>
@@ -48,7 +51,30 @@
                 </div> 
 
                 <div class="row d-flex justify-content-center">
-                    <div class="col-12 menus-list-app mb-4">
+                    
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-12 mx-auto my-4">
+                            <h1 class="text-blue-freedy fw-bolder f-poppins text-center">Dashboard</h1>
+                        </div>
+
+                        <div class="col-12 menus-list-app mb-2">
+                            <div class="row f-alegreya currencies-card mx-auto">
+                                <div class="col-12 col-md-6 text-center mx-auto">
+                                    <a href="<?= base_url() ?>homepage/setting_currency" class="d-flex align-items-center justify-content-center p-2 my-2">
+                                        <img src="<?= base_url()?>assets/img/select-currencies.png" alt="">
+                                        <span class="ms-2 f-poppins fw-bolder btn-select-currencies">Select Currencies</span>
+                                    </a>
+                                </div>
+                                <div class="col-12 col-md-6 text-center mx-auto">
+                                    <a href="<?= base_url() ?>soon" class="d-flex align-items-center justify-content-center p-2 my-2 ">
+                                        <img class="" src="<?= base_url()?>assets/img/cardhome.png" alt="">
+                                        <span class="ms-5 f-poppins fw-bolder btn-select-currencies">Card</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                    <!-- <div class="col-12 menus-list-app mb-4">
                         <div class="col-12 text-center">
                             <a href="<?= base_url() ?>homepage/setting_currency" class="d-inline-block p-2 mt-5">
                                 <svg width="45" height="50" viewBox="0 0 45 50" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -87,7 +113,7 @@
                                 <span class="ms-2">Card</span>
                             </a>
                         </div>
-                    </div>
+                    </div> -->
 
                     <div class="col-12 curencies-list-app">
                         <div class="col-12">

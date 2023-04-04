@@ -162,7 +162,7 @@ class Homepage extends CI_Controller
         $_SESSION["currency"]   = 'EUR';
         $_SESSION["symbol"]     = '&euro;';
         $result = apitrackless(URLAPI . "/v1/member/card/check_card?userid=" . $_SESSION["user_id"]);
-        if ($result->message->card == !"unavailable"){
+        if ($result->message->card == "unavailable"){
             // tampilkan untuk pendaftaran card baru
             
             $mfee = apitrackless(URLAPI . "/v1/admin/fee/getFee?currency=EUR");

@@ -5,12 +5,6 @@
                 <img src="<?= base_url() ?>assets/img/logo.png" alt="">
             </div>
         </a>
-
-        <!-- <a href="<?= base_url() ?>soon" class="d-flex align-items-center border-0 mx-2">
-            <div class="icon-menus d-flex align-items-center home-svg py-0">
-                <img src="<?= base_url() ?>assets/img/icon-search.png" alt="">
-            </div>
-        </a> -->
     </div>
 </div>
 

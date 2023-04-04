@@ -108,6 +108,7 @@ section {
   padding: 1rem 3rem;
   transition: 0.5s;
   color: #fff;
+  border: none;
   background: #CB0000;
   border-radius: 26.386px;
 }
@@ -200,7 +201,7 @@ section {
   padding: 1rem 3rem;
   transition: 0.5s;
   color: #fff;
-  
+  border: none;
   background: #CB0000;
   border-radius: 26.386px;
 }
@@ -273,6 +274,12 @@ section {
   color: black;
 }
 
+.form-control:disabled, .form-control[readonly] {
+  background-color: #ffffff !important;
+  opacity: 1;
+}
+
+
 .form-req-card input:focus {
   border-color: inherit;
   -webkit-box-shadow: none;
@@ -301,6 +308,14 @@ section {
 }
 
 
+.card-balance div:nth-child(2) input, 
+.card-balance div:nth-child(2) input:focus {
+  border: none;
+  outline: none;
+}
+
+
+
 .card-number div:nth-child(1) {
   font-size: 12px;
 }
@@ -309,6 +324,13 @@ section {
   font-size: 18px;
   font-weight: 500;
 }
+
+.card-number div:nth-child(2) input,
+.card-number div:nth-child(2) input:focus {
+  border: none;
+  outline: none;
+}
+
 
 .card-expire-date div:nth-child(1) {
   font-size: 12px;
@@ -327,6 +349,19 @@ section {
   font-size: 18px;
   font-weight: 500;
 }
+
+.card-cvv div:nth-child(2) input,
+.card-cvv div:nth-child(2) input:focus {
+  border: none;
+  outline: none;
+}
+
+.ri-eye-line,
+.card-number div:nth-child(2) img 
+{
+  cursor: pointer;
+}
+
 
 --------------------------------------------------------------*/
 

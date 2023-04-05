@@ -482,48 +482,68 @@
                     <h3>Coming soon!</h3>
                 </div>
             <?php } ?>
-
+            
+            <!-- Start Findme -->
             <?php if ($guide == 7) { ?>
-                
                 <div class="col-12 my-5">
                     <div class="logo-text text-center">
-                        <img src="<?= base_url() ?>assets/img/icon-guide-7.png" alt="">
-                        <span class="f-lexend text-blue-freedy">Find me</span>
+                        <div class="wrap-icon-guide-7 d-flex justify-content-center align-items-center mx-auto ">
+                            <img src="<?= base_url() ?>assets/img/icon-guide-7.png" alt="icon-guide-7">
+                        </div>
+                        <span class="f-poppins fw-bolder text-blue-freedy mt-3">Find me</span>
                     </div>
                 </div>
                 <div class="col-12 mb-5">
                     <div class="row">
-                        <div class="col-12 col-md-6">
+                        <div class="col-12 col-md-6 text-md-start">
                             <p><b translate="no"> ExchangeTailor </b> allows you to increase the visibility of your business
                                 by including it in the
                                 search section that will be in every single wallet of all the users.
+                                <br>
                                 In this way your company will be easily accessible and traceable by all users who use
                                 <b translate="no"> ExchangeTailor </b> for daily payments.
                             </p>
+                            <h6 class="text-blue-freedy fw-bolder f-poppins mt-5">
+                                START TO APPLY NOW FOR FIND ME SERVICE
+                            </h6>
+                            <form id="form-input-unique-code" action="<?=base_url()?>link/getref" method="post" class="w-100 my-3">
+                                <input 
+                                    type="hidden" 
+                                    id="token"
+                                    name="<?php echo $this->security->get_csrf_token_name(); ?>"
+                                    value="<?php echo $this->security->get_csrf_hash(); ?>" 
+                                    class="input-unique-code"    
+                                >   
+                                <div class="row d-flex flex-column flex-md-row justify-content-center align-items-center justify-content-lg-start">
+                                    <div class="col-12 col-md-9 col-lg-7 col-xl-5">
+                                        <input type="text" name="ucode" maxlength="8" class="input-unique-code" placeholder="Enter your Unique Code">
+                                    </div>
+                                    <div class="col-12 col-md-3 col-lg-2">
+                                        <button type="submit" class="btn-unique-code d-flex justify-content-center align-items-center btn my-3">
+                                            <span class="mx-3">
+                                                Next
+                                            </span>
+                                            <div class="circle-btn-unique-code flex justify-content-center">
+                                                <i class="ri-arrow-right-line fs-4"></i>
+                                            </div>
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                            <h6 class="text-blue-freedy fw-bolder f-poppins mb-5">
+                                How to register to FIND ME service :
+                            </h6>
 
-                            <p>
-                                <b class="text-blue-freedy d-block">START TO APPLY NOW FOR FIND ME SERVICE</b>
+                            <p class="">
+                                Enter your unique code in order to validate your account, then click next and fill out all the fields that you find on the next pages, make sure to have ready an image of your business logo of and prepare the google maps link your business locations
                             </p>
-                            <div class="col-12 form-contactus w-75">
-                                <input name="code" type="text" placeholder="Enter your Unique Code" class="col-12 text-center f-roboto">
-                                    <a href="<?=base_url()?>link/findme?findme=<?=base64_encode(1)?>">
-                                        <button class="mx-3 py-2 btn-contactus border-0" type="button" id="btnconfirm">
-                                            <span class="mx-3 d-none d-sm-grid">next</span>
-                                            <img src="<?= base_url(); ?>assets/img/Subtract.png" alt="" class="mx-1">
-                                    </a>
-                            </div>
 
                             <p>
-                                <b class="text-blue-freedy">How to register to FIND ME service :</b> 
-                                <p>
-                                Enter your unique code in order to validate your account, then click next and fill out all the fields that you find on the next pages, make sure to have ready an image of your business logo of and prepare the google maps link your business locations.  
-                                </p>
-                                <p>
                                 If you encounter problems while applying, contact our support service :
-                                </p>
-                                <p>
-                                <u class="text-dark fw-bold">contact@exchangetailor.com</u>
-                                </p>
+                            </p>
+
+                            <p class="fw-semibold text-decoration-underline">
+                                 contact@exchangetailor.com
                             </p>
 
                             <div class="col-12 d-flex flex-column justify-content-center">
@@ -540,6 +560,7 @@
                 </div>
                 
             <?php } ?>
+            <!-- End Findme -->
 
             <?php if ($guide == 8) { ?>
                 <div class="col-12 text-center">
@@ -599,3 +620,25 @@
         </div>
     </div>
 </section><!-- End Hero -->
+
+
+<!-- Notifikasi -->
+<?php if (@isset($_SESSION["success"])) { ?>
+<div class="alert alert-success alert-dismissible" id="success-alert" style="display: grid; position: fixed; top: 10px; z-index: 99999; padding: 1rem;
+left: 0;
+right: 0;
+max-width: 300px;
+margin: 0 auto;">
+    <?= $_SESSION["success"]; ?>
+</div>
+<?php } ?>
+
+<?php if (@isset($_SESSION["failed"])) { ?>
+<div class="alert alert-danger alert-dismissible" id="danger-alert" style="display: grid; position: fixed; top: 10px; z-index: 99999; padding: 1rem;
+left: 0;
+right: 0;
+max-width: 300px;
+margin: 0 auto;">
+    <?= $_SESSION["failed"]; ?>
+</div>
+<?php } ?>

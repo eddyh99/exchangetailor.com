@@ -5,18 +5,12 @@
                 <img src="<?= base_url() ?>assets/img/logo.png" alt="">
             </div>
         </a>
-
-        <!-- <a href="<?= base_url() ?>soon" class="d-flex align-items-center border-0 mx-2">
-            <div class="icon-menus d-flex align-items-center home-svg py-0">
-                <img src="<?= base_url() ?>assets/img/icon-search.png" alt="">
-            </div>
-        </a> -->
     </div>
 </div>
 
 <div class="navbar-app fixed-bottom d-flex justify-content-center">
     <div class="col-12 col-lg-8 col-xl-6 box-navbar-freedy d-flex justify-content-center align-items-center top">
-        <a href="<?= base_url() ?>" class="d-flex align-items-center me-auto">
+        <a href="<?= base_url() ?>homepage" class="d-flex align-items-center me-auto">
             <div class="icon-menus d-flex align-items-center home-svg">
                 <svg width="34" height="37" viewBox="0 0 34 37" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M21.7917 34.7666V23.5166C21.7917 22.9643 21.344 22.5166 20.7917 22.5166H12.375C11.8227 22.5166 11.375 22.9643 11.375 23.5166V34.7666" stroke="url(#paint0_linear_789_3464)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
@@ -35,7 +29,7 @@
             </div>
             <span>Home</span>
         </a>
-        <a href="<?= base_url() ?>" class="d-flex align-items-center border-0">
+        <a href="<?= base_url() ?>auth/logout" class="d-flex align-items-center border-0">
             <span>Log out</span>
             <div class="icon-menus d-flex align-items-center home-svg">
                 <svg width="35" height="26" viewBox="0 0 35 26" fill="none" xmlns="http://www.w3.org/2000/svg">

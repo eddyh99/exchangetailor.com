@@ -543,9 +543,7 @@
                         <img src="<?= base_url() ?>assets/img/tracklessprojects.png" alt="" class="trackless">
                     </a>
                 </div>
-                <p class="copyright py-3 m-0"><b translate="no">Exchange Tailor </b> (ID) is a service subject to
-                    partnership with licensee PBS
-                    Online LLC.</p>
+                <p class="copyright py-3 m-0"><b translate="no">Exchange Tailor </b> (ID)
             </div>
             <div class="col-lg-3 col-12 pe-2 footer-links d-flex align-items-center">
                 <div class="list text-center w-100">

@@ -30,16 +30,16 @@ class SendWallet extends CI_Controller
     public function send_confirm()
     {
 
-        // $this->form_validation->set_rules('ucode', 'Unique Code', 'trim|required');
-        // $this->form_validation->set_rules('confirm_ucode', 'Confirm Unique Code', 'trim|required|matches[ucode]');
-        // $this->form_validation->set_rules('amount', 'Amount', 'trim|required|greater_than[0]');
-        // $this->form_validation->set_rules('confirm_amount', 'Confirm Amount', 'trim|required|greater_than[0]|matches[amount]');
+        $this->form_validation->set_rules('ucode', 'Unique Code', 'trim|required');
+        $this->form_validation->set_rules('confirm_ucode', 'Confirm Unique Code', 'trim|required|matches[ucode]');
+        $this->form_validation->set_rules('amount', 'Amount', 'trim|required|greater_than[0]');
+        $this->form_validation->set_rules('confirm_amount', 'Confirm Amount', 'trim|required|greater_than[0]|matches[amount]');
 
-        // if ($this->form_validation->run() == FALSE) {
-        //     $this->session->set_flashdata('failed', "<p style='color:black'>" . validation_errors() . "</p>");
-        //     redirect("admin/sendwallet");
-        //     return;
-        // }
+        if ($this->form_validation->run() == FALSE) {
+            $this->session->set_flashdata('failed', "<p style='color:black'>" . validation_errors() . "</p>");
+            redirect("admin/sendwallet");
+            return;
+        }
 
 
         $input      = $this->input;

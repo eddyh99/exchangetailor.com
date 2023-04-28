@@ -135,13 +135,13 @@
                     <div class="accordion-item freedy-accordion-item mb-5 d-inline-block">
                         <div class="col-12">
                             <div class="content-freedy p-r text-center">
-                                <button id="btnaccorionOne" class="accordion-button freedy-accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                <button id="btnaccorionOne" class="accordion-button  freedy-accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                                     <h2 class="me-3"><span class="text-blackgr2">How to use</span> <b translate="no">ExchangeTailor</b></h2>
                                 </button>
                             </div>
                         </div>
                     </div>
-                    <div id="collapseOne" class="col-12 accordion-collapse collapse" aria-labelledby="pageOne" data-bs-parent="#accordionFreedy">
+                    <div id="collapseOne" class="col-12 accordion-collapse collapse-guide collapse" aria-labelledby="pageOne" data-bs-parent="#accordionFreedy">
                         <div class="row d-flex flax-wrap justify-content-center align-items-center">
                             <div class="col-10 col-md-5 col-lg-3 px-2 mb-3 list-different">
                                 <div class="items-different p-4 d-flex flex-column justify-content-center align-items-center text-center">
@@ -253,7 +253,7 @@
                             </div>
                         </div>
                     </div>
-                    <div id="collapseTwo" class="col-12 accordion-collapse collapse" aria-labelledby="pageTwo" data-bs-parent="#accordionFreedy">
+                    <div id="collapseTwo" class="col-12 collapse-specifications accordion-collapse collapse" aria-labelledby="pageTwo" data-bs-parent="#accordionFreedy">
                         <div class="row d-flex flax-wrap justify-content-center align-items-center">
                             <div class="col-10 col-md-5 col-lg-3 px-2 my-3 list-different">
                                 <div class="items-different p-2 d-flex flex-column justify-content-start align-items-start text-start">
